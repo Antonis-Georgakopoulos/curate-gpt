@@ -1,0 +1,1653 @@
+[
+    {
+        "id": "Antibody",
+        "prefLabel": "antibody",
+        "definition": "A Y-shaped protein produced by B cells that is used by the immune system to identify and neutralize pathogens such as bacteria and viruses.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "protein molecule"
+            }
+        ],
+        "original_id": "CHEBI:53423",
+        "label": "antibody"
+    },
+    {
+        "id": "ChromatographicReagent",
+        "prefLabel": "chromatographic reagent",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "reagent"
+            }
+        ],
+        "label": "chromatographic reagent"
+    },
+    {
+        "id": "PeritonealCarcinoma",
+        "prefLabel": "peritoneal carcinoma",
+        "definition": "A carcinoma that is located_in the inside of the abdomen.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "carcinoma"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "gastrointestinal system cancer"
+            }
+        ],
+        "original_id": "DOID:1791",
+        "label": "peritoneum cancer"
+    },
+    {
+        "id": "SitusInversus",
+        "prefLabel": "situs inversus",
+        "label": "situs inversus"
+    },
+    {
+        "id": "EC11413132_squaleneMonooxygenase_inhibitor",
+        "prefLabel": "EC 1.14.13.132 (squalene monooxygenase) inhibitor",
+        "original_id": "",
+        "label": "EC 1.14.13.132 (squalene monooxygenase) inhibitor"
+    },
+    {
+        "id": "QuantifiedEndpoint",
+        "prefLabel": "quantified endpoint",
+        "relationships": [],
+        "original_id": "",
+        "label": "quantified endpoint"
+    },
+    {
+        "id": "ParovarianCyst",
+        "prefLabel": "parovarian cyst",
+        "label": "parovarian cyst"
+    },
+    {
+        "id": "ProteinSmallMoleculeNanoBRETAssay",
+        "prefLabel": "Protein-Small Molecule NanoBRET Assay",
+        "definition": "A variant of the BRET assay utilizing Nanoluc luciferace, providing higher stability, smaller size, greater separation of donor and acceptor wavelengths, and higher fluorescence intensity, enabling more accurate and precise quantification of protein-small molecule interactions",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "protein-small molecule interaction assay"
+            }
+        ],
+        "original_id": "BAO:0010068",
+        "label": "NanoBRET"
+    },
+    {
+        "id": "VentricularSeptalDefect",
+        "prefLabel": "ventricular septal defect",
+        "label": "ventricular septal defect"
+    },
+    {
+        "id": "GeneKnockdownByShRNATransfection",
+        "prefLabel": "gene knockdown by shRNA transfection",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "gene knockdown by RNA interference"
+            }
+        ],
+        "original_id": "BA00:0032435",
+        "label": "gene knockdown by shRNA transfection"
+    },
+    {
+        "id": "4ParameterHillEquation",
+        "prefLabel": "4 parameter Hill equation",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "Hill equation"
+            }
+        ],
+        "label": "4 parameter Hill equation"
+    },
+    {
+        "id": "HasUnit",
+        "prefLabel": "has unit",
+        "label": "has unit"
+    },
+    {
+        "id": "NonRodentIVClearance",
+        "prefLabel": "non-rodent IV clearance",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "non-rodent PK"
+            }
+        ],
+        "original_id": "BAO:0010274",
+        "label": "non-rodent IV clearance"
+    },
+    {
+        "id": "Phlyctenulosis",
+        "prefLabel": "phlyctenulosis",
+        "label": "phlyctenulosis"
+    },
+    {
+        "id": "GeneCopyNumber",
+        "prefLabel": "gene copy number",
+        "definition": "The number of copies of a specific gene present in an organism's genome.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "gene variation"
+            }
+        ],
+        "label": "has gene copy number"
+    },
+    {
+        "id": "UDPGlucuronosyltransferase2B15",
+        "prefLabel": "UDP-glucuronosyltransferase 2B15",
+        "original_id": "BAO:0030060",
+        "label": "UDP-glucuronosyltransferase 2B15"
+    },
+    {
+        "id": "LargeCellMedulloblastoma",
+        "prefLabel": "large cell medulloblastoma",
+        "label": "large cell medulloblastoma"
+    },
+    {
+        "id": "tRNA",
+        "prefLabel": "tRNA",
+        "definition": "Transfer RNA (tRNA) is a type of RNA molecule that helps decode a messenger RNA (mRNA) sequence into a protein. It carries amino acids to the ribosome during protein synthesis.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "RNA"
+            }
+        ],
+        "original_id": "BAO:0000826",
+        "label": "tRNA"
+    },
+    {
+        "id": "Brain",
+        "prefLabel": "brain",
+        "definition": "The part of the central nervous system enclosed in the skull.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "central nervous system"
+            }
+        ],
+        "original_id": "UBERON:0000955",
+        "label": "brain"
+    },
+    {
+        "id": "SclerosingHemangioma",
+        "prefLabel": "sclerosing hemangioma",
+        "original_id": "DOID:495",
+        "label": "hemangioma"
+    },
+    {
+        "id": "FeltysSyndrome",
+        "prefLabel": "Felty's syndrome",
+        "definition": "A syndrome characterized by rheumatoid arthritis, neutropenia, and splenomegaly, likely results from an autoimmune response.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "rheumatoid arthritis"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "immune system disease"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "syndrome"
+            }
+        ],
+        "original_id": "DOID:3009",
+        "label": "Felty's syndrome"
+    },
+    {
+        "id": "cAMP-mediated",
+        "prefLabel": "cAMP-mediated",
+        "label": "cAMP-mediated"
+    },
+    {
+        "id": "Gonorrhea",
+        "prefLabel": "gonorrhea",
+        "definition": "A sexually transmitted bacterial infection that can affect both men and women. It is most commonly spread during sexual intercourse with an infected partner.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "sexually transmitted infection"
+            }
+        ],
+        "original_id": "DOID:0050501",
+        "label": "gonorrhea"
+    },
+    {
+        "id": "Hordeolum",
+        "prefLabel": "hordeolum",
+        "original_id": "DOID:11194",
+        "label": "hordeolum"
+    },
+    {
+        "id": "H1ReceptorAgonist",
+        "prefLabel": "H1-receptor agonist",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "histamine agonist"
+            }
+        ],
+        "label": "H1-receptor agonist"
+    },
+    {
+        "id": "MyeloidNeoplasm",
+        "prefLabel": "myeloid neoplasm",
+        "definition": "A neoplasm of myeloid origin, including the bone marrow and blood cells such as red blood cells, white blood cells, and platelets.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "hematopoietic system neoplasm"
+            }
+        ],
+        "original_id": "DOID:0080352",
+        "label": "myeloid neoplasm"
+    },
+    {
+        "id": "AbnormalRetinalCorrespondence",
+        "prefLabel": "abnormal retinal correspondence",
+        "label": "abnormal retinal correspondence"
+    },
+    {
+        "id": "inserted",
+        "prefLabel": "inserted",
+        "original_id": null,
+        "label": "inserted"
+    },
+    {
+        "id": "DentalPulpCalcification",
+        "prefLabel": "dental pulp calcification",
+        "label": "dental pulp calcification"
+    },
+    {
+        "id": "EC35199_fattyAcidAmideHydrolase_inhibitor",
+        "prefLabel": "EC 3.5.1.99 (fatty acid amide hydrolase) inhibitor",
+        "label": "EC 3.5.1.99 (fatty acid amide hydrolase) inhibitor"
+    },
+    {
+        "id": "RettSyndrome",
+        "prefLabel": "Rett syndrome",
+        "original_id": "DOID:0050508",
+        "label": "Rett syndrome"
+    },
+    {
+        "id": "PDSP",
+        "prefLabel": "PDSP",
+        "label": "PDSP"
+    },
+    {
+        "id": "AcutePancreatitis",
+        "prefLabel": "acute pancreatitis",
+        "original_id": "DOID:2913",
+        "label": "pancreatitis"
+    },
+    {
+        "id": "OvarianMucinousAdenofibroma",
+        "prefLabel": "ovarian mucinous adenofibroma",
+        "definition": "An ovarian benign neoplasm that is characterized by the presence of both mucin and fibroblasts.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "ovarian benign neoplasm"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "mucinous adenofibroma"
+            }
+        ],
+        "original_id": "DOID:4812",
+        "label": "ovarian mucinous adenofibroma"
+    },
+    {
+        "id": "BreastFibroadenoma",
+        "prefLabel": "breast fibroadenoma",
+        "definition": "A benign breast neoplasm characterized by the formation of fibrous and glandular tissue in the breast.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "breast benign neoplasm"
+            }
+        ],
+        "original_id": "DOID:1832",
+        "label": "breast fibroadenoma"
+    },
+    {
+        "id": "c-MetTyrosineKinaseInhibitor",
+        "prefLabel": "c-Met tyrosine kinase inhibitor",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "tyrosine kinase inhibitor"
+            }
+        ],
+        "label": "c-Met tyrosine kinase inhibitor"
+    },
+    {
+        "id": "Geroprotector",
+        "prefLabel": "geroprotector",
+        "label": "geroprotector"
+    },
+    {
+        "id": "ProteinAGBasedAffinityPurificationMethod",
+        "prefLabel": "protein A/G-based affinity purification method",
+        "original_id": "BAO:0002604",
+        "label": "protein A/G-based affinity purification method"
+    },
+    {
+        "id": "AntiUlcerDrug",
+        "prefLabel": "anti-ulcer drug",
+        "label": "anti-ulcer drug"
+    },
+    {
+        "id": "ToxicShockSyndrome",
+        "prefLabel": "toxic shock syndrome",
+        "label": "toxic shock syndrome"
+    },
+    {
+        "id": "EC3421_siretInhibitor",
+        "prefLabel": "EC 3.4.21.* (serine endopeptidase) inhibitor",
+        "original_id": "CHEBI:123456",
+        "label": "EC 3.4.21.* (serine endopeptidase) inhibitor"
+    },
+    {
+        "id": "AntispermatogenicAgent",
+        "prefLabel": "antispermatogenic agent",
+        "original_id": null,
+        "label": "antispermatogenic agent"
+    },
+    {
+        "id": "BladderAdenocarcinoma",
+        "prefLabel": "bladder adenocarcinoma",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "bladder cancer"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "adenocarcinoma"
+            }
+        ],
+        "label": "bladder adenocarcinoma"
+    },
+    {
+        "id": "EC163__oxidoreductaseActingOnNADHOrNADPHWithOxygenAsAcceptor_inhibitor",
+        "prefLabel": "EC 1.6.3.* (oxidoreductase acting on NADH or NADPH with oxygen as acceptor) inhibitor",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "EC 1.6.* (oxidoreductase acting on NADH or NADPH) inhibitor"
+            }
+        ],
+        "label": "EC 1.6.3.* (oxidoreductase acting on NADH or NADPH with oxygen as acceptor) inhibitor"
+    },
+    {
+        "id": "NucleosomeFormat",
+        "prefLabel": "nucleosome format",
+        "definition": "They are the basic repeating units of the eukaryotic chromatin consisting of DNA wound around a histone protein core.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "subcellular format"
+            }
+        ],
+        "original_id": "BAO:0000007",
+        "label": "nucleosome"
+    },
+    {
+        "id": "GastricCardiaAdenocarcinoma",
+        "prefLabel": "gastric cardia adenocarcinoma",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "gastric adenocarcinoma"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "cardia carcinoma"
+            }
+        ],
+        "label": "gastric cardia adenocarcinoma"
+    },
+    {
+        "id": "Trypanosomiasis",
+        "prefLabel": "trypanosomiasis",
+        "definition": "A parasitic protozoa infectious disease that involves infection caused by parasitic protozoan of the genus Trypanosoma in animals and humans.",
+        "original_id": "DOID:10113",
+        "label": "parasitic protozoa infectious disease"
+    },
+    {
+        "id": "AssayReadoutContent",
+        "prefLabel": "assay readout content",
+        "definition": "A description of the result generated by an assay, including the type of measurement (e.g., fluorescence, luminescence, absorbance) and the data obtained from the assay. The readout content provides information about the biological or chemical activity being measured in the assay.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "bioassay readout"
+            }
+        ],
+        "original_id": "BAO:0000519",
+        "label": "assay readout content"
+    },
+    {
+        "id": "EstrogenReceptorModulator",
+        "prefLabel": "estrogen receptor modulator",
+        "label": "estrogen receptor modulator"
+    },
+    {
+        "id": "CytochromeP450EnzymeActivityAssay",
+        "prefLabel": "cytochrome P450 enzyme activity assay",
+        "definition": "An assay used to measure the activity of cytochrome P450 enzymes, which are a group of enzymes involved in the metabolism of drugs and other xenobiotics.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "enzyme activity measurement method"
+            }
+        ],
+        "label": "cytochrome P450 enzyme activity assay"
+    },
+    {
+        "id": "MalignantGranularCellMyoblastoma",
+        "prefLabel": "malignant granular cell myoblastoma",
+        "definition": null,
+        "relationships": [],
+        "original_id": null,
+        "label": "malignant granular cell myoblastoma"
+    },
+    {
+        "id": "DiminazeneAceturate",
+        "prefLabel": "diminazene aceturate",
+        "original_id": "CHEBI:3032",
+        "label": "diminazene aceturate"
+    },
+    {
+        "id": "CharcotMarieToothDiseaseType3",
+        "prefLabel": "Charcot-Marie-Tooth disease type 3",
+        "definition": "A Charcot-Marie-Tooth disease characterized by demyelination of the peripheral nerve axons.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "Charcot-Marie-Tooth disease"
+            }
+        ],
+        "original_id": "DOID:0050538",
+        "label": "Charcot-Marie-Tooth disease type 3"
+    },
+    {
+        "id": "DistalMyopathy",
+        "prefLabel": "distal myopathy",
+        "label": "distal myopathy"
+    },
+    {
+        "id": "PharynxCancer",
+        "prefLabel": "pharynx cancer",
+        "definition": "A pharynx cancer that may involve any of the pharynx regions, including the nasopharynx, oropharynx, or hypopharynx.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "head and neck cancer"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "respiratory system cancer"
+            }
+        ],
+        "original_id": "DOID:2997",
+        "label": "pharynx cancer"
+    },
+    {
+        "id": "CLLSLL",
+        "prefLabel": "CLL/SLL",
+        "definition": "A chronic lymphocytic leukemia that is characterized by the presence of immature lymphocytes in the blood and bone marrow and/or in the lymph nodes.",
+        "original_id": "DOID:6354",
+        "label": "chronic lymphocytic leukemia"
+    },
+    {
+        "id": "CHOSCCell",
+        "prefLabel": "CHO-S cell",
+        "label": "CHO-S cell"
+    },
+    {
+        "id": "RenalOsteodystrophy",
+        "prefLabel": "renal osteodystrophy",
+        "label": "renal osteodystrophy"
+    },
+    {
+        "id": "OcularAlbinism",
+        "prefLabel": "ocular albinism",
+        "definition": "A form of albinism that primarily affects the eyes, causing reduced pigmentation in the iris, retina, and other ocular structures. It may result in reduced visual acuity and sensitivity to bright light.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "albinism"
+            }
+        ],
+        "original_id": "DOID:797",
+        "label": "ocular albinism"
+    },
+    {
+        "id": "AntidoteToOrganophosphatePoisoning",
+        "prefLabel": "antidote to organophosphate poisoning",
+        "original_id": "CHEBI:134172",
+        "label": "antidote to organophosphate poisoning"
+    },
+    {
+        "id": "PurityUnit",
+        "prefLabel": "purity unit",
+        "definition": "Unit of measurement for purity value",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "unit of measurement"
+            }
+        ],
+        "label": "has purity unit"
+    },
+    {
+        "id": "Dacryocystocele",
+        "prefLabel": "dacryocystocele",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "dacryocystitis"
+            }
+        ],
+        "original_id": "DOID:7923",
+        "label": "dacryocystocele"
+    },
+    {
+        "id": "PelvicInflammatoryDisease",
+        "prefLabel": "pelvic inflammatory disease",
+        "definition": "An inflammation disease located_in the female reproductive system, characterized by infection in the female pelvis that may involve the fallopian tubes, ovaries, and other pelvic structures. The infection is typically caused by sexually transmitted pathogens such as Neisseria gonorrhoeae and Chlamydia trachomatis, resulting in symptoms such as abdominal pain, fever, and abnormal vaginal discharge.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "female reproductive system disease"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "inflammation disease"
+            }
+        ],
+        "original_id": "",
+        "label": "pelvic inflammatory disease"
+    },
+    {
+        "id": "Phenotype",
+        "prefLabel": "phenotype",
+        "definition": "The observable physical properties of an organism, determined by both genetic and environmental factors.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "organismal quality"
+            }
+        ],
+        "original_id": "BAO:0000336",
+        "label": "is phenotype of"
+    },
+    {
+        "id": "ChloramphenicolAcetylTransferaseReporterGeneAssay",
+        "prefLabel": "chloramphenicol acetyltransferase reporter gene assay",
+        "definition": "The chloramphenicol acetyltransferase reporter gene assay measures the activity of the chloramphenicol acetyltransferase (CAT) gene, which is commonly used as a reporter gene. This assay is based on the ability of CAT to acetylate chloramphenicol, resulting in resistance to the antibiotic. The level of CAT activity can be quantified by measuring the breakdown of chloramphenicol in the presence of cell lysates containing the reporter gene construct.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "reporter gene assay"
+            }
+        ],
+        "original_id": "BAO:0003042",
+        "label": "chloramphenicol acetyltransferase reporter gene assay"
+    },
+    {
+        "id": "IntestinalAtresia",
+        "prefLabel": "intestinal atresia",
+        "label": "intestinal atresia"
+    },
+    {
+        "id": "KimuraDisease",
+        "prefLabel": "Kimura disease",
+        "label": "Kimura disease"
+    },
+    {
+        "id": "Antidepressant",
+        "prefLabel": "antidepressant",
+        "label": "antidepressant"
+    },
+    {
+        "id": "VERO76Cell",
+        "prefLabel": "VERO 76 cell",
+        "label": "VERO 76 cell"
+    },
+    {
+        "id": "BornaDisease",
+        "prefLabel": "borna disease",
+        "label": "borna disease"
+    },
+    {
+        "id": "CervicalIncompetence",
+        "prefLabel": "cervical incompetence",
+        "original_id": "DOID:14136",
+        "label": "cervical incompetence"
+    },
+    {
+        "id": "EC342471_endothelinConvertingEnzyme1_inhibitor",
+        "prefLabel": "EC 3.4.24.71 (endothelin-converting enzyme 1) inhibitor",
+        "original_id": "CHEBI:156498",
+        "label": "EC 3.4.24.71 (endothelin-converting enzyme 1) inhibitor"
+    },
+    {
+        "id": "HMLE_sh_ECADCell",
+        "prefLabel": "HMLE_sh_ECAD cell",
+        "label": "HMLE_sh_ECAD cell"
+    },
+    {
+        "id": "EuthyroidSickSyndrome",
+        "prefLabel": "euthyroid sick syndrome",
+        "relationships": [],
+        "original_id": "",
+        "label": "euthyroid sick syndrome"
+    },
+    {
+        "id": "EC114162_tyrosine3monooxygenase_inhibitor",
+        "prefLabel": "EC 1.14.16.2 (tyrosine 3-monooxygenase) inhibitor",
+        "label": "EC 1.14.16.2 (tyrosine 3-monooxygenase) inhibitor"
+    },
+    {
+        "id": "RecombinantUGTReactionPhenotypingAssay",
+        "prefLabel": "recombinant UGT reaction phenotyping assay",
+        "label": "recombinant UGT reaction phenotyping assay"
+    },
+    {
+        "id": "ProteinEnergyMalnutrition",
+        "prefLabel": "protein-energy malnutrition",
+        "label": "protein-energy malnutrition"
+    },
+    {
+        "id": "ChronicGranulomatousDisease",
+        "prefLabel": "chronic granulomatous disease",
+        "label": "chronic granulomatous disease"
+    },
+    {
+        "id": "PyrimidineSynthesisInhibitor",
+        "prefLabel": "pyrimidine synthesis inhibitor",
+        "label": "pyrimidine synthesis inhibitor"
+    },
+    {
+        "id": "Rhabdomyosarcoma",
+        "prefLabel": "rhabdomyosarcoma",
+        "label": "rhabdomyosarcoma"
+    },
+    {
+        "id": "OvarianDysfunction",
+        "prefLabel": "ovarian dysfunction",
+        "original_id": "DOID:0060019",
+        "label": "ovarian dysfunction"
+    },
+    {
+        "id": "LabelingMethod",
+        "prefLabel": "labeling method",
+        "label": "labeling method"
+    },
+    {
+        "id": "mevalonate",
+        "prefLabel": "mevalonate",
+        "label": "mevalonate"
+    },
+    {
+        "id": "CytochromeP4502D12",
+        "prefLabel": "Cytochrome P450 2D12",
+        "label": "Cytochrome P450 2D12"
+    },
+    {
+        "id": "MediumThroughputScreening",
+        "prefLabel": "medium throughput screening",
+        "label": "medium throughput screening"
+    },
+    {
+        "id": "TeratogenicAgent",
+        "prefLabel": "teratogenic agent",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "developmental toxin"
+            }
+        ],
+        "original_id": "",
+        "label": "teratogenic agent"
+    },
+    {
+        "id": "AntidoteToOpioidPoisoning",
+        "prefLabel": "antidote to opioid poisoning",
+        "original_id": "CHEBI:90755",
+        "label": "antidote"
+    },
+    {
+        "id": "ChemokineReceptor2Antagonist",
+        "prefLabel": "chemokine receptor 2 antagonist",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "antagonist"
+            }
+        ],
+        "label": "chemokine receptor 2 antagonist"
+    },
+    {
+        "id": "DubowitzSyndrome",
+        "prefLabel": "Dubowitz syndrome",
+        "definition": "A syndrome characterized by microcephaly, growth retardation, immunodeficiency, developmental delay, and facial dysmorphism.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "syndrome"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "genetic disease"
+            }
+        ],
+        "original_id": "DOID:11026",
+        "label": "Dubowitz syndrome"
+    },
+    {
+        "id": "MeioticCellCycleStateAssay",
+        "prefLabel": "meiotic cell cycle state assay",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "cell cycle state assay"
+            }
+        ],
+        "original_id": "BAO:0002585",
+        "label": "meiotic cell cycle state assay"
+    },
+    {
+        "id": "PatentForamenOvale",
+        "prefLabel": "patent foramen ovale",
+        "label": "patent foramen ovale"
+    },
+    {
+        "id": "LiveBLAzerFRETBGLoadingKit",
+        "prefLabel": "LiveBLAzer FRET-B/G Loading Kit",
+        "original_id": "BAO:0170023",
+        "label": "LiveBLAzer FRET - B/G Loading Kit"
+    },
+    {
+        "id": "EC1212_glyceraldehyde3PhosphateDehydrogenasephosphorylating_inhibitor",
+        "prefLabel": "EC 1.2.1.12 [glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)] inhibitor",
+        "original_id": "CHEBI:91659",
+        "label": "EC 1.2.1.12 [glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)] inhibitor"
+    },
+    {
+        "id": "PositiveAllostericModulation",
+        "prefLabel": "positive allosteric modulation",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "allosteric modulation"
+            }
+        ],
+        "original_id": "BAO:0001489",
+        "label": "positive allosteric modulation"
+    },
+    {
+        "id": "Melioidosis",
+        "prefLabel": "melioidosis",
+        "label": "melioidosis"
+    },
+    {
+        "id": "ChoroidPlexusCarcinoma",
+        "prefLabel": "choroid plexus carcinoma",
+        "definition": "A choroid plexus cancer that has_material_basis_in epithelial cells of the choroid plexus.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "carcinoma"
+            }
+        ],
+        "original_id": "DOID:5648",
+        "label": "choroid plexus cancer"
+    },
+    {
+        "id": "AcuteAsthma",
+        "prefLabel": "acute asthma",
+        "definition": "An asthma that is characterized by severe and sudden onset of increasing wheezing, airways closing, smooth muscle contraction, mucus plugging and lower airway edema that may be reversible upon treatment.",
+        "original_id": "DOID:0080810",
+        "label": "asthma"
+    },
+    {
+        "id": "VerbalAuditoryAgnosia",
+        "prefLabel": "verbal auditory agnosia",
+        "label": "verbal auditory agnosia"
+    },
+    {
+        "id": "LRH1Agonist",
+        "prefLabel": "LRH-1 agonist",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "agonist"
+            }
+        ],
+        "label": "LRH-1 agonist"
+    },
+    {
+        "id": "AbdominalAorticAneurysm",
+        "prefLabel": "abdominal aortic aneurysm",
+        "definition": "An aortic aneurysm that is located_in the abdominal aorta.",
+        "original_id": "DOID:7693",
+        "label": "aortic aneurysm"
+    },
+    {
+        "id": "VEROC1008Cell",
+        "prefLabel": "VERO C1008 cell",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "immortal cell line cell"
+            }
+        ],
+        "original_id": "CLO:0009527",
+        "label": "Vero cell"
+    },
+    {
+        "id": "Oligodendroglioma",
+        "prefLabel": "oligodendroglioma",
+        "label": "oligodendroglioma"
+    },
+    {
+        "id": "EC18__oxidoreductaseActingOnSulfurGroupOfDonors_inhibitor",
+        "prefLabel": "EC 1.8.* (oxidoreductase acting on sulfur group of donors) inhibitor",
+        "label": "EC 1.8.* (oxidoreductase acting on sulfur group of donors) inhibitor"
+    },
+    {
+        "id": "Hemopericardium",
+        "prefLabel": "hemopericardium",
+        "definition": "A condition in which blood accumulates in the pericardial sac, the membrane surrounding the heart.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "pericardial effusion"
+            }
+        ],
+        "original_id": "DOID:15092",
+        "label": "hemopericardium"
+    },
+    {
+        "id": "TRPVChannelModulator",
+        "prefLabel": "TRPV channel modulator",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "membrane transport modulator"
+            }
+        ],
+        "label": "TRPV channel modulator"
+    },
+    {
+        "id": "OilImmersionLens",
+        "prefLabel": "oil immersion lens",
+        "label": "oil immersion lens"
+    },
+    {
+        "id": "LanthaScreenTbUbiquitinAssay",
+        "prefLabel": "LanthaScreen Tb-Ubiquitin Assay",
+        "label": "LanthaScreen Tb-Ubiquitin Assay"
+    },
+    {
+        "id": "RetinoicAcidReceptorAlphaBetaAgonist",
+        "prefLabel": "retinoic acid receptor alpha/beta agonist",
+        "label": "retinoic acid receptor alpha/beta agonist"
+    },
+    {
+        "id": "AntifungalAgrochemical",
+        "prefLabel": "antifungal agrochemical",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "agrochemical"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "antifungal agent"
+            }
+        ],
+        "label": "antifungal agrochemical"
+    },
+    {
+        "id": "Emax",
+        "prefLabel": "Emax",
+        "label": "Emax"
+    },
+    {
+        "id": "Coenzyme",
+        "prefLabel": "coenzyme",
+        "label": "coenzyme"
+    },
+    {
+        "id": "ArticularCartilageDisease",
+        "prefLabel": "articular cartilage disease",
+        "original_id": "DOID:6227",
+        "label": "cartilage disease"
+    },
+    {
+        "id": "neuroectodermalTumor",
+        "prefLabel": "neuroectodermal tumor",
+        "definition": "A tumor arising from neuroectodermal tissue, which is a type of primitive embryonic tissue that gives rise to various cell types in the nervous system.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "embryonal tumor"
+            }
+        ],
+        "label": "neuroectodermal tumor"
+    },
+    {
+        "id": "MolecularEntity",
+        "prefLabel": "molecular entity",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "biological entity"
+            }
+        ],
+        "original_id": "CHEBI:24431",
+        "label": "molecular entity"
+    },
+    {
+        "id": "KeratosisFollicularis",
+        "prefLabel": "keratosis follicularis",
+        "original_id": "DOID:2734",
+        "label": "keratosis"
+    },
+    {
+        "id": "SkeletalMuscleCancer",
+        "prefLabel": "skeletal muscle cancer",
+        "label": "skeletal muscle cancer"
+    },
+    {
+        "id": "MitogenActivatedProteinKinase1",
+        "prefLabel": "Mitogen-activated protein kinase 1",
+        "label": "Mitogen-activated protein kinase 1"
+    },
+    {
+        "id": "3-DExtent",
+        "prefLabel": "3-D extent",
+        "definition": "A quality inhering in a bearer by virtue of the bearer's 3-dimensional spatial extension.",
+        "original_id": "PATO:0000920",
+        "label": "3-D extent"
+    },
+    {
+        "id": "MigraineWithoutAura",
+        "prefLabel": "migraine without aura",
+        "definition": "A migraine that is characterized by migraine headaches that are not accompanied by an aura.",
+        "original_id": "DOID:12783",
+        "label": "migraine"
+    },
+    {
+        "label": "bile duct adenocarcinoma"
+    },
+    {
+        "id": "carrier",
+        "prefLabel": "carrier",
+        "label": "carrier"
+    },
+    {
+        "id": "PancreaticSteatorrhea",
+        "prefLabel": "pancreatic steatorrhea",
+        "label": "pancreatic steatorrhea"
+    },
+    {
+        "id": "QuantitativeAutoradiography",
+        "prefLabel": "quantitative autoradiography",
+        "original_id": "BAO:0001309",
+        "label": "Quantitative Autoradiography"
+    },
+    {
+        "id": "DatabaseCrossReference",
+        "prefLabel": "database cross reference",
+        "original_id": "OBI:2000555",
+        "label": "database_cross_reference"
+    },
+    {
+        "id": "HereditaryMucosalLeukokeratosis",
+        "prefLabel": "hereditary mucosal leukokeratosis",
+        "label": "hereditary mucosal leukokeratosis"
+    },
+    {
+        "id": "EC111141_15HydroxyprostaglandinDehydrogenase_NAD_inhibitor",
+        "prefLabel": "EC 1.1.1.141 [15-hydroxyprostaglandin dehydrogenase (NAD(+))] inhibitor",
+        "original_id": "",
+        "label": "EC 1.1.1.141 [15-hydroxyprostaglandin dehydrogenase (NAD(+))] inhibitor"
+    },
+    {
+        "id": "Sphingosine1PhosphateReceptor2Antagonist",
+        "prefLabel": "sphingosine-1-phosphate receptor 2 antagonist",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "antagonist"
+            }
+        ],
+        "original_id": "CHEBI:144987",
+        "label": "sphingosine-1-phosphate receptor 2 antagonist"
+    },
+    {
+        "id": "GlottisCarcinoma",
+        "prefLabel": "glottis carcinoma",
+        "label": "glottis carcinoma"
+    },
+    {
+        "id": "Syto60",
+        "prefLabel": "Syto 60",
+        "label": "Syto 60"
+    },
+    {
+        "id": "PrecerebralArteryOcclusion",
+        "prefLabel": "precerebral artery occlusion",
+        "label": "occlusion precerebral artery"
+    },
+    {
+        "id": "EC111134EC111188_HydroxymethylglutarylCoAReductase_inhibitor",
+        "prefLabel": "EC 1.1.1.134/EC 1.1.1.188 (hydroxymethylglutaryl-CoA reductase) inhibitor",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "EC 1.1.1.* (oxidoreductase acting on donor CH-OH group, NAD(+) or NADP(+) acceptor) inhibitor"
+            }
+        ],
+        "label": "EC 1.1.1.34/EC 1.1.1.88 (hydroxymethylglutaryl-CoA reductase) inhibitor"
+    },
+    {
+        "id": "ColonicDisease",
+        "prefLabel": "colonic disease",
+        "original_id": "NA",
+        "label": "colonic disease"
+    },
+    {
+        "id": "BronchiolitisObliterans",
+        "prefLabel": "bronchiolitis obliterans",
+        "definition": "A lung disease that results in narrowing and obstruction of the small airways in the lungs due to inflammation and scarring. It is often caused by inhaling toxic fumes, such as those from chemical exposure or certain types of medication. The disease has_symptom cough, has_symptom shortness of breath, has_symptom wheezing, has_symptom fatigue, has_symptom weight loss, and has_symptom chest tightness.",
+        "original_id": "DOID:9277",
+        "label": "bronchiolitis obliterans"
+    },
+    {
+        "id": "Disinfectant",
+        "prefLabel": "disinfectant",
+        "label": "disinfectant"
+    },
+    {
+        "id": "ConcentrationUnit",
+        "prefLabel": "concentration unit",
+        "definition": "A unit used to express the amount of a substance per unit volume or mass.",
+        "original_id": "UO:0000189",
+        "label": "concentration unit"
+    },
+    {
+        "id": "BacterialPneumonia",
+        "prefLabel": "bacterial pneumonia",
+        "definition": "A bacterial pneumonia which is an acute pulmonary inflammatory response that develops after the inhalation of colonized oropharyngeal material containing bacteria. It is seen in individuals with dysphagia and gastric dysmotility. The disease has_symptom tachypnea and has_symptom cough.",
+        "original_id": "DOID:0050152",
+        "label": "bacterial pneumonia"
+    },
+    {
+        "id": "Caco2PermeabilityAssay",
+        "prefLabel": "Caco-2 permeability assay",
+        "definition": "A common in vitro ADME assay that uses the Caco-2 cell line (derived from human colon carcinoma) to assess transport in both directions (apical to basolateral (A-B) and basolateral to apical (B-A)) across the cell monolayer), to predict the in vivo absorption of drugs across the gut wall and to investigate drug efflux.",
+        "relationships": [
+            {
+                "predicate": "HasAssayFormat",
+                "target": "cell-based format"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "permeability assay"
+            }
+        ],
+        "original_id": "BAO:0010008",
+        "label": "cell permeability assay"
+    },
+    {
+        "id": "BetaGalactosidaseEnzymeActivityAssay",
+        "prefLabel": "beta galactosidase enzyme activity assay",
+        "definition": "Assay to measure the activity of beta-galactosidase enzyme.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "enzyme activity measurement assay"
+            }
+        ],
+        "original_id": "BAO:0040082",
+        "label": "beta galactosidase enzyme activity assay"
+    },
+    {
+        "id": "EC14322_diamineOxidase_inhibitor",
+        "prefLabel": "EC 1.4.3.22 (diamine oxidase) inhibitor",
+        "label": "EC 1.4.3.22 (diamine oxidase) inhibitor"
+    },
+    {
+        "id": "HeterotrimericGProteinDissociationAssay",
+        "prefLabel": "Heterotrimeric G-protein dissassociation assay",
+        "definition": "Measures heterotrimer G-protein disassociation using BRET between alpha and gamma subunits.",
+        "relationships": [
+            {
+                "predicate": "HasDetectionMethod",
+                "target": "chemiluminescence"
+            },
+            {
+                "predicate": "HasDetectionMethod",
+                "target": "fluorescence intensity"
+            },
+            {
+                "predicate": "HasDetectionMethod",
+                "target": "bioluminescence resonance energy transfer"
+            },
+            {
+                "predicate": "HasMeasuredEntity",
+                "target": "GPCR complex"
+            },
+            {
+                "predicate": "UsesDetectionInstrument",
+                "target": "percent response"
+            },
+            {
+                "predicate": "UsesDetectionInstrument",
+                "target": "instrument"
+            },
+            {
+                "predicate": "UsesDetectionInstrument",
+                "target": "PHERAstar FSX"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "protein-protein interaction assay"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "GPCR Signaling"
+            }
+        ],
+        "original_id": "BAO:0010081",
+        "label": "Heterotrimeric G-protein dissassociation assay"
+    },
+    {
+        "id": "ScimitarSyndrome",
+        "prefLabel": "Scimitar syndrome",
+        "definition": "A congenital vascular anomaly characterized by partial anomalous pulmonary venous return in which one or more of the right pulmonary veins drain into the inferior vena cava or other systemic vein, rather than the left atrium.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "congenital disorder"
+            }
+        ],
+        "original_id": "DOID:11909",
+        "label": "scimitar syndrome"
+    },
+    {
+        "id": "PeriapicalPeriodontitis",
+        "prefLabel": "periapical periodontitis",
+        "original_id": "DOID:823",
+        "label": "periodontitis"
+    },
+    {
+        "id": "BoneMorphogeneticProteinReceptorAntagonist",
+        "prefLabel": "bone morphogenetic protein receptor antagonist",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "receptor antagonist"
+            }
+        ],
+        "label": "bone morphogenetic protein receptor antagonist"
+    },
+    {
+        "id": "Polyneuropathy",
+        "prefLabel": "polyneuropathy",
+        "label": "polyneuropathy"
+    },
+    {
+        "id": "CurationStatus",
+        "prefLabel": "curation status",
+        "original_id": "NCIT:C168334",
+        "label": "has curation status"
+    },
+    {
+        "id": "Anemia",
+        "prefLabel": "anemia",
+        "label": "anemia"
+    },
+    {
+        "id": "Estrogen",
+        "prefLabel": "estrogen",
+        "label": "estrogen"
+    },
+    {
+        "id": "alternate confirmatory assay",
+        "prefLabel": "alternate confirmatory assay",
+        "relationships": [
+            {
+                "predicate": "is alternate assay type of",
+                "target": "alternate assay type"
+            }
+        ],
+        "label": "is alternate assay type of"
+    },
+    {
+        "id": "InverselyCorrelated",
+        "prefLabel": "inversely correlated",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "endpoint action correlation"
+            }
+        ],
+        "original_id": "BAO:0000132",
+        "label": "inversely correlated"
+    },
+    {
+        "id": "LobularNeoplasia",
+        "prefLabel": "lobular neoplasia",
+        "definition": "Neoplastic growth of lobular cells in the breast.",
+        "relationshps": [
+            {
+                "predicate": "subClassOf",
+                "target": "breast neoplasm"
+            }
+        ],
+        "original_id": "DOID:312",
+        "label": "lobular neoplasia"
+    },
+    {
+        "id": "XanthogranulomatousPyelonephritis",
+        "prefLabel": "xanthogranulomatous pyelonephritis",
+        "original_id": null,
+        "label": "xanthogranulomatous pyelonephritis"
+    },
+    {
+        "id": "Staphyloenterotoxemia",
+        "prefLabel": "staphyloenterotoxemia",
+        "definition": "",
+        "relationships": [],
+        "original_id": "",
+        "label": "staphyloenterotoxemia"
+    },
+    {
+        "id": "stains",
+        "prefLabel": "stains",
+        "label": "stains"
+    },
+    {
+        "id": "SpleenCancer",
+        "prefLabel": "spleen cancer",
+        "label": "spleen cancer"
+    },
+    {
+        "id": "GolgiApparatus",
+        "prefLabel": "Golgi apparatus",
+        "definition": "A series of stacked cisternae (flattened, membrane-bounded sacs) found in the cytoplasm of most eukaryotic cells. Described by Italian histologist Camillo Golgi in 1898.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "GO:0005575"
+            }
+        ],
+        "original_id": "GO:0005794",
+        "label": "Golgi apparatus"
+    },
+    {
+        "id": "WoundBotulism",
+        "prefLabel": "wound botulism",
+        "definition": "A rare form of botulism that occurs when the bacterium Clostridium botulinum infects a wound and produces toxins that paralyze muscles.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "botulism"
+            }
+        ],
+        "original_id": "DOID:11811",
+        "label": "wound botulism"
+    },
+    {
+        "id": "MolarAttenuationCoefficient",
+        "prefLabel": "molar attenuation coefficient",
+        "definition": "This is a measurement of how strongly a chemical species attenuates light at a given wavelength. Common units are L/(mol*cm).",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "physical property endpoint"
+            }
+        ],
+        "original_id": "BAO:0080038",
+        "label": "molar"
+    },
+    {
+        "id": "EC41117_ornithineDecarboxylase_inhibitor",
+        "prefLabel": "EC 4.1.1.17 (ornithine decarboxylase) inhibitor",
+        "original_id": "CHEBI:30925",
+        "label": "EC 4.1.1.17 (ornithine decarboxylase) inhibitor"
+    },
+    {
+        "id": "PenileBenignNeoplasm",
+        "prefLabel": "penile benign neoplasm",
+        "label": "penile benign neoplasm"
+    },
+    {
+        "id": "HepatocyteStabilityAssay",
+        "prefLabel": "hepatocyte stability assay",
+        "label": "hepatocyte stability assay"
+    },
+    {
+        "id": "ProstateCarcinomaInSitu",
+        "prefLabel": "prostate carcinoma in situ",
+        "definition": "An in situ carcinoma that is located_in the prostate gland.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "prostate cancer"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "in situ carcinoma"
+            }
+        ],
+        "original_id": "DOID:8793",
+        "label": "prostate carcinoma in situ"
+    },
+    {
+        "id": "Spiradenoma",
+        "prefLabel": "spiradenoma",
+        "label": "spiradenoma"
+    },
+    {
+        "id": "EC342435_gelatinaseB_inhibitor",
+        "prefLabel": "EC 3.4.24.35 (gelatinase B) inhibitor",
+        "label": "EC 3.4.24.35 (gelatinase B) inhibitor"
+    },
+    {
+        "id": "MuOpioidReceptorAntagonist",
+        "prefLabel": "mu-opioid receptor antagonist",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "mu-opioid agent"
+            }
+        ],
+        "original_id": "CHEBI:50137",
+        "label": "opioid receptor antagonist"
+    },
+    {
+        "id": "LiverSarcoma",
+        "prefLabel": "liver sarcoma",
+        "label": "liver sarcoma"
+    },
+    {
+        "id": "Ependymoblastoma",
+        "prefLabel": "ependymoblastoma",
+        "label": "ependymoblastoma"
+    },
+    {
+        "id": "CytochromeP4502C9",
+        "prefLabel": "Cytochrome P450 2C9",
+        "label": "Cytochrome P450 2C9"
+    },
+    {
+        "id": "FuGENE6",
+        "prefLabel": "FuGENE 6",
+        "label": "FuGENE 6"
+    },
+    {
+        "id": "CD40",
+        "prefLabel": "CD40",
+        "label": "CD40"
+    },
+    {
+        "id": "LaCrosseEncephalitis",
+        "prefLabel": "La Crosse encephalitis",
+        "label": "La Crosse encephalitis"
+    },
+    {
+        "id": "Neurokinin1ReceptorAntagonist",
+        "prefLabel": "neurokinin-1 receptor antagonist",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "antagonist"
+            }
+        ],
+        "original_id": "CHEBI:55350",
+        "label": "neurokinin-1 receptor agonist"
+    },
+    {
+        "id": "Thapsigargin",
+        "prefLabel": "thapsigargin",
+        "label": "thapsigargin"
+    },
+    {
+        "id": "BladderBenignNeoplasm",
+        "prefLabel": "bladder benign neoplasm",
+        "definition": "A urinary system benign neoplasm located_in the bladder including papillomas, leiomyomas, fibromas, hemangiomas, neurofibromas and lipomas.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "bladder disease"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "urinary system benign neoplasm"
+            }
+        ],
+        "original_id": "DOID:0050623",
+        "label": "papilloma"
+    },
+    {
+        "id": "PrimaryCutaneousAmyloidosis",
+        "prefLabel": "primary cutaneous amyloidosis",
+        "definition": "A cutaneous amyloidosis that is characterized by localized amyloid deposits in the skin, without evidence of systemic involvement.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "cutaneous amyloidosis"
+            }
+        ],
+        "original_id": "DOID:3968",
+        "label": "primary cutaneous amyloidosis"
+    },
+    {
+        "id": "HEK293",
+        "prefLabel": "HEK293",
+        "label": "HEK293"
+    },
+    {
+        "id": "CentralNervousSystemTeratoma",
+        "prefLabel": "central nervous system teratoma",
+        "label": "central nervous system teratoma"
+    },
+    {
+        "id": "SpasticCerebralPalsy",
+        "prefLabel": "spastic cerebral palsy",
+        "definition": "A form of cerebral palsy that is characterized by muscle stiffness and tightness, affecting movement and posture.",
+        "original_id": "DOID:11533",
+        "label": "spastic cerebral palsy"
+    },
+    {
+        "id": "SecondMessengerAbundance",
+        "prefLabel": "second messenger abundance",
+        "definition": "The measurement of the levels or concentration of second messengers (calcium, cAMP, cGMP) produced in the cell as a result of a signaling event.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "molecular abundance method"
+            }
+        ],
+        "label": "second messenger abundance"
+    },
+    {
+        "id": "Myoblastoma",
+        "prefLabel": "myoblastoma",
+        "definition": "A tumor of primitive muscle cells that is usually considered to be noncancerous.",
+        "original_id": "DOID:3033",
+        "label": "myoblastoma"
+    },
+    {
+        "id": "EC23331_citrate_Si_Synthase_inhibitor",
+        "prefLabel": "EC 2.3.3.1 [citrate (Si)-synthase] inhibitor",
+        "label": "EC 2.3.3.1 [citrate (Si)-synthase] inhibitor"
+    },
+    {
+        "id": "IntestinalPseudoObstruction",
+        "prefLabel": "intestinal pseudo-obstruction",
+        "definition": "",
+        "original_id": "",
+        "label": "intestinal pseudo-obstruction"
+    },
+    {
+        "id": "UsesDetectionInstrument",
+        "prefLabel": "uses detection instrument",
+        "original_id": "BAO:0002865",
+        "label": "detection instrument"
+    },
+    {
+        "id": "LADDsyndrome",
+        "prefLabel": "LADD syndrome",
+        "definition": "A syndrome that is characterized by lacrimaql ducts aplasia, disk abnormalities of the ears, hearing loss, atresia choanae, developmental delay, dysplasyia of the inner ear, and microtia.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "autosomal dominant disease"
+            },
+            {
+                "predicate": "subClassOf",
+                "target": "syndrome"
+            }
+        ],
+        "original_id": "DOID:0050535",
+        "label": "LADD syndrome"
+    },
+    {
+        "id": "YellowFever",
+        "prefLabel": "yellow fever",
+        "label": "yellow fever"
+    },
+    {
+        "id": "EC242_pentosyltransferase_inhibitor",
+        "prefLabel": "EC 2.4.2.* (pentosyltransferase) inhibitor",
+        "label": "EC 2.4.2.* (pentosyltransferase) inhibitor"
+    },
+    {
+        "id": "pA2",
+        "prefLabel": "pA2",
+        "label": "pA2"
+    },
+    {
+        "id": "OcularHypotension",
+        "prefLabel": "ocular hypotension",
+        "definition": "A condition characterized by abnormally low pressure within the eye.",
+        "relationships": [],
+        "original_id": "DOID:3916",
+        "label": "ocular hypotension"
+    },
+    {
+        "id": "ImagingMethod",
+        "prefLabel": "imaging method",
+        "definition": "Method of creating visual representations or images of objects, tissues, or phenomena through the use of various technologies such as microscopy, radiography, or MRI.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "biological assay method"
+            }
+        ],
+        "original_id": "BAO:0002424",
+        "label": "imaging method"
+    },
+    {
+        "id": "Venom",
+        "prefLabel": "venom",
+        "label": "venom"
+    },
+    {
+        "id": "5Carboxamidotryptamine",
+        "prefLabel": "5-carboxamidotryptamine",
+        "original_id": "",
+        "label": "5-carboxamidotryptamine"
+    },
+    {
+        "id": "Hyperparathyroidism",
+        "prefLabel": "hyperparathyroidism",
+        "definition": "A parathyroid gland disease characterized by an overactivity of the parathyroid glands, leading to an excess of parathyroid hormone in the body.",
+        "original_id": "DOID:13543",
+        "label": "parathyroid gland disease"
+    },
+    {
+        "id": "Immunomodulator",
+        "prefLabel": "immunomodulator",
+        "label": "immunomodulator"
+    },
+    {
+        "id": "NuclearExtractFormat",
+        "prefLabel": "nuclear extract format",
+        "definition": "Isolated from the nucleus of cells, this format contains nuclear proteins, DNA, and RNA. Nuclear extracts are commonly used for studying protein-DNA interactions, gene expression regulation, and other nuclear processes.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "subcellular format"
+            }
+        ],
+        "original_id": "BAO:0000333",
+        "label": "nuclear extract format"
+    },
+    {
+        "id": "PlantGrowthRetardant",
+        "prefLabel": "plant growth retardant",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "plant growth regulator"
+            }
+        ],
+        "label": "plant growth retardant"
+    },
+    {
+        "id": "Constipation",
+        "prefLabel": "constipation",
+        "label": "constipation"
+    },
+    {
+        "id": "PartialInhibition",
+        "prefLabel": "partial inhibition",
+        "definition": "Reduction of a predefined stimulus that is not complete. Unit of Measure is always % when normalized to the dynamic range of the assay.",
+        "relationships": [
+            {
+                "predicate": "subClassOf",
+                "target": "inhibition"
+            }
+        ],
+        "original_id": "BAO:0000092",
+        "label": "partial inhibition"
+    },
+    {
+        "label": "African tick-bite fever"
+    },
+    {
+        "id": "InnerEarDisease",
+        "prefLabel": "inner ear disease",
+        "original_id": null,
+        "label": "inner ear disease"
+    },
+    {
+        "id": "EC342164_peptidaseK_inhibitor",
+        "prefLabel": "EC 3.4.21.64 (peptidase K) inhibitor",
+        "label": "EC 3.4.21.64 (peptidase K) inhibitor"
+    },
+    {
+        "id": "GW8510",
+        "prefLabel": "GW8510",
+        "label": "GW8510"
+    }
+]

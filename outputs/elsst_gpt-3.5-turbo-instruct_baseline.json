@@ -1,0 +1,2998 @@
+[
+    {
+        "uri": "https://elsst.cessda.eu/id/4/8e4a7955-9c21-496c-ba6c-061ac60baaaf",
+        "prefLabel": "COMPUTER LITERACY",
+        "definition": "THE KNOWLEDGE AND ABILITY TO USE COMPUTER TECHNOLOGY EFFICIENTLY AND EFFECTIVELY",
+        "altLabel": "DIGITAL LITERACY",
+        "id": "ComputerLiteracy",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "TECHNOLOGICAL LITERACY"
+            },
+            {
+                "predicate": "related",
+                "target": "INTERNET USAGE"
+            },
+            {
+                "predicate": "related",
+                "target": "PROGRAMMING LANGUAGES"
+            }
+        ],
+        "label": "COMPUTER LITERACY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/86fc57d6-293b-450f-a826-748173b2000f",
+        "prefLabel": "PLANNING",
+        "definition": "THE ACT OF SETTING GOALS AND DECIDING HOW TO ACHIEVE THEM.",
+        "altLabel": "STRATEGIZING",
+        "id": "Planning",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "EVALUATION"
+            },
+            {
+                "predicate": "related",
+                "target": "DECISION MAKING"
+            },
+            {
+                "predicate": "related",
+                "target": "PROBLEM SOLVING"
+            },
+            {
+                "predicate": "related",
+                "target": "OBJECTIVE SETTING"
+            }
+        ],
+        "label": "PLANNING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/5cf71587-5bfb-4b2a-8f1b-634516eaea64",
+        "prefLabel": "GYNAECOLOGICAL SURGERY",
+        "id": "GynaecologicalSurgery",
+        "label": "GYNAECOLOGICAL SURGERY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/84fcf875-d089-423a-b718-81a063b26074",
+        "prefLabel": "INSURANCE",
+        "altLabel": "INSURANCE CLAIMS",
+        "id": "Insurance",
+        "label": "INSURANCE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/093e3d0b-a800-4a27-a261-8351bb17ca04",
+        "prefLabel": "PROFESSIONAL ETHICS",
+        "definition": "THE CODE OF CONDUCT AND STANDARDS THAT GOVERN THE BEHAVIOUR OF PROFESSIONALS IN A GIVEN FIELD, INCLUDING RESPONSIBILITIES TO CLIENTS, COLLEAGUES, AND THE GENERAL PUBLIC",
+        "id": "ProfessionalEthics",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ETHICS"
+            },
+            {
+                "predicate": "related",
+                "target": "PROFESSIONAL ASSOCIATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "WORK ETHIC"
+            }
+        ],
+        "label": "PROFESSIONAL ETHICS"
+    },
+    {
+        "prefLabel": "STREAMS",
+        "label": "STREAMS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/65183e83-ef27-4230-b62c-5a9141b4651f",
+        "prefLabel": "BOOK USE",
+        "altLabel": "BOOK USAGE",
+        "definition": "THE MANNER, FREQUENCY, PURPOSE, ETC., OF AUDIENCE USE OF BOOKS",
+        "id": "BookUse",
+        "relationships": [
+            {
+                "predicate": "narrower",
+                "target": "BOOK READERSHIP"
+            },
+            {
+                "predicate": "related",
+                "target": "BOOK BORROWING"
+            }
+        ],
+        "label": "BOOK USE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/ee9be2d8-55b6-4f8b-9f7d-efb384a14486",
+        "prefLabel": "WORKLOADS",
+        "id": "Workloads",
+        "label": "WORKLOADS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/d697a843-626e-43f1-afbe-4c25c8466aa7",
+        "prefLabel": "CRIMES AGAINST PERSONS",
+        "definition": "OFFENCES AGAINST THE PEACE AND SECURITY OF THE PERSON. THESE INCLUDE INTENTIONAL HOMICIDE; SEXUAL VIOLENCE; ASSAULT; KIDNAPPING AND ABDUCTION; FORCIBLE DISAPPEARANCE; ROBBERY; AND TORTURE.",
+        "altLabel": "ASSAULTS ON PERSONS",
+        "id": "CrimesAgainstPersons",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CRIME AGAINST THE PERSON"
+            },
+            {
+                "predicate": "related",
+                "target": "VIOLENCE AGAINST WOMEN"
+            },
+            {
+                "predicate": "related",
+                "target": "HATE CRIMES"
+            }
+        ],
+        "label": "CRIMES AGAINST PERSONS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/357573b3-cd6c-4008-a0d4-3b3595238778",
+        "prefLabel": "CHILD LABOUR",
+        "definition": "CHILDREN WORKING IN CONTRAVENTION OF INTERNATIONAL STANDARDS, OR BEING ENSLAVED, FORCIBLY RECRUITED, PROSTITUTED, TRAFFICKED, FORCED INTO ILLEGAL ACTIVITIES OR EXPOSED TO HAZARDOUS WORK",
+        "id": "ChildLabour",
+        "relationships": [],
+        "label": "CHILD LABOUR"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/80b875e6-fbf9-4780-b258-d7627f63ff0a",
+        "prefLabel": "SCHOOL HOLIDAYS",
+        "definition": "REGULAR FIXED PERIODS (PUBLICLY ESTABLISHED THROUGHOUT A PARTICULAR AREA) WHEN SCHOOLS ARE CLOSED FOR VACATION AND NON-TARGETED EDUCATION OR ACTIVITIES. THE INTENSITY AND DISTRIBUTION OF THESE PERIODS VARIES ACROSS COUNTRIES AND TIME PERIODS.\n\n",
+        "altLabel": "BREAKS FROM SCHOOL",
+        "id": "SchoolHolidays",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "HOLIDAYS"
+            },
+            {
+                "predicate": "related",
+                "target": "EDUCATIONAL HOLIDAYS"
+            },
+            {
+                "predicate": "related",
+                "target": "VACATIONS"
+            }
+        ],
+        "label": "SCHOOL HOLIDAYS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/b32a514e-5189-4fcc-a86a-82dc7af62a11",
+        "prefLabel": "LEASES",
+        "definition": "CONTRACTS WHERE ONE PARTY RECEIVES USE OF A PROPERTY (LEASEHOLD), FROM ANOTHER [LESSOR] FOR AN AGREED PERIOD",
+        "id": "Leases",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CONTRACTS AND AGREEMENTS"
+            }
+        ],
+        "label": "LEASES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/86d547be-0f5f-4fd6-99cc-22a6294e1bd4",
+        "prefLabel": "QUALITY",
+        "id": "Quality",
+        "label": "QUALITY"
+    },
+    {
+        "label": "RURAL ENVIRONMENT"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/5c4c7e53-375f-41cd-9273-81a7b2bb3f88",
+        "prefLabel": "COMMUNICATION NETWORKS",
+        "definition": "THE NETWORKS USED FOR SENDING AND RECEIVING INFORMATION AND COMMUNICATION",
+        "altLabel": "COMMUNICATION PATHS",
+        "id": "CommunicationNetworks",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "INFORMATION AND COMMUNICATIONS TECHNOLOGY"
+            },
+            {
+                "predicate": "related",
+                "target": "NETWORK TECHNOLOGIES"
+            },
+            {
+                "predicate": "related",
+                "target": "DIGITAL NETWORKS"
+            }
+        ],
+        "label": "COMMUNICATION NETWORKS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/db658dd9-937b-49c2-899d-d54a612df397",
+        "prefLabel": "LOCUS OF CONTROL",
+        "definition": "THE DEGREE TO WHICH PERSONS BELIEVE THEY CONTROL THEIR OWN LIVES",
+        "altLabel": "INTERNAL/EXTERNAL CONTROL",
+        "id": "LocusOfControl",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "HUMAN BEHAVIOUR"
+            },
+            {
+                "predicate": "related",
+                "target": "PERCEIVED CONTROL"
+            },
+            {
+                "predicate": "related",
+                "target": "PERSONALITY"
+            }
+        ],
+        "label": "LOCUS OF CONTROL"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/c9f42534-b383-436b-999b-620599438a71",
+        "prefLabel": "NUTRIENTS",
+        "definition": "CONSTITUENT OF NUTRITIONAL REQUIREMENT CONTAINED IN FOODS",
+        "altLabel": "FOOD NUTRIENTS",
+        "id": "Nutrients",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "NUTRITION"
+            },
+            {
+                "predicate": "narrower",
+                "target": "CARBOHYDRATES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "FATS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "PROTEINS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "VITAMINS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "MINERALS"
+            },
+            {
+                "predicate": "related",
+                "target": "FOOD ADDITIVES"
+            },
+            {
+                "predicate": "related",
+                "target": "DIETARY SUPPLEMENTS"
+            }
+        ],
+        "label": "NUTRIENTS"
+    },
+    {
+        "prefLabel": "HOME SELLING",
+        "label": "HOME SELLING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/8e2bdc04-3e94-4b49-9543-9e86fcd1be4f",
+        "prefLabel": "WIND TURBINES",
+        "altLabel": "WIND FARM",
+        "id": "WindTurbines",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "WIND ENERGY"
+            },
+            {
+                "predicate": "related",
+                "target": "ELECTRICITY GENERATION"
+            }
+        ],
+        "label": "WIND TURBINES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/de1e3e6a-a4c4-4391-bf59-d67adbe2eacb",
+        "prefLabel": "INDOOR GAMES",
+        "altLabel": "BOARD GAMES",
+        "id": "IndoorGames",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "GAMES"
+            },
+            {
+                "predicate": "related",
+                "target": "EDUCATIONAL TOYS"
+            }
+        ],
+        "label": "INDOOR GAMES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/d81e4fdb-7ca3-4dfe-891d-c008f726de94",
+        "prefLabel": "CLASS CONFLICT",
+        "altLabel": "CLASS STRUGGLE",
+        "id": "ClassConflict",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "SOCIAL CONFLICT"
+            },
+            {
+                "predicate": "related",
+                "target": "SOCIAL CLASS"
+            }
+        ],
+        "label": "CONFLICT"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/3c30982b-f0e9-4e29-87a6-e3879a1d7330",
+        "prefLabel": "AGE DISTRIBUTION",
+        "id": "AgeDistribution",
+        "label": "AGE DISTRIBUTION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/b0b5fb98-6f67-49f4-9896-83f75663dfd5",
+        "prefLabel": "GRANTS",
+        "altLabel": "SCHOLARSHIPS",
+        "id": "Grants",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "FINANCING"
+            }
+        ],
+        "label": "GRANTS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/55f06dcc-b5f6-4b39-9744-93e2ff4d4a1d",
+        "prefLabel": "NERVOUS SYSTEM DISEASES",
+        "definition": "PATHOLOGICAL PROCESSES AFFECTING THE NERVOUS SYSTEM",
+        "altLabel": "NERVE DISEASES",
+        "id": "NervousSystemDiseases",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "NERVOUS SYSTEM"
+            }
+        ],
+        "label": "NERVOUS SYSTEM DISEASES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/72fa9175-7c86-45a6-a5c2-a9796c6c5030",
+        "prefLabel": "IMMIGRANTS",
+        "altLabel": "MIGRANTS",
+        "id": "Immigrants",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "MIGRATION"
+            },
+            {
+                "predicate": "related",
+                "target": "IMMIGRATION"
+            },
+            {
+                "predicate": "related",
+                "target": "EMIGRATION"
+            },
+            {
+                "predicate": "related",
+                "target": "IMMIGRANT CHILDREN"
+            }
+        ],
+        "label": "IMMIGRANTS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/9e496557-458e-4e9b-a4be-d7f0f6a4234c",
+        "prefLabel": "MASS MEDIA",
+        "definition": "ANY MEANS OF MASS COMMUNICATION, SUCH AS NEWSPAPERS, RADIO, AND TELEVISION",
+        "altLabel": "MASS COMMUNICATION",
+        "id": "MassMedia",
+        "label": "MASS MEDIA"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/a99d643e-3f9f-4ac2-8b52-b6a574042041",
+        "prefLabel": "YOUTH CLUBS",
+        "altLabel": "CLUBS FOR YOUNG PEOPLE",
+        "definition": "LOCAL ORGANISATIONS FOR YOUNG PEOPLE THAT PROVIDE A VARIETY OF ACTIVITIES, PRACTICAL ADVICE AND SUPPORT",
+        "id": "YouthClubs",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CLUBS"
+            },
+            {
+                "predicate": "related",
+                "target": "YOUTH WORKERS"
+            },
+            {
+                "predicate": "related",
+                "target": "YOUTH EMPLOYMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "YOUTH ORGANIZATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "STUDENTS"
+            },
+            {
+                "predicate": "related",
+                "target": "EXTRACURRICULAR ACTIVITIES"
+            },
+            {
+                "predicate": "related",
+                "target": "YOUTH CULTURE"
+            }
+        ],
+        "label": "YOUTH CLUBS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/b81f184c-c2d2-4824-85e6-5a11605600e8",
+        "prefLabel": "AGRICULTURE AND VETERINARY EDUCATION",
+        "definition": "EDUCATION IN AGRICULTURAL AND VETERINARY SCIENCE AND PRACTICE, INCLUDING FARMING, ANIMAL HUSBANDRY, CROP PRODUCTION, SOIL SCIENCE, SUSTAINABLE AGRICULTURE, ANIMAL FEEDING, VETERINARY MEDICINE, VETERINARY ASSISTING.",
+        "id": "AgricultureAndVeterinaryEducation",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "AGRICULTURAL SCIENCES"
+            },
+            {
+                "predicate": "related",
+                "target": "VETERINARY MEDICINE"
+            }
+        ],
+        "label": "AGRICULTURE AND VETERINARY EDUCATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/634fe24f-88ae-462f-a341-6ae4572af915",
+        "prefLabel": "LATERALITY",
+        "definition": "PREFERENTIAL OR CONSISTENT USE OF ONE SIDE OF THE BODY",
+        "altLabel": "ASYMMETRY",
+        "id": "LATERALITY",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PSYCHOLOGICAL PROCESSES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "HANDEDNESS"
+            },
+            {
+                "predicate": "related",
+                "target": "BRAIN"
+            }
+        ],
+        "label": "LATERALITY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4e8f9d76-482d-4edb-8443-2574805cdf7f",
+        "prefLabel": "EDUCATIONAL OPPORTUNITIES",
+        "label": "EDUCATIONAL OPPORTUNITIES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/8583a222-84e1-4176-b731-adf25be4ba82",
+        "prefLabel": "SOCIOLINGUISTICS",
+        "definition": "THE STUDY OF THE RELATIONSHIP BETWEEN LANGUAGE AND SOCIETY, INCLUDING THE EFFECTS OF SOCIAL FACTORS ON LANGUAGE USE AND THE IMPACT OF LANGUAGE ON SOCIETY",
+        "id": "Sociolinguistics",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "APPLIED LINGUISTICS"
+            },
+            {
+                "predicate": "related",
+                "target": "LANGUAGE USAGE"
+            },
+            {
+                "predicate": "related",
+                "target": "SOCIAL INTERACTION"
+            },
+            {
+                "predicate": "broader",
+                "target": "LINGUISTICS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "BILINGUALISM"
+            },
+            {
+                "predicate": "narrower",
+                "target": "LANGUAGE AND ETHNICITY"
+            }
+        ],
+        "label": "SOCIOLINGUISTICS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/5154a030-70fe-48f1-83a7-80882a3b4042",
+        "prefLabel": "FREEDOM OF SPEECH",
+        "altLabel": "FREEDOM OF EXPRESSION",
+        "id": "FreedomOfSpeech",
+        "label": "FREEDOM OF SPEECH"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/f98f60d1-45a2-4872-9665-e22ee6daf69d",
+        "prefLabel": "EDUCATIONAL POLICY",
+        "definition": "STATEMENTS, PRINCIPLES AND GUIDELINES CONCERNING THE ORGANIZATION, OPERATION AND EVALUATION OF EDUCATION, ISSUED BY AN EDUCATIONAL INSTITUTION, AN ADMINISTRATIVE BODY, A GOVERNMENT, OR INTERNATIONAL ORGANIZATIONS. AN EDUCATIONAL POLICY CAN ENCOMPASS A WIDE RANGE OF TOPICS INCLUDING CURRICULUM, TEACHING METHODS, FINANCING, SCHOOL INFRASTRUCTURE, STUDENT ASSESSMENT, AND MORE.",
+        "id": "EducationalPolicy",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "EDUCATION"
+            },
+            {
+                "predicate": "related",
+                "target": "NATIONAL POLICY"
+            },
+            {
+                "predicate": "related",
+                "target": "INTERNATIONAL POLICY"
+            },
+            {
+                "predicate": "related",
+                "target": "GOVERNMENT POLICY"
+            },
+            {
+                "predicate": "related",
+                "target": "ECONOMICS"
+            },
+            {
+                "predicate": "related",
+                "target": "SCHOOL ADMINISTRATION"
+            }
+        ],
+        "label": "EDUCATIONAL POLICY"
+    },
+    {
+        "prefLabel": "DEAFNESS",
+        "id": "Deafness",
+        "label": "DEAFNESS"
+    },
+    {
+        "prefLabel": "PARTY IDENTIFICATION",
+        "label": "PARTY IDENTIFICATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/cdf8ec55-9c0a-4c12-8358-83c421044607",
+        "prefLabel": "COLLECTIVE ECONOMY",
+        "definition": "THE ECONOMY OWNED BY THE MEMBERS OF A COMMUNITY",
+        "id": "CollectiveEconomy",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ECONOMICS"
+            },
+            {
+                "predicate": "related",
+                "target": "SELF-SUSTAINABILITY"
+            },
+            {
+                "predicate": "related",
+                "target": "COOPERATIVES"
+            }
+        ],
+        "label": "COLLECTIVE ECONOMY"
+    },
+    {
+        "prefLabel": "TRUCKS",
+        "altLabel": null,
+        "id": "TRUCKS",
+        "label": "TRUCKS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4539ceaf-2ba5-493e-8db3-37d00387db3d",
+        "prefLabel": "ANTENATAL CARE",
+        "definition": "CARE PROVIDED DURING PREGNANCY (ANTENATAL CARE), DELIVERY, AND AFTER DELIVERY (POSTNATAL CARE).",
+        "id": "AntenatalCare",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "REPRODUCTIVE HEALTH"
+            },
+            {
+                "predicate": "narrower",
+                "target": "POSTNATAL CARE"
+            },
+            {
+                "predicate": "related",
+                "target": "OBSTETRICS"
+            },
+            {
+                "predicate": "related",
+                "target": "MATERNITY LEAVE"
+            }
+        ],
+        "label": "ANTENATAL CARE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/323d7e39-de2a-449c-b788-bf140e11c87f",
+        "prefLabel": "POLITICAL ISSUES",
+        "definition": "TOPICS THAT CAUSE DIVISION OR CONTROVERSY IN POLITICAL SYSTEMS AND SOCIETIES",
+        "id": "PoliticalIssues",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "POLITICS"
+            },
+            {
+                "predicate": "related",
+                "target": "POLITICAL DEBATE"
+            },
+            {
+                "predicate": "related",
+                "target": "ELECTIONS"
+            }
+        ],
+        "label": "POLITICAL ISSUES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/b976bd8a-8456-4568-8b94-025c443f6b13",
+        "prefLabel": "UNWAGED WORKERS",
+        "id": "UnwagedWorkers",
+        "label": "UNWAGED WORKERS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/d0c1e3bb-dcd7-4bab-41a3-40b4dd",
+        "prefLabel": "POLITICAL EXECUTIONS",
+        "definition": "THE DELIBERATE AND OFFICIAL KILLINGS OF PEOPLE AS A PUNISHMENT FOR THEIR POLITICAL BELIEFS OR ACTIONS.",
+        "altLabel": "STATE EXECUTIONS",
+        "id": "PoliticalExecutions",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "CAPITAL PUNISHMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "HUMAN RIGHTS"
+            }
+        ],
+        "label": "POLITICAL EXECUTIONS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/31433ca1-5b40-42c1-9bea-691fb3fc6168",
+        "prefLabel": "EMOTIONAL STATES",
+        "id": "EmotionalStates",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "EMOTIONS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "EMOTIONAL DISTURBANCES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "EMOTIONS (CROSS-CULTURAL ASPECTS)"
+            },
+            {
+                "predicate": "related",
+                "target": "ANTHROPOLOGY"
+            },
+            {
+                "predicate": "related",
+                "target": "MENTAL HEALTH"
+            }
+        ],
+        "label": "EMOTIONAL STATES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/20ccac9d-669e-4635-a381-7d02dd855c8b",
+        "prefLabel": "RACKET GAMES",
+        "altLabel": "BAT AND BALL GAMES",
+        "definition": "GAMES USING RACKETS OR BATS TO HIT A BALL OR OTHER OBJECT OVER A NET OR TO EACH OTHER",
+        "id": "RacketGames",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "SPORTS"
+            },
+            {
+                "predicate": "related",
+                "target": "TENNIS"
+            },
+            {
+                "predicate": "related",
+                "target": "SQUASH"
+            },
+            {
+                "predicate": "related",
+                "target": "SPEEDMINTON"
+            }
+        ],
+        "label": "RACKET GAMES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/0066767f-2143-4850-a765-ee819def49f1",
+        "prefLabel": "SUBURBS",
+        "definition": "OUTLYING PERIPHERAL NEIGHBOURHOODS OR COMMUNITIES OF A CITY OR TOWN THAT, COMPARED WITH THE CORE, HAS ITS OWN ECONOMIC ACHIEVEMENTS, LAND USE AND SENSE OF COMMUNITY",
+        "id": "Suburbs",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "URBAN AREAS"
+            }
+        ],
+        "label": "SUBURBS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/37f74cc3-daa9-4e05-90b2-22619325d93c",
+        "prefLabel": "COVID-19 VACCINATION",
+        "id": "Covid-19Vaccination",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "COVID-19"
+            }
+        ],
+        "label": "VACCINATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/49765455-4f3e-4d33-888a-eeab798f40db",
+        "prefLabel": "POLICE SERVICES",
+        "definition": "SERVICES PROVIDED BY THE POLICE FORCE TO PROMOTE AND MAINTAIN LAW AND ORDER IN A COMMUNITY",
+        "id": "PoliceServices",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "POLICE"
+            },
+            {
+                "predicate": "related",
+                "target": "CRIMINAL INVESTIGATION"
+            },
+            {
+                "predicate": "related",
+                "target": "LAW ENFORCEMENT"
+            }
+        ],
+        "label": "POLICE SERVICES"
+    },
+    {
+        "label": "RELIGIOUS SOCIETIES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/37908976-6232-4d68-97e7-167c58f13c55",
+        "prefLabel": "PHOTOJOURNALISM",
+        "definition": "THE PROCESS OF STORYTELLING THROUGH PHOTOGRAPHS IN THE PRESERVATION OF AN ACCURATE AND OBJECTIVE RECORD OF CURRENT EVENTS",
+        "id": "Photography",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PHOTOGRAPHY"
+            },
+            {
+                "predicate": "related",
+                "target": "JOURNALISM"
+            }
+        ],
+        "label": "PHOTOJOURNALISM"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/cfb8bfe2-7ecb-44dc-b43a-c8083375154c",
+        "prefLabel": "OVERPOPULATION",
+        "definition": "SITUATION WHERE THE SIZE OF THE POPULATION OF THE SPECIES EXCEEDS THE CARRYING CAPACITY OF ITS ECOLOGICAL NICHE.",
+        "id": "Overpopulation",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "POPULATION"
+            },
+            {
+                "predicate": "related",
+                "target": "ENVIRONMENTAL POTENTIAL",
+                "label": "ENVIRONMENTAL CARRYING CAPACITY"
+            },
+            {
+                "predicate": "related",
+                "target": "BIRTH RATE"
+            },
+            {
+                "predicate": "related",
+                "target": "MIGRATION"
+            },
+            {
+                "predicate": "related",
+                "target": "MORTALITY RATE"
+            },
+            {
+                "predicate": "related",
+                "target": "DEMOGRAPHIC TRANSITION"
+            }
+        ],
+        "label": "OVERPOPULATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/d5560670-2f68-4d39-917f-30eac30bad4f",
+        "prefLabel": "SITTING",
+        "altLabel": "SEATED POSITION",
+        "id": "Sitting",
+        "label": "SITTING"
+    },
+    {
+        "id": "HybridWork",
+        "prefLabel": "HYBRID WORK",
+        "label": "HYBRID WORK"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/46b7200c-be0e-45d7-9c28-ace749955fd9",
+        "prefLabel": "BUSINESS ECONOMICS",
+        "definition": "A STIMULATING DISCIPLINE WHICH STUDIES INSTITUTIONS, FIRMS AND MARKETS IN THE ECONOMY. IT PROVIDES A SCIENTIFIC DECISION-MAKING FRAMEWORK FOR MANAGERS, AND EXAMINES THE DECISIONS MADE BY COMPANIES, BOTH LARGE AND SMALL, FROM A VARIETY OF PERSPECTIVES.",
+        "altLabel": "BUSINESS MANAGEMENT",
+        "id": "BusinessEconomics",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ECONOMICS"
+            },
+            {
+                "predicate": "related",
+                "target": "MANAGEMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "MARKETING"
+            },
+            {
+                "predicate": "related",
+                "target": "FINANCE"
+            },
+            {
+                "predicate": "related",
+                "target": "BUSINESS ORGANISATION"
+            }
+        ],
+        "label": "BUSINESS ECONOMICS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/512fb268-795e-4b89-8ad0-b2dc7f7cea27",
+        "prefLabel": "FISHING",
+        "definition": "THE ACTIVITY OF CATCHING FISH FOR RECREATIONAL PURPOSES",
+        "altLabel": "ANGLING",
+        "id": "Fishing",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "WATER RECREATION"
+            },
+            {
+                "predicate": "related",
+                "target": "PROFESSIONAL FISHING"
+            },
+            {
+                "predicate": "related",
+                "target": "FISHING TECHNIQUES"
+            }
+        ],
+        "label": "Fishing (Sport)"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/3bd46b42-00b8-44cd-a793-4a80cce35f2d",
+        "prefLabel": "FUEL OILS",
+        "altLabel": "FUEL OIL",
+        "id": "FuelOils",
+        "label": "FUEL OILS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/81c9df35-bcb1-4b4c-b642-4317e6a5c9f2",
+        "prefLabel": "EDUCATIONAL PLANNING AND ADMINISTRATION",
+        "definition": "THE PLANNING, ORGANIZATION, DIRECTING AND CONTROLLING OF EDUCATIONAL INSTITUTIONS AND THEIR ACTIVITIES",
+        "id": "EducationalPlanningAndAdministration",
+        "label": "EDUCATIONAL PLANNING AND ADMINISTRATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/cfc6f427-6a4b-4a56-872b-8c4bf1dcb90f",
+        "prefLabel": "FOSTER CARE",
+        "definition": "THE CARE OF A CHILD IN A HOME ENVIRONMENT FOR A LIMITED PERIOD WHEN THE CHILD'S OWN PARENTS OR FAMILY MEMBERS OR THE PERSON RESPONSIBLE FOR THE CHILD'S CARE ARE UNABLE TO DO SO. FOSTER CARE MAY PROVIDE A CONTINUOUS FULL-TIME OR PART-TIME CARE UP TO 24 HOURS BASIS. CHILDREN IN FOSTER CARE REMAIN LEGALLY IN THE CHARGE OF THE LOCAL AUTHORITY AND FOSTER PARENTS ARE AUTHORIZED AND SUPPORTED BY THE LOCAL AUTHORITY. THE CARE MAY BE PROVIDED BY THE LOCAL AUTHORITY, VOLUNTARY ORGANISATIONS OR PRIVATE AGENCIES.",
+        "altLabel": "FOSTERAGE",
+        "id": "FosterCare",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CHILD CARE"
+            },
+            {
+                "predicate": "related",
+                "target": "KINSHIP CARE"
+            },
+            {
+                "predicate": "related",
+                "target": "ADOPTION"
+            }
+        ],
+        "label": "FOSTER CARE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/d8c68530-a9da-4619-9f23-7a0f645446a5",
+        "prefLabel": "DISEASES",
+        "id": "Diseases",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PATHOLOGIES"
+            }
+        ],
+        "label": "DISEASES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/7a138c81-75cc-4cb9-9f96-f108e77e173d",
+        "prefLabel": "CULTURAL ASSOCIATIONS",
+        "label": "CULTURAL ASSOCIATIONS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/502d5848-aea8-4901-b096-4177a3c5af2a",
+        "prefLabel": "COLONIALISM",
+        "id": "Colonialism",
+        "label": "COLONIALISM"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/152d1f9b-99f2-45b5-9b8c-e61df11ab2a2",
+        "prefLabel": "EXIT POLL",
+        "definition": "A SURVEY OF SELECTED VOTERS TAKEN IMMEDIATELY AFTER THEY HAVE VOTED, TO ESTIMATE THE RESULT OF THE ELECTION BY PREDICTING THE FINAL OUTCOME.",
+        "altLabel": "ELECTION DAY SURVEY",
+        "id": "ExitPoll",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PUBLIC OPINION RESEARCH"
+            },
+            {
+                "predicate": "related",
+                "target": "POLLS (OPINION POLLING)"
+            }
+        ],
+        "label": "EXIT POLLS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/7efb089c-3048-4fd5-8966-8e8101b5bf9b",
+        "prefLabel": "DEFENCE AND STATE SECURITY POLICY",
+        "definition": "DEFENCE AND STATE SECURITY POLICY ORGANISATION AND THINKING FOR THE CHANGING WORLD",
+        "id": "DefenceAndStateSecurityPolicy",
+        "altLabel": "DEFENCE POLICY AND MILITARY ORGANIZATION AND TACTICS",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "SECURITY POLICY"
+            },
+            {
+                "predicate": "related",
+                "target": "DEFENCE STRATEGY"
+            },
+            {
+                "predicate": "related",
+                "target": "MILITARY ORGANIZATION"
+            },
+            {
+                "predicate": "related",
+                "target": "INTERNATIONAL SECURITY"
+            },
+            {
+                "predicate": "related",
+                "target": "THREAT ASSESSMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "ARMED FORCES"
+            }
+        ],
+        "label": "DEFENCE AND STATE SECURITY POLICY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/d56f99c1-ff67-43d8-9818-ddc9a4391875",
+        "prefLabel": "VASCULAR DISEASES",
+        "altLabel": "CIRCULATORY DISEASES",
+        "id": "VascularDiseases",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CARDIOVASCULAR DISEASES"
+            },
+            {
+                "predicate": "related",
+                "target": "ARTERIOSCLEROSIS"
+            },
+            {
+                "predicate": "related",
+                "target": "PHLEBITIS"
+            }
+        ],
+        "label": "VASCULAR DISEASES"
+    },
+    {
+        "prefLabel": "ACCESS TO HEALTH SERVICES",
+        "id": "AccessToHealthServices",
+        "label": "ACCESS TO HEALTH SERVICES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/3ab6a3d6-df00-4e3a-9295-e857c3117bdd",
+        "prefLabel": "ANALYSIS",
+        "altLabel": "EXAMINATION",
+        "id": "Analysis",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "INVESTIGATION"
+            },
+            {
+                "predicate": "narrower",
+                "target": "QUALITATIVE METHODS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "QUANTITATIVE METHODS"
+            },
+            {
+                "predicate": "related",
+                "target": "SURVEYS"
+            },
+            {
+                "predicate": "related",
+                "target": "ANALYTICS"
+            }
+        ],
+        "label": "ANALYSIS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/9bef4596-4172-4b2c-b34e-2b0a704b88fb",
+        "prefLabel": "LEGAL AGE",
+        "definition": "AGE AT WHICH A PERSON IS ALLOWED TO TAKE ON CERTAIN LEGAL RIGHTS AND RESPONSIBILITIES",
+        "altLabel": "AGE OF MAJORITY",
+        "id": "LegalAge",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "CONSENT"
+            },
+            {
+                "predicate": "broader",
+                "target": "AGE"
+            }
+        ],
+        "label": "LEGAL AGE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/ed2d6ab1-d81c-4c90-b041-feb75bcf58bd",
+        "prefLabel": "PREGNANCY",
+        "definition": "THE STATE OF BEING PREGNANT; THE PERIOD FROM CONCEPTION TO BIRTH WHEN A WOMAN IS AWARE OF THE CONTINUED PRESENCE OF AN EMBRYO OR FOETUS IN HER UTERUS",
+        "altLabel": "",
+        "id": "Pregnancy",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "FERTILITY (HUMAN)"
+            },
+            {
+                "predicate": "narrower",
+                "target": "MENSTRUAL CYCLE"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ABORTION"
+            },
+            {
+                "predicate": "narrower",
+                "target": "EMERGENCY CONTRACEPTION"
+            },
+            {
+                "predicate": "related",
+                "target": "BIRTH RATE"
+            },
+            {
+                "predicate": "related",
+                "target": "FERTILITY DESIRES"
+            }
+        ],
+        "label": "PREGNANCY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/45e8d4ba-8e12-4cb1-8be4-d07b59b9f18a",
+        "prefLabel": "SUPPLY AND DEMAND",
+        "id": "SupplyAndDemand",
+        "label": "SUPPLY AND DEMAND"
+    },
+    {
+        "label": "ARCHITECTURE AND BUILDING EDUCATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/41c8eab6-3d1a-4f4f-a4e5-480de8c07a3e",
+        "prefLabel": "ADOPTED CHILDREN",
+        "altLabel": "ADOPTED OFFSPRING",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CHILDREN"
+            },
+            {
+                "predicate": "related",
+                "target": "ADOPTION"
+            }
+        ],
+        "label": "ADOPTED CHILDREN"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/0d4e0862-739a-4e39-adc6-7ef5f1c1add4",
+        "prefLabel": "SINGLES",
+        "altLabel": "SINGLEDOM",
+        "id": "Singles",
+        "label": "SINGLES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/59c72523-ffa1-46a3-bedf-027242adccfd",
+        "prefLabel": "NATIONAL SOCIALISM",
+        "altLabel": "NAZISM",
+        "id": "NationalSocialism",
+        "label": "NATIONAL SOCIALISM"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/8f3ba1e3-4c3b-499e-bfeb-453b86688e37",
+        "prefLabel": "CURRENCY DEVALUATION",
+        "definition": "A REDUCTION IN THE VALUE OF A COUNTRY'S CURRENCY IN RELATION TO ANOTHER CURRENCY, USUALLY BY GOVERNMENT DECREE.",
+        "altLabel": "DEVALUATION",
+        "id": "CurrencyDevaluation",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "EXCHANGE RATES"
+            },
+            {
+                "predicate": "related",
+                "target": "MONETARY POLICY"
+            }
+        ],
+        "label": "CURRENCY DEVALUATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/49057225-a257-4a46-aabf-4d0bfa927c15",
+        "prefLabel": "HEALTH EDUCATION",
+        "definition": "THE PROCESS OF PROVIDING PERSONS WITH THE INFORMATION AND SKILLS FOR MAKING POSITIVE HEALTH DECISIONS.",
+        "id": "HealthEducation",
+        "label": "HEALTH EDUCATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/vrfd8atbfhae25ab3-ce54-4636-b0a3-768e1a07b974",
+        "prefLabel": "RECREATIONAL FACILITIES",
+        "altLabel": "ENTERTAINMENT FACILITIES",
+        "id": "RecreationalFacilities",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "FACILITIES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "WATER RECREATIONAL AREAS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RECREATION AND LEISURE CENTRES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "PUBLIC HOUSES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "CANTEENS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RECREATIONAL BUILDINGS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "OPEN SPACES AND RECREATIONAL AREAS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RESTAURANTS"
+            },
+            {
+                "predicate": "related",
+                "target": "LEISURE TIME ACTIVITIES"
+            },
+            {
+                "predicate": "related",
+                "target": "SOCIAL ACTIVITIES (LEISURE)"
+            }
+        ],
+        "label": "VISITS TO RECREATIONAL FACILITIES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/6cefd65c-78c4-44cf-a14d-db87dae22175",
+        "prefLabel": "EDUCATIONAL FEES",
+        "definition": "ALL SUMS OF MONEY PAID TO EDUCATIONAL INSTITUTIONS FOR THE PROVISION OF EDUCATION",
+        "altLabel": "TUITION FEES",
+        "id": "EducationalFees",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "EDUCATIONAL EXPENDITURE"
+            }
+        ],
+        "label": "EDUCATIONAL FEES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/1cc38342-49f0-4c29-861b-873aab721531",
+        "prefLabel": "SMOKING CESSATION",
+        "id": "SmokingCessation",
+        "label": "SMOKING CESSATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/7aeb22ce-cea5-4a65-be5b-153c0eac263f",
+        "prefLabel": "UPPER SECONDARY EDUCATION",
+        "label": "UPPER SECONDARY EDUCATION"
+    },
+    {
+        "label": "SOCIAL RESEARCH"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/eea56e79-7db9-47a0-a8fc-7eba717b3e2c",
+        "prefLabel": "REFUSE",
+        "id": "Refuse",
+        "label": "REFUSE"
+    },
+    {
+        "label": "TRADE UNION OFFICIALS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/6deae53d-3f0b-489a-a4a7-6843da6dc8a0",
+        "prefLabel": "CIVIL PARTNERSHIP DISSOLUTION",
+        "label": "CIVIL PARTNERSHIP DISSOLUTION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/ce71d5e8-c770-413a-b622-6551c0f979f5",
+        "prefLabel": "THYROID DISORDERS",
+        "definition": "DISEASES AND DISORDERS THAT AFFECT THE THYROID GLAND.",
+        "id": "ThyroidDisorders",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ENDOCRINE DISORDERS"
+            }
+        ],
+        "label": "THYROID DISORDERS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/7772d0e3-c6ca-4d26-bf20-58d709f9efc1",
+        "prefLabel": "COGNITION DISORDERS",
+        "definition": "CONDITIONS CHARACTERIZED BY A DISTURBANCE IN THE COGNITIVE FUNCTIONING THAT MAY IMPAIR AN INDIVIDUAL'S ABILITY TO THINK, FOCUS, PERFORM DAILY ACTIVITIES, AND INTERACT WITH OTHERS",
+        "id": "CognitionDisorders",
+        "label": "COGNITION DISORDERS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/3405255b-83c3-45c2-81a5-bb5ae7b63975",
+        "prefLabel": "PROBATION PERIOD",
+        "altLabel": "TRIAL PERIOD OF EMPLOYMENT",
+        "id": "ProbationPeriod",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CONDITIONS OF EMPLOYMENT"
+            }
+        ],
+        "label": "PROBATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/0f52f3d2-f36f-4a04-9c3c-0e068d6b0a5b",
+        "prefLabel": "ASSASSINATION",
+        "id": "Assassination",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "TERRORISM"
+            },
+            {
+                "predicate": "related",
+                "target": "WAR CRIMES"
+            },
+            {
+                "predicate": "related",
+                "target": "ASSASSINATION PLOTS"
+            }
+        ],
+        "label": "ASSASSINATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/419e7c34-017e-4688-be45-201beaf9049e",
+        "prefLabel": "ECONOMICS OF EDUCATION",
+        "definition": "THE USE OF ECONOMIC ANALYSIS AND CONCEPTS TO EXAMINE ISSUES AND POLICIES RELATING TO EDUCATION",
+        "id": "EconomicsOfEducation",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ECONOMICS"
+            },
+            {
+                "predicate": "related",
+                "target": "EDUCATIONAL POLICY"
+            },
+            {
+                "predicate": "related",
+                "target": "EDUCATIONAL FINANCE"
+            }
+        ],
+        "label": "ECONOMICS OF EDUCATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/0b2c4549-b9cc-41dc-8076-12fa7e981a8c",
+        "prefLabel": "AUTOMATION",
+        "definition": "THE USE OF ELECTRONIC OR MECHANICAL DEVICES TO CONTROL A PROCESS, A SYSTEM, OR A PIECE OF EQUIPMENT",
+        "altLabel": "AUTOMATISERING",
+        "id": "Automation",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ENGINEERING"
+            },
+            {
+                "predicate": "related",
+                "target": "ROBOTICS"
+            },
+            {
+                "predicate": "related",
+                "target": "AUTONOMOUS SYSTEMS"
+            }
+        ],
+        "label": "AUTOMATION"
+    },
+    {
+        "label": "ELECTRICAL EQUIPMENT"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/a113a8f2-c8e9-4ede-9a33-1d96c54fc416",
+        "prefLabel": "PHYSICAL ACTIVITIES",
+        "altLabel": "EXERCISE (PHYSICAL ACTIVITY)",
+        "id": "PhysicalActivities",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "SPORTS AND EXERCISE"
+            },
+            {
+                "predicate": "narrower",
+                "target": "WARM-UP"
+            },
+            {
+                "predicate": "narrower",
+                "target": "AEROBIC EXERCISE"
+            },
+            {
+                "predicate": "narrower",
+                "target": "WEIGHT TRAINING"
+            },
+            {
+                "predicate": "narrower",
+                "target": "CALISTHENICS"
+            },
+            {
+                "predicate": "related",
+                "target": "FITNESS TRAINING"
+            },
+            {
+                "predicate": "related",
+                "target": "ATHLETIC SHOES"
+            }
+        ],
+        "label": "PHYSICAL ACTIVITIES"
+    },
+    {
+        "prefLabel": "EXCHANGE RATES",
+        "altLabel": "FOREIGN EXCHANGE RATES",
+        "id": "ExchangeRates",
+        "label": "EXCHANGE RATES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/0326e929-168e-4a6b-a5d3-0c6523bd48c6",
+        "prefLabel": "NATO",
+        "definition": "A MILITARY ALLIANCE OF TWENTY SEVEN COUNTRIES FROM EUROPE AND NORTH AMERICA WITH A MISSION TO PROTECT THE FREEDOM AND SECURITY OF ITS MEMBERS THROUGH POLITICAL AND MILITARY COOPERATION. IT WAS FOUNDED IN 1949 AND ITS HEADQUARTERS ARE LOCATED IN BRUSSELS, BELGIUM.",
+        "altLabel": "NORTH ATLANTIC TREATY ORGANIZATION",
+        "id": "NATO",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "COLD WAR"
+            },
+            {
+                "predicate": "related",
+                "target": "INTERNATIONAL ALLIANCES"
+            },
+            {
+                "predicate": "related",
+                "target": "DEFENCE"
+            }
+        ],
+        "label": "NATO"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/3300f496-dfa0-4b6d-b269-77aceca5a12c",
+        "prefLabel": "EXTERNAL BROADCASTING",
+        "definition": "BROADCASTING SERVICE RECEIVED FROM OUTSIDE THE COUNTRY OF RECEIPT",
+        "altLabel": "SATELLITE BROADCASTING",
+        "id": "ExternalBroadcasting",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "BROADCASTING"
+            },
+            {
+                "predicate": "related",
+                "target": "SATELLITE COMMUNICATION"
+            }
+        ],
+        "label": "EXTERNAL BROADCASTING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/5a811af0-45b7-4321-a5a1-092d3d490338",
+        "prefLabel": "CIVIC EDUCATION",
+        "definition": "EDUCATION AIMED AT PREPARING INDIVIDUALS TO BECOME ACTIVE AND ENGAGED CITIZENS IN THEIR COMMUNITY AND SOCIETY",
+        "id": "CivicEducation",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CITIZENSHIP EDUCATION"
+            },
+            {
+                "predicate": "related",
+                "target": "CIVIC PARTICIPATION"
+            }
+        ],
+        "label": "CIVIC EDUCATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/9ef6cedc-59a3-4fc9-a062-8b48c356767c",
+        "prefLabel": "SCIENCE",
+        "id": "Science",
+        "label": "SCIENCE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4e2eae1c-08a5-47ca-a85b-90c91e6f8000",
+        "prefLabel": "EVERYDAY LIFE",
+        "id": "EverydayLife",
+        "label": "EVERYDAY LIFE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/8f98279b-07ca-4cc8-a92d-835efe51d5a0",
+        "prefLabel": "MOTORCYCLES",
+        "altLabel": "MOTORBIKES",
+        "id": "Motorcycles",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "MOTOR VEHICLES"
+            },
+            {
+                "predicate": "related",
+                "target": "MOTORCYCLE RACING"
+            },
+            {
+                "predicate": "related",
+                "target": "MOTORCYCLING"
+            }
+        ],
+        "label": "MOTORCYCLES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/b9bfa467-0d48-458c-aa6e-11e3c3241ef4",
+        "prefLabel": "MEDICAL PRESCRIPTIONS",
+        "definition": "MISCELLANEOUS MEDICAL INFORMATION RELATED TO PRESCRIPTION DRUGS",
+        "altLabel": "MEDICAL PRESCRIPTION INFORMATION",
+        "id": "MedicalPrescriptions",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "PHARMACIES"
+            }
+        ],
+        "label": "MEDICAL PRESCRIPTIONS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/f2627e22-e98e-4d3c-881f-5d13c962569a",
+        "prefLabel": "ORAL HEALTH",
+        "definition": "THE STATE OF BEING FREE FROM MOUTH AND TOOTH DISEASES, MALFUNCTIONS AND DISORDERS",
+        "id": "OralHealth",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "DENTAL AND ORAL HEALTH"
+            }
+        ],
+        "label": "ORAL HEALTH"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/bc2d8180-31e4-4a6a-bcb6-2cbc801f38e3",
+        "prefLabel": "RURAL DEVELOPMENT",
+        "definition": "EFFORTS TO IMPROVE LIVING CONDITIONS IN RURAL AREAS. USUALLY INCLUDES IMPROVEMENT OF BASIC INFRASTRUCTURE, SOCIAL AND ECONOMIC SERVICES, AND BRINGING RURAL AREAS UP TO DATE IN EDUCATION, INCOME AND EMPLOYMENT OPPORTUNITIES AS COMPARED TO URBAN AREAS.",
+        "id": "RuralDevelopment",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "RURAL AREAS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RURAL PLANNING"
+            },
+            {
+                "predicate": "related",
+                "target": "FARMING"
+            }
+        ],
+        "label": "RURAL DEVELOPMENT"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/becf13ae-fa53-4ccc-9830-89cf0d9d25b9",
+        "prefLabel": "ANXIETY DISORDERS",
+        "id": "AnxietyDisorders",
+        "label": "ANXIETY DISORDERS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/16d34c3e-2f9f-4205-93ca-6ba77e54a8f1",
+        "prefLabel": "WOMEN'S RIGHTS",
+        "altLabel": "GENDER EQUALITY",
+        "id": "WomensRights",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "HUMAN RIGHTS"
+            }
+        ],
+        "label": "WOMEN'S RIGHTS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/20c58540-3d16-4770-982e-a253af124d85",
+        "prefLabel": "HERBICIDES",
+        "definition": "CHEMICAL SUBSTANCES USED TO KILL WEEDS AND UNDESIRABLE PLANTS",
+        "id": "Herbicides",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PESTICIDES"
+            },
+            {
+                "predicate": "related",
+                "target": "AGRICULTURAL CHEMICALS"
+            }
+        ],
+        "label": "HERBICIDES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/a9b80348-5c51-4815-b5bb-f04f04978f8b",
+        "prefLabel": "ENVIRONMENTAL LAW",
+        "altLabel": "LAW, ENVIRONMENTAL",
+        "definition": "THE BODY OF LAW THAT ESTABLISHES AND REGULATES THE RIGHTS AND RESPONSIBILITIES OF CITIZENS, COMPANIES, AND OTHER ENTITIES IN RELATION TO THE ENVIRONMENT. THIS CAN INCLUDE ENVIRONMENTAL CONSERVATION, USE OF NATURAL RESOURCES, AIR AND WATER POLLUTION CONTROL, AND WASTE MANAGEMENT.",
+        "id": "EnvironmentalLaw",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "LAW"
+            },
+            {
+                "predicate": "narrower",
+                "target": "WASTE MANAGEMENT"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ENVIRONMENTAL POLICY"
+            },
+            {
+                "predicate": "narrower",
+                "target": "CONSERVATION OF ENVIRONMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "ENVIRONMENTAL PROTECTION"
+            },
+            {
+                "predicate": "related",
+                "target": "SUSTAINABLE DEVELOPMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "ENVIRONMENTAL LEGISLATION"
+            },
+            {
+                "predicate": "related",
+                "target": "ENVIRONMENTAL REGULATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "ENVIRONMENTAL ETHICS"
+            },
+            {
+                "predicate": "related",
+                "target": "ENVIRONMENTAL IMPACT ASSESSMENT (ECOLOGY)"
+            }
+        ],
+        "label": "ENVIRONMENTAL LAW"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/57d1e4f9-cd1e-4346-be72-1c3fef9c568a",
+        "prefLabel": "AGRICULTURAL BIOTECHNOLOGY",
+        "id": "AgriculturalBiotechnology",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "AGRICULTURE"
+            },
+            {
+                "predicate": "narrower",
+                "target": "GENETICALLY MODIFIED ORGANISMS"
+            },
+            {
+                "predicate": "related",
+                "target": "BIOTECHNOLOGY"
+            }
+        ],
+        "label": "AGRICULTURAL BIOTECHNOLOGY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/1db0f1bb-68a0-4926-a2b0-06d1a92d1f5e",
+        "prefLabel": "UNITED NATIONS GENERAL ASSEMBLY",
+        "label": "UNITED NATIONS GENERAL ASSEMBLY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/6462cbca-b178-460c-a2ba-8d63de82a44b",
+        "prefLabel": "TOURIST FACILITIES",
+        "definition": "SERVICES AND FACILITIES AVAILABLE TO TOURISTS, SUCH AS ACCOMMODATION, RESTAURANTS, TRANSPORTATION, SOUVENIR SHOPS, ETC.",
+        "altLabel": "TOURIST AMENITIES, HOTEL FACILITIES",
+        "id": "TouristFacilities",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "HOSPITALITY INDUSTRY"
+            },
+            {
+                "predicate": "related",
+                "target": "TOURISM"
+            },
+            {
+                "predicate": "broader",
+                "target": "INFORMATION AND COMMUNICATIONS TECHNOLOGY"
+            }
+        ],
+        "label": "TOURIST FACILITIES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/3cc677b4-b223-4a3c-971f-82e92e065667",
+        "prefLabel": "INTERNATIONAL EQUILIBRIUM",
+        "id": "InternationalEquilibrium",
+        "label": "INTERNATIONAL EQUILIBRIUM"
+    },
+    {
+        "label": "FAMILY LIFE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/6c38c5af-6000-4910-9a9d-bd1d7f227459",
+        "prefLabel": "CEREMONIES",
+        "label": "CEREMONIES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/784a127a-4a4c-4cb4-82da-8b319e51513b",
+        "prefLabel": "UPPER HOUSE",
+        "id": "UpperHouse",
+        "label": "UPPER HOUSE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4b51fbb6-e4e2-41f0-aaba-394f7b6936a2",
+        "prefLabel": "AGRICULTURAL SUBSIDIES",
+        "id": "AgriculturalSubsidies",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "AGRICULTURAL ECONOMICS"
+            },
+            {
+                "predicate": "related",
+                "target": "SUBSISTENCE AGRICULTURE"
+            }
+        ],
+        "label": "AGRICULTURAL SUBSIDIES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/9a9e878b-27e9-437d-8bc0-dda01c13b5ad",
+        "prefLabel": "REFERENDUMS",
+        "definition": "A VOTE IN WHICH A POPULATION CHOOSES A YES OR NO ANSWER TO A PARTICULAR QUESTION.",
+        "altLabel": "PLEBISCITES",
+        "id": "Referendums",
+        "label": "REFERENDUMS"
+    },
+    {
+        "uri": "",
+        "prefLabel": "DRUG DEALING",
+        "definition": "",
+        "altLabel": "",
+        "id": "DrugDealing",
+        "relationships": [
+            {
+                "predicate": "",
+                "target": ""
+            }
+        ],
+        "label": "DRUG DEALING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/77989997-aabb-4492-84c6-3b0fab0e5516",
+        "prefLabel": "MONEY",
+        "id": "Money",
+        "label": "MONEY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/cdabaffb-ead5-4205-bc90-1e7ebacdf448",
+        "prefLabel": "DATA BREACHES",
+        "definition": "UNAUTHORIZED ACCESS TO OR RELEASE OF SENSITIVE OR PRIVATE INFORMATION, LEADING TO POTENTIAL HARM OR DISCLOSURE OF PERSONAL DATA.",
+        "id": "DataBreaches",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CYBERCRIME"
+            },
+            {
+                "predicate": "related",
+                "target": "DATA PROTECTION"
+            },
+            {
+                "predicate": "related",
+                "target": "CONFIDENTIALITY"
+            },
+            {
+                "predicate": "related",
+                "target": "HACKING"
+            },
+            {
+                "predicate": "related",
+                "target": "PRIVACY"
+            }
+        ],
+        "label": "DATA BREACHES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/86e1ea5a-354e-4c80-b546-670eb03b391b",
+        "prefLabel": "NATIONALITY DISCRIMINATION",
+        "altLabel": "DISCRIMINATION ON THE BASIS OF NATIONAL ORIGIN",
+        "id": "NationalityDiscrimination",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "NATIONALITY"
+            }
+        ],
+        "label": "DISCRIMINATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/9b12961c-f9f9-4c8c-ac1d-8fbcd2347f05",
+        "prefLabel": "SPACECRAFT",
+        "id": "Spacecraft",
+        "label": "SPACECRAFT"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/7e685992-3a8f-48a1-a5b3-07010b2d48ac",
+        "prefLabel": "REGIONAL GOVERNMENT",
+        "definition": "THE ADMINISTRATIVE AND DECISIONMAKING STRUCTURE FOR THE REGIONAL LEVEL OF GOVERNMENT, USUALLY SUBDIVIDED INTO COUNTIES, DEPARTMENTS, REGIONS, STATES OR PROVINCES. RESPONSIBILITIES OF REGIONAL GOVERNMENTS ARE DETERMINED BY THE NATIONAL GOVERNMENT WHICH PROVIDES THEM WITH CERTAIN POWERS, AND MAY INCLUDE MATTERS SUCH AS EDUCATION, HEALTH, TRANSPORT, AND REGIONAL PLANNING. REGIONAL GOVERNMENTS MAY ALSO HAVE SUBSIDIARY AGENCIES FOR ADMINISTERING SOME RESPONSIBILITIES.",
+        "id": "RegionalGovernment",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "GOVERNMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "LOCAL GOVERNMENT"
+            }
+        ],
+        "label": "REGIONAL GOVERNMENT"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/968d8b28-c98a-441a-a6e8-d50fedaabcc8",
+        "prefLabel": "AGE",
+        "definition": "A SUBSTANTIVE PREDICATE DENOTING THE NUMBER OF YEARS (I.E. DURATION) AN INDIVIDUAL HAS LIVED; IN A NON-HUMAN CONTEXT REFERS TO THE LENGTH OF LIFE OF AN ANIMAL OR PLANT; ALSO REFERS TO THE LENGTH OF TIME A THING HAS EXISTED.",
+        "id": "Age",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "GROWTH"
+            },
+            {
+                "predicate": "related",
+                "target": "LIFE EXPECTANCY"
+            },
+            {
+                "predicate": "related",
+                "target": "AGE GROUPS"
+            },
+            {
+                "predicate": "broader",
+                "target": "TIME"
+            },
+            {
+                "predicate": "related",
+                "target": "AGE DISCRIMINATION"
+            },
+            {
+                "predicate": "related",
+                "target": "AGING PROCESS"
+            }
+        ],
+        "label": "AGE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/f251e431-cf38-4b4d-8cec-f31a0ea68380",
+        "prefLabel": "SOCIAL INFLUENCE",
+        "definition": "THE POWER OF SOCIAL MEDIA TO SHAPE THE ATTITUDES AND BELIEFS OF INDIVIDUALS",
+        "id": "SocialInfluence",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "SOCIAL MEDIA"
+            },
+            {
+                "predicate": "related",
+                "target": "SOCIAL MEDIA INFLUENCERS"
+            }
+        ],
+        "label": "SOCIAL INFLUENCE"
+    },
+    {
+        "prefLabel": "TELEVISION VIEWING",
+        "label": "TELEVISION VIEWING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/bf04968e-f06b-433d-977a-381f657bae53",
+        "prefLabel": "RESEARCH METHODOLOGY",
+        "definition": "THE SYSTEMATIC APPLICATION OF PRINCIPLES AND METHODS TO PLAN, DEVELOP AND EVALUATE PROJECTS.",
+        "altLabel": "METHODOLOGICAL RESEARCH",
+        "id": "ResearchMethodology",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "RESEARCH"
+            },
+            {
+                "predicate": "narrower",
+                "target": "EXPLOITATION"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RESEARCH COOPERATION"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RESEARCH FUNDING"
+            }
+        ],
+        "label": "RESEARCH METHODOLOGY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/d55bbff6-df21-432a-a7b6-05a4cbf9af80",
+        "prefLabel": "JOB EVALUATION",
+        "definition": "A SYSTEMATIC METHOD FOR ELIMINATING DISCRIMINATION IN JOB ROTATION, JOB TRAINING, JOB SPECIFICATION, WAGE ADMINISTRATION AND OTHER AREAS RELATED TO JOB CLASSIFICATION",
+        "altLabel": "JOB CLASSIFICATION",
+        "id": "JobEvaluation",
+        "label": "JOB EVALUATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/e9b100a3-99db-4bf4-857f-7bbbbe15b646",
+        "prefLabel": "SCHOOL BULLYING",
+        "definition": "REPEATED ABUSIVE BEHAVIOUR TOWARDS A STUDENT EITHER PHYSICALLY, VERBALLY, OR EMOTIONALLY WITHIN AN EDUCATIONAL SETTING",
+        "id": "SchoolBullying",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "BULLYING"
+            },
+            {
+                "predicate": "related",
+                "target": "BULLYING POLICIES"
+            }
+        ],
+        "label": "SCHOOL BULLYING"
+    },
+    {
+        "uri": "",
+        "prefLabel": "MERGERS",
+        "id": "Mergers",
+        "relationships": [],
+        "label": "MERGERS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/c081ee81-343d-419b-b7ef-4432889f1413",
+        "prefLabel": "TRANSPORT SAFETY",
+        "definition": "THE PRACTICE OF IMPLEMENTING MEASURES TO ENSURE THE SAFETY OF PEOPLE AND GOODS WHILE TRANSPORTING THEM, AND TO MINIMIZE THE RISK OF ACCIDENTS, INJURIES AND DAMAGE DURING TRANSPORTATION",
+        "id": "TransportSafety",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "SAFETY"
+            },
+            {
+                "predicate": "related",
+                "target": "ROAD SAFETY"
+            },
+            {
+                "predicate": "related",
+                "target": "RAIL SAFETY"
+            },
+            {
+                "predicate": "related",
+                "target": "MARITIME SAFETY"
+            },
+            {
+                "predicate": "related",
+                "target": "AVIATION SAFETY"
+            }
+        ],
+        "label": "TRANSPORT SAFETY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/deb1aed5-9519-4ba5-bc0c-2e5b819c8f9e",
+        "prefLabel": "POLITICAL IDEOLOGIES",
+        "altLabel": "DOCTRINES",
+        "id": "Ideologies",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PHILOSOPHY"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ECONOMIC DOCTRINES"
+            },
+            {
+                "predicate": "related",
+                "target": "BELIEFS"
+            }
+        ],
+        "label": "POLITICAL IDEOLOGIES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/fb26bce4-720c-4602-848d-acb425aa3918",
+        "prefLabel": "BRONCHIAL DISEASES",
+        "id": "BronchialDiseases",
+        "label": "BRONCHIAL DISEASES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/b8e139fd-8981-4a64-93c9-89dc1756f655",
+        "prefLabel": "MILITARY EDUCATION",
+        "definition": "EDUCATION THAT PROMOTES AND DEVELOPS KNOWLEDGE, SKILLS AND VALUES RELATED TO THE MILITARY PROFESSION, ITS HISTORY, PRINCIPLES, LEADERSHIP, AND ETHICAL CONDUCT. TRAINING FOR CADETS, OFFICERS AND OTHER RANKS MAY ALSO BE INCLUDED.",
+        "altLabel": "WAR EDUCATION",
+        "id": "MilitaryEducation",
+        "label": "MILITARY EDUCATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/a96859d3-db1c-4475-89c7-43da0d2515da",
+        "prefLabel": "LOANS",
+        "label": "LOANS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4310e158-6621-4730-ba62-fa5c47cc0a4c",
+        "prefLabel": "SOCIAL SKILLS",
+        "definition": "A qualitatively defined concept that encompasses attributes and dispositions that facilitate positive interactions with others, and include linguistically-based communicative behaviours as well as non-verbal indicators",
+        "id": "SocialSkills",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "COMMUNICATION SKILLS"
+            },
+            {
+                "predicate": "related",
+                "target": "INTERPERSONAL RELATIONSHIPS"
+            },
+            {
+                "predicate": "related",
+                "target": "EMPATHY"
+            },
+            {
+                "predicate": "related",
+                "target": "TEAMWORK"
+            },
+            {
+                "predicate": "related",
+                "target": "CONFLICT RESOLUTION"
+            }
+        ],
+        "label": "SOCIAL SKILLS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/cb20b4a7-3651-4b6a-b18b-6ef60f823900",
+        "prefLabel": "SPORTSPERSONS",
+        "altLabel": "ATHLETES",
+        "definition": "PERSONS WHO PARTICIPATE IN SPORTS COMPETITIONS",
+        "id": "SportsPersons",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "SPORTS PROFESSIONALS"
+            },
+            {
+                "predicate": "related",
+                "target": "SPORTS RETIREMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "SPORTS FEDERATIONS"
+            }
+        ],
+        "label": "SPORTSPERSONS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/ce2e6176-364b-4782-8820-2e733b7378bd",
+        "prefLabel": "ASSAULT",
+        "definition": "THE THREAT OF FORCE, OR A PHYSICAL ATTACK INTENDED TO CAUSE BODILY HARM",
+        "altLabel": "BATTERY",
+        "id": "Assault",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "VIOLENT CRIMES"
+            },
+            {
+                "predicate": "related",
+                "target": "DOMESTIC VIOLENCE"
+            },
+            {
+                "predicate": "related",
+                "target": "SEXUAL ASSAULT"
+            },
+            {
+                "predicate": "related",
+                "target": "HUMAN TRAFFICKING"
+            }
+        ],
+        "label": "ASSAULT"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/c9811de6-6ca0-4f0d-932d-526a511b223c",
+        "prefLabel": "POLITICAL MANIFESTOS",
+        "definition": "A PUBLIC DECLARATION OF THE POLICIES AND BELIEFS OF A POLITICAL PARTY, CANDIDATE OR GOVERNMENT",
+        "id": "PoliticalManifestos",
+        "label": "POLITICAL MANIFESTOS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/9815d149-7f24-46af-bd0a-77344ad559c2",
+        "prefLabel": "MALNUTRITION",
+        "altLabel": "MALNUTRITION",
+        "id": "Malnutrition",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "NUTRITION"
+            },
+            {
+                "predicate": "related",
+                "target": "CHILD NUTRITION"
+            },
+            {
+                "predicate": "related",
+                "target": "FOOD SECURITY"
+            },
+            {
+                "predicate": "related",
+                "target": "DISEASES AND DISORDERS"
+            }
+        ],
+        "label": "MALNUTRITION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4881d01a-593c-4e06-a51e-489f076082b5",
+        "prefLabel": "PUBLIC FINANCE",
+        "definition": "THE SOURCES OF INCOME AND THE USE OF THAT INCOME BY NATIONS OR IN RUSSIA BY THE STATE",
+        "altLabel": "GOVERNMENT FINANCE",
+        "id": "PublicFinance",
+        "label": "PUBLIC FINANCE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/1d114b77-5d8c-4716-bbdd-4ea14952d2b0",
+        "prefLabel": "MEDICAL ETHICS",
+        "definition": "ETHICAL PRINCIPLES AND VALUES GOVERNING THE CONDUCT AND DELIVERY OF HEALTH CARE AND MEDICAL RESEARCH",
+        "id": "MedicalEthics",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ETHICS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "BIOETHICS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "CLINICAL ETHICS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RESEARCH ETHICS"
+            }
+        ],
+        "label": "MEDICAL ETHICS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/3a8f078e-036a-4721-8818-fe4a8292be4e",
+        "prefLabel": "ARMS TRADE",
+        "definition": "THE SALE OR TRANSFER OF MILITARY WEAPONS AND TECHNOLOGY BETWEEN NATIONS OR PRIVATE COMPANIES",
+        "id": "ArmsTrade",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ARMS INDUSTRY"
+            },
+            {
+                "predicate": "related",
+                "target": "MILITARY TECHNOLOGY"
+            }
+        ],
+        "label": "ARMS TRADE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/ee81bbbf-ecaa-4b06-8eaa-1b6878c2d9cd",
+        "prefLabel": "EXTORTION",
+        "definition": "COERCIVELY OBTAINING GOODS, SERVICES, OR MONEY FROM SOMEONE THROUGH THE USE OF THREATS OR FORCE",
+        "altLabel": "BLACKMAIL",
+        "id": "Extortion",
+        "label": "EXTORTION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/459842f2-597c-4d2a-870f-d4cdc721e871",
+        "prefLabel": "MILITARY POWER",
+        "id": "MilitaryPower",
+        "label": "MILITARY POWER"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/cf6e056a-bf28-49f3-95ea-5d382accd2ed",
+        "prefLabel": "DRUG POLICY",
+        "definition": "A DEFINITE COURSE OR METHOD OF ACTION SELECTED FROM AMONG DRUG POLICY ALTERNATIVES AND IN THE LIGHT OF GIVEN CONDITIONS. REFERS TO POLICY AT EITHER NATIONAL OR INTERNATIONAL LEVEL.",
+        "id": "DrugPolicy",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "POLICY"
+            },
+            {
+                "predicate": "related",
+                "target": "DRUG LEGISLATION"
+            },
+            {
+                "predicate": "related",
+                "target": "DRUG USE PREVENTION"
+            },
+            {
+                "predicate": "related",
+                "target": "DRUG LAWS"
+            }
+        ],
+        "label": "DRUG POLICY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/ceed1823-213c-4485-b529-eef7916c6f34",
+        "prefLabel": "NEWS",
+        "definition": "INFORMATION, IDEAS OR OPINIONS THAT ARE EITHER RECENTLY OCCURRED OR NEW",
+        "altLabel": "LATEST EVENTS",
+        "id": "News",
+        "label": "NEWS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/69496b6c-9216-4879-a229-950401542506",
+        "prefLabel": "PHILOSOPHICAL SCHOOLS",
+        "definition": "SCHOOLS OF THOUGHT WITHIN PHILOSOPHY",
+        "altLabel": "SCHOOLS OF THOUGHT",
+        "id": "PhilosophicalSchools",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PHILOSOPHY"
+            },
+            {
+                "predicate": "narrower",
+                "target": "EPICUREANISM"
+            },
+            {
+                "predicate": "narrower",
+                "target": "STOICISM"
+            },
+            {
+                "predicate": "narrower",
+                "target": "PLATONISM"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ARISTOTELIANISM"
+            },
+            {
+                "predicate": "related",
+                "target": "PHILOSOPHY EDUCATION"
+            }
+        ],
+        "label": "PHILOSOPHICAL SCHOOLS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/f50887c5-c3a4-4dfc-9081-d797be5f12aa",
+        "prefLabel": "QUALITY OF EDUCATION",
+        "definition": "THE OVERALL EFFECTIVENESS OF THE EDUCATION SYSTEM AT PROVIDING THE NECESSARY KNOWLEDGE AND SKILLS TO STUDENTS",
+        "altLabel": "EDUCATIONAL EFFECTIVENESS",
+        "id": "QualityOfEducation",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "EDUCATION EVALUATION"
+            },
+            {
+                "predicate": "related",
+                "target": "EDUCATIONAL OUTCOMES"
+            },
+            {
+                "predicate": "related",
+                "target": "STUDENT ACHIEVEMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "EDUCATIONAL STANDARDS"
+            }
+        ],
+        "label": "QUALITY OF EDUCATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/2fc6ef6c-24db-4c64-bb7a-6a822ca3f78f",
+        "prefLabel": "NUPTIALITY",
+        "id": "Nuptiality",
+        "label": "NUPTIALITY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/76de3804-e08c-422a-a52f-dda2cb4da376",
+        "prefLabel": "COURTS",
+        "definition": "GOVERNMENTAL TRIBUNALS WITH AUTHORITY TO ADMINISTER JUSTICE",
+        "id": "Courts",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "LEGAL PROCEDURE"
+            }
+        ],
+        "label": "COURTS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/13f5e942-37c3-4d05-9730-97d54f9c155f",
+        "prefLabel": "HEALTH PROMOTION",
+        "definition": "PLANNED, SYSTEMATIC EFFORT TO ENABLE PEOPLE TO TAKE CONTROL OVER THEIR HEALTH",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PUBLIC HEALTH"
+            },
+            {
+                "predicate": "narrower",
+                "target": "INTENTIONS TO AN ACTION"
+            },
+            {
+                "predicate": "related",
+                "target": "HEALTH EDUCATION"
+            },
+            {
+                "predicate": "related",
+                "target": "PREVENTIVE MEDICINE"
+            }
+        ],
+        "label": "HEALTH PROMOTION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/fbee5620-40e9-49f9-99da-969dd62026b7",
+        "prefLabel": "WILD ANIMALS",
+        "id": "WildAnimals",
+        "label": "WILD ANIMALS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/0528edce-9306-4ba2-9f5e-a3975245c62e",
+        "prefLabel": "SPORTS TRAINING",
+        "definition": "ANY TYPE OF PHYSICAL TRAINING OR DRILL DESIGNED TO IMPROVE OR DEVELOP PHYSICAL ABILITIES, SKILLS OR TECHNIQUES IN THE CONTEXT OF SPORTS",
+        "altLabel": "PHYSICAL TRAINING",
+        "id": "SportsTraining",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "TRAINING ACTIVITIES"
+            },
+            {
+                "predicate": "related",
+                "target": "SPORT"
+            },
+            {
+                "predicate": "related",
+                "target": "COACHING"
+            }
+        ],
+        "label": "SPORTS TRAINING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/bec5ecdb-3dad-4242-af87-310e69621603",
+        "prefLabel": "BOREDOM",
+        "definition": "A STATE OF MENTAL TIREDNESS, LACK OF STIMULATION AND FEELING APATHETICLY INAWARE.",
+        "id": "Boredom",
+        "label": "BOREDOM"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4117546b-2d08-4b55-8701-590d608e3ce9",
+        "prefLabel": "HUNGER",
+        "altLabel": "STARVATION",
+        "id": "Hunger",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "DISASTERS"
+            },
+            {
+                "predicate": "related",
+                "target": "FOOD AID"
+            },
+            {
+                "predicate": "related",
+                "target": "FOOD"
+            },
+            {
+                "predicate": "related",
+                "target": "FOOD SHORTAGES"
+            }
+        ],
+        "label": "HUNGER"
+    },
+    {
+        "prefLabel": "STATUS IN EMPLOYMENT",
+        "label": "STATUS IN EMPLOYMENT"
+    },
+    {
+        "prefLabel": "HOBBIES",
+        "id": "Hobbies",
+        "label": "HOBBIES"
+    },
+    {
+        "prefLabel": "FREEDOM OF EXPRESSION",
+        "id": "FreedomOfExpression",
+        "label": "FREEDOM OF EXPRESSION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/c8cdd955-10f0-4f01-a3ce-c46fcc79d9a9",
+        "prefLabel": "LICENSING SYSTEMS",
+        "altLabel": "LICENSING FRAMEWORKS",
+        "id": "LicensingSystems",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "REGULATION OF ACCESS TO INFORMATION"
+            }
+        ],
+        "label": "LICENCES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/d6363703-b167-4820-b66a-7496ee4e85ab",
+        "prefLabel": "TIME METHODS",
+        "altLabel": "TIME METHODOLOGY",
+        "id": "TimeMethods",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "RESEARCH METHODOLOGY"
+            },
+            {
+                "predicate": "related",
+                "target": "TIME USE"
+            },
+            {
+                "predicate": "related",
+                "target": "TIME ESTIMATION"
+            }
+        ],
+        "label": "TIME METHODS (RESEARCH)"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/7146f73b-8006-4666-b3d9-77525073dc46",
+        "prefLabel": "WORLD TRADE ORGANIZATION",
+        "definition": "INTERNATIONAL INSTITUTION THAT SUPERVISES WORLD TRADE",
+        "altLabel": "WTO",
+        "id": "WorldTradeOrganization",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "INTERNATIONAL ORGANIZATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "FREE TRADE"
+            },
+            {
+                "predicate": "related",
+                "target": "TARIFFS"
+            },
+            {
+                "predicate": "related",
+                "target": "EXPORTS"
+            },
+            {
+                "predicate": "related",
+                "target": "IMPORTS"
+            }
+        ],
+        "label": "WORLD TRADE ORGANIZATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/a4d0351d-0b3b-480b-8dfe-596f27f67afb",
+        "prefLabel": "LARGE SHOPS",
+        "id": "LargeShops",
+        "label": "LARGE SHOPS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/f0dccf78-bcf9-4270-9e90-c6e400ff32bd",
+        "prefLabel": "SIKHISM",
+        "altLabel": "SIKHS",
+        "id": "Sikhism",
+        "label": "SIKHISM"
+    },
+    {
+        "prefLabel": "LANGUAGES",
+        "label": "LANGUAGES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/8416c155-4242-49c4-bc3d-505c7ce8c9d8",
+        "prefLabel": "CRIMINAL NEGLIGENCE",
+        "definition": "NEGLIGENCE OF A CRIMINAL LEVEL THAT CREATES AN UNACCEPTABLE RISK OF HARM OR DEATH TO ANOTHER PERSON",
+        "id": "CriminalNegligence",
+        "label": "CRIMINAL NEGLIGENCE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4b7e2543-9f3f-40bb-9188-75e23a281734",
+        "prefLabel": "EDUCATIONAL ADMISSION AGE",
+        "definition": "THE MINIMUM AGE AT WHICH A PERSON CAN BE ADMITTED TO AN EDUCATIONAL INSTITUTION",
+        "id": "EducationalAdmissionAge",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "EDUCATIONAL ADMISSION"
+            }
+        ],
+        "altLabel": "ADMISSION AGE",
+        "label": "EDUCATIONAL ADMISSION AGE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/3cfd70cb-dd36-4648-9c27-703206a4d9c8",
+        "prefLabel": "HOURS OF SUNLIGHT",
+        "definition": "NUMBER OF HOURS IN A DAY THAT THE SUN IS OUT AND ATMOSPHERIC CONDITIONAL ALLOW FOR SUNLIGHT TO REACH THE GROUND",
+        "id": "HoursOfSunlight",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "SUNLIGHT AVAILABILITY"
+            },
+            {
+                "predicate": "narrower",
+                "target": "SUNLIGHT VARIABILITY"
+            }
+        ],
+        "label": "HOURS OF SUNLIGHT"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/fc1ceb5b-4b91-4237-a018-2d6979cb39ae",
+        "prefLabel": "MARINE ACCIDENTS",
+        "definition": "ACCIDENTS THAT HAPPEN IN MARINE ENVIRONMENTS, SUCH AS SHIP COLLISIONS, GROUNDINGS, OR OIL SPILLS",
+        "altLabel": "SHIP ACCIDENTS",
+        "id": "MarineAccidents",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ACCIDENTS"
+            },
+            {
+                "predicate": "related",
+                "target": "SHIPS"
+            },
+            {
+                "predicate": "related",
+                "target": "MARITIME SAFETY"
+            }
+        ],
+        "label": "MARINE ACCIDENTS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/0fd00573-fdfc-4815-9baf-f57d077ba440",
+        "prefLabel": "TUNNELS",
+        "id": "Tunnels",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "UNDERGROUND ENGINEERING"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RAIL TUNNELS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ROAD TUNNELS"
+            }
+        ],
+        "label": "TUNNELS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/3f7b4cfe-9bc7-4237-8f3f-3b562ea14e08",
+        "prefLabel": "SCIENCE AND TECHNOLOGY",
+        "altLabel": "SCIENCE & TECHNOLOGY",
+        "id": "ScienceAndTechnology",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "KNOWLEDGE AND INNOVATION"
+            },
+            {
+                "predicate": "related",
+                "target": "INNOVATION"
+            },
+            {
+                "predicate": "related",
+                "target": "RESEARCH AND DEVELOPMENT"
+            }
+        ],
+        "label": "SCIENCE AND TECHNOLOGY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/30e45d44-45a0-4c85-a2be-ab50168e62d8",
+        "prefLabel": "SUMMONS",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "LEGAL PROCEDURE"
+            }
+        ],
+        "label": "SUMMONS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/ee74c7d6-a30f-450d-8e7e-704a58e9d25b",
+        "prefLabel": "ENSLAVED PERSONS",
+        "id": "EnslavedPersons",
+        "label": "ENSLAVED PERSONS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/5a53564c-50f1-41db-9ad8-ea34b7af1c38",
+        "prefLabel": "INTERPERSONAL TRUST",
+        "id": "InterpersonalTrust",
+        "label": "INTERPERSONAL TRUST"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/2c95f9e4-797f-4bd6-9c92-b9a037e6e853",
+        "prefLabel": "DRUNKENNESS",
+        "definition": "AN EMBARRASSING BEHAVIOUR CAUSED BY THE CONTROL OF A PERSON OR BODY OVER HIS/HER WORDS AND ACTIONS BEING REDUCED OR LOST AS A RESULT OF OVER CONSUMPTION OF ALCOHOL.",
+        "altLabel": "BINGE DRINKING",
+        "id": "Drunkenness",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ALCOHOL USE"
+            },
+            {
+                "predicate": "related",
+                "target": "ALCOHOLISM"
+            },
+            {
+                "predicate": "related",
+                "target": "DRINKING OFFENCES"
+            }
+        ],
+        "label": "DRUNKENNESS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/263ee9fd-dbaf-4019-b095-33552e6ba226",
+        "prefLabel": "DEMOCRACY",
+        "definition": "A FORM OF GOVERNMENT WHERE POWER IS HELD BY THE PEOPLE, EITHER DIRECTLY OR THROUGH ELECTED REPRESENTATIVES",
+        "id": "Democracy",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "CITIZEN PARTICIPATION"
+            },
+            {
+                "predicate": "related",
+                "target": "ELECTIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "HUMAN RIGHTS"
+            },
+            {
+                "predicate": "related",
+                "target": "MAJORITARIAN DEMOCRACY"
+            },
+            {
+                "predicate": "related",
+                "target": "MINORITY RIGHTS"
+            },
+            {
+                "predicate": "related",
+                "target": "PLURALISTIC DEMOCRACY"
+            },
+            {
+                "predicate": "related",
+                "target": "POLITICAL REGIME"
+            },
+            {
+                "predicate": "related",
+                "target": "POLITY"
+            }
+        ],
+        "label": "DEMOCRACY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/655bebab-3458-4700-94ad-269298b20d48",
+        "prefLabel": "SECURITY PERSONNEL",
+        "altLabel": "SECURITY GUARDS",
+        "definition": "PERSONS WHO WORK TO PROTECT PROPERTY OR PEOPLE, TYPICALLY IN PUBLIC OR PRIVATE LOCATIONS SUCH AS OFFICES, STORES, OR SPORTING EVENTS",
+        "id": "SecurityPersonnel",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PERSONNEL"
+            },
+            {
+                "predicate": "related",
+                "target": "PROTECTION OF PROPERTY"
+            },
+            {
+                "predicate": "related",
+                "target": "LAW ENFORCEMENT AND PUBLIC PROTECTION"
+            },
+            {
+                "predicate": "related",
+                "target": "EVENT SECURITY"
+            }
+        ],
+        "label": "SECURITY PERSONNEL"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/7c4adaa8-bd7e-4f4f-a037-c5a5f60f8a2a",
+        "prefLabel": "SPIRITUALISM",
+        "definition": "THE BELIEF IN COMMUNICATING WITH THE SPIRITUAL WORLD THROUGH MEDIUMS OR SPIRITUAL PRACTICES SUCH AS SEANCES OR TAROT READINGS",
+        "altLabel": "COMMUNICATION WITH SPIRITS",
+        "id": "Spiritualism",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "SPIRITUALITY"
+            },
+            {
+                "predicate": "related",
+                "target": "PARANORMAL BELIEFS"
+            }
+        ],
+        "label": "SPIRITUALISM"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/42f202c3-ae31-48b6-9a1f-1b1093288256",
+        "prefLabel": "HORMONE REPLACEMENT THERAPY",
+        "id": "HormoneReplacementTherapy",
+        "label": "HORMONE REPLACEMENT THERAPY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/1ea6c1f9-d44f-4cee-97bc-bb0164c155a6",
+        "prefLabel": "PHOTOGRAPHIC ART",
+        "id": "PhotographicArt",
+        "label": "PHOTOGRAPHIC ART"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/3d1578aa-fc29-49c3-b4d5-8ea888fb27ad",
+        "prefLabel": "HAIRDRESSING AND BEAUTY SERVICES EDUCATION",
+        "definition": "COVERS HAIRDRESSING, BEAUTY THERAPY, MAKE-UP ARTISTRY, NAIL TECHNOLOGY, AROMATHERAPY AND OTHER SIMILAR SKILLS",
+        "id": "HairdressingAndBeautyServicesEducation",
+        "label": "HAIRDRESSING AND BEAUTY SERVICES EDUCATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/5a5ed6c9-9d0c-490d-96c3-4fbb83376534",
+        "prefLabel": "LIBRARIES",
+        "id": "Libraries",
+        "label": "LIBRARIES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/f0a80718-37e5-412e-8ccd-beba14370889",
+        "prefLabel": "EQUAL OPPORTUNITY",
+        "altLabel": "GENDER EQUALITY",
+        "id": "EqualOpportunity",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "NON-DISCRIMINATION"
+            }
+        ],
+        "label": "EQUAL OPPORTUNITY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4f43e48c-6e5e-4371-8af8-ef2a9545f18b",
+        "prefLabel": "ONLINE SHOPPING",
+        "definition": "PURCHASING GOODS OR SERVICES OVER THE INTERNET USING A WEBSITE OR MOBILE APP.",
+        "altLabel": "E-COMMERCE",
+        "id": "OnlineShopping",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ELECTRONIC COMMERCE"
+            },
+            {
+                "predicate": "related",
+                "target": "INTERNET"
+            },
+            {
+                "predicate": "related",
+                "target": "CONSUMER BEHAVIOUR"
+            },
+            {
+                "predicate": "related",
+                "target": "DELIVERY SERVICES"
+            }
+        ],
+        "label": "ONLINE SHOPPING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/6b09f0bc-b4d7-4dfc-ad7c-0f99ade9dc14",
+        "prefLabel": "ISOLATIONISM",
+        "definition": "A National POLICY OR DOCTRINE OF AVOIDING POLITICAL OR ECONOMIC INVOLVEMENTS WITH OTHER COUNTRIES. OPPOSED TO EXPANSIONISM.",
+        "altLabel": "ISOLATIONALISM",
+        "id": "Isolationism",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "NEUTRALITY"
+            },
+            {
+                "predicate": "related",
+                "target": "FOREIGN POLICY"
+            },
+            {
+                "predicate": "related",
+                "target": "SELF-DETERMINATION"
+            },
+            {
+                "predicate": "related",
+                "target": "NATIONAL SECURITY"
+            }
+        ],
+        "label": "ISOLATIONISM"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/ad7d6a13-37f6-4334-b95b-43a7dc3efabf",
+        "prefLabel": "HERNIAS",
+        "definition": "MEDICAL CONDITIONS CHARACTERISED BY AN ABNORMAL PROTRUSION OR BULGE OF AN ORGAN OR TISSUE OUT OF ITS NORMAL POSITION AND/OR SPACE (E.G. INTESTINES, BLADDER, STOMACH, BRAIN).",
+        "altLabel": "HERNIA",
+        "id": "Hernias",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ABDOMINAL DISORDERS"
+            },
+            {
+                "predicate": "related",
+                "target": "INCARCERATION"
+            },
+            {
+                "predicate": "related",
+                "target": "RISK FACTORS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "INGUINAL HERNIA"
+            }
+        ],
+        "label": "HERNIAS"
+    },
+    {
+        "uri": "http://1/1",
+        "prefLabel": "AIR TRAVEL",
+        "altLabel": null,
+        "id": "AirTravel",
+        "relationships": null,
+        "label": "AIR TRAVEL"
+    },
+    {
+        "prefLabel": "GREEN BELT AREAS",
+        "id": "GreenBeltAreas",
+        "relationships": [],
+        "label": "GREEN BELT AREAS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/310c9130-69c4-4026-9063-bb9f40ac3839",
+        "prefLabel": "FERTILITY RATE",
+        "definition": "THE AVERAGE NUMBER OF LIVE BIRTHS PER WOMAN, USUALLY CALCULATED PER THOUSAND WOMEN PER YEAR",
+        "id": "FertilityRate",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "VITAL STATISTICS"
+            },
+            {
+                "predicate": "related",
+                "target": "FERTILITY (HUMAN)"
+            }
+        ],
+        "label": "FERTILITY RATE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/3f10df3d-ac2e-4362-929c-e88a4dbb3b37",
+        "prefLabel": "NATIONAL ACCOUNTING",
+        "id": "NationalAccounting",
+        "label": "ACCOUNTING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4043bada-2b6e-477a-970f-5db079f9dbdd",
+        "prefLabel": "PERSONALITY TRAITS",
+        "id": "PersonalityTraits",
+        "label": "PERSONALITY TRAITS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/19a51cae-f06e-4f74-a3c9-32f92122c452",
+        "prefLabel": "CARGO",
+        "altLabel": "FREIGHT",
+        "definition": "THE GOODS CARRIED BY A SHIP, AIRCRAFT, OR OTHER VEHICLE",
+        "id": "Cargo",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "TRANSPORT"
+            },
+            {
+                "predicate": "narrower",
+                "target": "CONTAINERS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "GOODS DISTRIBUTION"
+            }
+        ],
+        "label": "CARGO"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/6ae159e3-5f9e-4c2b-ad7b-e3a489b3d7bb",
+        "prefLabel": "GROSS NATIONAL PRODUCT",
+        "altLabel": "GNP",
+        "id": "GrossNationalProduct",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "NATIONAL INCOME"
+            }
+        ],
+        "label": "GROSS NATIONAL PRODUCT"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/064f0e05-c538-445e-a917-ceb44468e225",
+        "prefLabel": "TRADEMARKS",
+        "definition": "ANY DISTINCTIVE ELEMENT WITH THE PURPOSE OF IDENTIFYING A PARTIAL OR TOTAL COMMERCIAL RANGE OF GOODS OR SERVICES OF A NATURAL OR LEGAL ENTITY. IT CONSISTS OF NAME, LOGO, GRAPHIC, VISA, COLOR OR COMBINATION OF THEM.",
+        "altLabel": "BRANDS",
+        "id": "Trademarks",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "INTELLECTUAL PROPERTY MEASURES"
+            },
+            {
+                "predicate": "related",
+                "target": "TRADING STANDARDS"
+            },
+            {
+                "predicate": "related",
+                "target": "RETAIL TRADE"
+            }
+        ],
+        "label": "TRADEMARKS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/0fbbd2e1-a55b-4de3-9604-96bf989aed7d",
+        "prefLabel": "MATHEMATICS AND STATISTICS EDUCATION",
+        "id": "MathematicsAndStatisticsEducation",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "MATHEMATICS EDUCATION"
+            },
+            {
+                "predicate": "related",
+                "target": "STATISTICS EDUCATION"
+            }
+        ],
+        "label": "MATHEMATICS AND STATISTICS EDUCATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/0b0f17da-9e88-40e1-a649-6ba07c1dc393",
+        "prefLabel": "TELEPHONE BANKING",
+        "label": "TELEPHONE BANKING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/646876aa-e096-4f2f-af92-bb89ed426698",
+        "prefLabel": "RIGHT TO WORK",
+        "definition": "THE RIGHT TO EARN A LIVELIHOOD BY ENGAGING IN GAINFUL EMPLOYMENT",
+        "altLabel": "RIGHT TO EMPLOYMENT",
+        "id": "RightToWork",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "WORK"
+            },
+            {
+                "predicate": "related",
+                "target": "RIGHTS-BASED APPROACH"
+            },
+            {
+                "predicate": "related",
+                "target": "JOB SECURITY"
+            }
+        ],
+        "label": "RIGHT TO WORK"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/c0aa9431-cb2e-4b8e-ae43-482aeb8a16f9",
+        "prefLabel": "CARS",
+        "id": "Cars",
+        "label": "CARS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/",
+        "prefLabel": "FINANCIAL COMMITMENTS",
+        "id": "FinancialCommitments",
+        "label": "FINANCIAL COMMITMENTS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/af9e9848-e0c1-4c0c-b6fc-6aaf43b1d775",
+        "prefLabel": "CHARITABLE ORGANIZATIONS",
+        "id": "CharitableOrganizations",
+        "label": "CHARITABLE ORGANIZATIONS"
+    },
+    {
+        "prefLabel": "DENTURES",
+        "id": "Dentures",
+        "label": "DENTURES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/57270543-dfff-4481-88c6-c68bc4a15dfa",
+        "prefLabel": "CEREAL PRODUCTS",
+        "altLabel": "BREAD",
+        "id": "CerealProducts",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "AGRICULTURAL PRODUCTS"
+            }
+        ],
+        "label": "CEREALS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/f1d52686-597b-44f1-9a78-cf0ff9e1f335",
+        "prefLabel": "CONFERENCES",
+        "altLabel": "CONFERENCE EVENTS",
+        "definition": "A MEETING HELD TO BRING PEOPLE TOGETHER IN ORDER TO EXCHANGE VIEWS ON A REGION, POLICY OR ISSUE",
+        "id": "Conferences",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "MEETINGS AND CONFERENCES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "CONVENTIONS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ACADEMIC CONFERENCES"
+            },
+            {
+                "predicate": "related",
+                "target": "NETWORKING"
+            },
+            {
+                "predicate": "broader",
+                "target": "EVENTS AND OCCASIONS"
+            }
+        ],
+        "label": "CONFERENCES"
+    },
+    {
+        "uri": null,
+        "prefLabel": "ASSOCIATIONS",
+        "id": null,
+        "label": "ASSOCIATIONS"
+    },
+    {
+        "prefLabel": "EMIGRANTS",
+        "label": "EMIGRANTS"
+    }
+]
