@@ -1,0 +1,4105 @@
+[
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6018",
+        "prefLabel": "Digital skills",
+        "altLabel": "Computer literacy",
+        "id": "DigitalSkills",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Literacy"
+            },
+            {
+                "predicate": "related",
+                "target": "Computer applications"
+            },
+            {
+                "predicate": "related",
+                "target": "Information literacy"
+            },
+            {
+                "predicate": "related",
+                "target": "Computer assisted instruction"
+            },
+            {
+                "predicate": "related",
+                "target": "Computer science education"
+            }
+        ],
+        "label": "COMPUTER LITERACY"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept14053",
+        "prefLabel": "Planning methods",
+        "altLabel": "Planning systems",
+        "id": "PlanningMethods",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Planning"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Strategic planning"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Integrated planning"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Sectoral planning"
+            }
+        ],
+        "label": "PLANNING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/7f1df81b-c68e-4639-87a7-b3f11f824b1b",
+        "prefLabel": "GYNAECOLOGICAL SURGERY",
+        "id": "GynaecologicalSurgery",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "GYNAECOLOGY"
+            }
+        ],
+        "label": "GYNAECOLOGICAL SURGERY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/1355e844-0d7f-4b10-976c-890147572967",
+        "prefLabel": "INSURANCE",
+        "definition": "PROTECTION AGAINST FINANCIAL LOSS",
+        "id": "Insurance",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "INSURANCE COMPANIES"
+            },
+            {
+                "predicate": "related",
+                "target": "INSURANCE POLICY"
+            },
+            {
+                "predicate": "related",
+                "target": "LIFE INSURANCE"
+            },
+            {
+                "predicate": "related",
+                "target": "MEDICAL INSURANCE"
+            },
+            {
+                "predicate": "related",
+                "target": "PROPERTY INSURANCE"
+            }
+        ],
+        "label": "INSURANCE"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept3971",
+        "prefLabel": "Deontology",
+        "altLabel": "Professional ethics",
+        "id": "Deontology",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Ethics"
+            },
+            {
+                "predicate": "related",
+                "target": "Occupations"
+            },
+            {
+                "predicate": "related",
+                "target": "Medical ethics"
+            },
+            {
+                "predicate": "related",
+                "target": "Bioethics"
+            },
+            {
+                "predicate": "related",
+                "target": "Ethics of science"
+            },
+            {
+                "predicate": "related",
+                "target": "Occupational status"
+            },
+            {
+                "predicate": "related",
+                "target": "Press ethics"
+            },
+            {
+                "predicate": "related",
+                "target": "Communication ethics"
+            }
+        ],
+        "label": "PROFESSIONAL ETHICS"
+    },
+    {
+        "uri": "https://hasset.ukdataservice.ac.uk/23ed18dd-dffc-4ec9-9c6b-4b10734916ec",
+        "prefLabel": "ONE-PARTY SYSTEMS",
+        "id": "One-partySystems",
+        "label": "STREAMS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4db82d1b-ebac-4c66-8cce-a30df2e7278f",
+        "prefLabel": "BOOK USE",
+        "id": "BookUse",
+        "label": "BOOK USE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/8d54d146-dc47-4662-b697-2ec3b49cac49",
+        "prefLabel": "WORKLOADS",
+        "id": "Workloads",
+        "label": "WORKLOADS"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1001382",
+        "prefLabel": "CRIMES AGAINST THE PERSON",
+        "altLabel": "OFFENCES AGAINST THE PERSON",
+        "id": "CrimesAgainstThePerson",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CRIME AND CRIMINAL JUSTICE"
+            },
+            {
+                "predicate": "broader",
+                "target": "CRIME"
+            },
+            {
+                "predicate": "narrower",
+                "target": "SEX CRIMES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "HOMICIDE"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ABDUCTION"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ASSAULT AND BATTERY"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ROAD RAGE"
+            },
+            {
+                "predicate": "related",
+                "target": "DOMESTIC VIOLENCE"
+            }
+        ],
+        "label": "CRIMES AGAINST PERSONS"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept981",
+        "prefLabel": "Residential child care",
+        "altLabel": "Orphanages",
+        "id": "ResidentialChildCare_b5c875ca-b11f-4b2c-a07e-9bea6579fd96",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Child welfare"
+            },
+            {
+                "predicate": "related",
+                "target": "Social services"
+            },
+            {
+                "predicate": "related",
+                "target": "Disadvantaged children"
+            },
+            {
+                "predicate": "related",
+                "target": "Orphans"
+            }
+        ],
+        "label": "CHILD LABOUR"
+    },
+    {
+        "uri": "https://hasset.ukdataservice.ac.uk/dee2a30a-8fe6-48b6-80ee-b575fae58b57",
+        "prefLabel": "EDUCATIONAL HOLIDAYS",
+        "definition": "REFERS TO HOLIDAYS FOR THE GENERAL PUBLIC",
+        "altLabel": "INSTRUCTIONAL HOLIDAYS",
+        "id": "EducationalHolidays",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "HOLIDAYS"
+            },
+            {
+                "predicate": "related",
+                "target": "EDUCATIONAL COURSES"
+            },
+            {
+                "predicate": "related",
+                "target": "EDUCATIONAL VISITS"
+            }
+        ],
+        "label": "SCHOOL HOLIDAYS"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1001105",
+        "prefLabel": "COMMERCIAL LEASES",
+        "id": "CommercialLeases",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "INDUSTRIAL DEVELOPMENT SUPPORT SERVICES"
+            }
+        ],
+        "label": "LEASES"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1005143",
+        "prefLabel": "PRODUCT QUALITY",
+        "altLabel": "QUALITY OF PRODUCTS",
+        "id": "ProductQuality",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "INDUSTRIAL DEVELOPMENT SUPPORT SERVICES"
+            },
+            {
+                "predicate": "related",
+                "target": "STANDARDS"
+            },
+            {
+                "predicate": "related",
+                "target": "APPELLATIONS OF ORIGIN"
+            },
+            {
+                "predicate": "related",
+                "target": "PRODUCT TESTING"
+            },
+            {
+                "predicate": "related",
+                "target": "PRODUCT EVALUATION"
+            },
+            {
+                "predicate": "related",
+                "target": "ECOLABELLING"
+            },
+            {
+                "predicate": "related",
+                "target": "ENVIRONMENTALLY SOUND PRODUCTS"
+            }
+        ],
+        "label": "QUALITY"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept445",
+        "prefLabel": "Rural areas",
+        "altLabel": "Agricultural areas",
+        "id": "RuralAreas_6d1ab062-9353-4973-b809-d3cdb81a7c90",
+        "relationships": [
+            {
+                "predicate": "narrower",
+                "target": "Rural population"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Rural environment"
+            },
+            {
+                "predicate": "related",
+                "target": "Rural development"
+            },
+            {
+                "predicate": "related",
+                "target": "Regional disparities"
+            },
+            {
+                "predicate": "topConceptOf",
+                "target": "UNESCO Thesaurus"
+            }
+        ],
+        "label": "RURAL ENVIRONMENT"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6062",
+        "prefLabel": "Telecommunications networks",
+        "altLabel": "Communication networks (IT)",
+        "id": "TelecommunicationsNetworks",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Telecommunications"
+            },
+            {
+                "predicate": "related",
+                "target": "Computer networks"
+            }
+        ],
+        "label": "COMMUNICATION NETWORKS"
+    },
+    {
+        "uri": "",
+        "prefLabel": "LOCUS OF CONTROL",
+        "id": "",
+        "relationships": [],
+        "label": "LOCUS OF CONTROL"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7996",
+        "prefLabel": "Nutrients",
+        "id": "Nutrients",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Nutrition"
+            },
+            {
+                "predicate": "related",
+                "target": "Food"
+            },
+            {
+                "predicate": "related",
+                "target": "Metabolism"
+            },
+            {
+                "predicate": "related",
+                "target": "Dietetics"
+            },
+            {
+                "predicate": "related",
+                "target": "Nutritional diseases"
+            },
+            {
+                "predicate": "related",
+                "target": "Malnutrition"
+            }
+        ],
+        "label": "NUTRIENTS"
+    },
+    {
+        "uri": "https://hasset.ukdataservice.ac.uk/c25747d1-417e-4326-b4d4-cd33ee4572d8",
+        "prefLabel": "SELLING",
+        "id": "Selling",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "MARKETING"
+            },
+            {
+                "predicate": "narrower",
+                "target": "SALE OF PERSONAL POSSESSIONS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "VENDING MACHINES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "INERTIA SELLING"
+            }
+        ],
+        "label": "HOME SELLING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/bb31f672-6ada-4adc-9a94-82ed3dbbcdab",
+        "prefLabel": "WIND ENERGY",
+        "definition": "THE KINETIC ENERGY OF WIND CONVERTED INTO ELECTRICITY IN WIND TURBINES",
+        "altLabel": "WIND POWER",
+        "id": "WindEnergy",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "RENEWABLE ENERGY"
+            }
+        ],
+        "label": "WIND TURBINES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/cc03c59f-ff50-47d5-9fcc-cbd2ecd4088b",
+        "prefLabel": "INDOOR SPORTS",
+        "altLabel": "DARTS",
+        "id": "IndoorSports",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "SPORTS"
+            }
+        ],
+        "label": "INDOOR GAMES"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1001226",
+        "prefLabel": "CONFLICT MANAGEMENT",
+        "altLabel": "CONFLICT TRANSFORMATION",
+        "id": "ConflictManagement",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "MAINTENANCE OF PEACE AND SECURITY"
+            },
+            {
+                "predicate": "related",
+                "target": "CONFIDENCE-BUILDING MEASURES"
+            },
+            {
+                "predicate": "related",
+                "target": "CRISIS MANAGEMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "DISPUTE SETTLEMENT"
+            }
+        ],
+        "label": "CONFLICT"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/a372e700-8ccd-4de2-9a7c-931924247420",
+        "prefLabel": "AGE DISTRIBUTION",
+        "id": "AgeDistribution",
+        "label": "AGE DISTRIBUTION"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept3685",
+        "prefLabel": "Scholarships",
+        "id": "Scholarships_b6cccfbb-60ef-4187-bc2a-7fa5d0386207",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Educational grants"
+            },
+            {
+                "predicate": "related",
+                "target": "Grants"
+            }
+        ],
+        "label": "GRANTS"
+    },
+    {
+        "uri": "https://hasset.ukdataservice.ac.uk/1cc36d2c-0a1e-46b0-af1d-2a9b3bed3ba6",
+        "prefLabel": "CENTRAL NERVOUS SYSTEM DISEASES",
+        "relationships": [
+            {
+                "predicate": "narrower",
+                "target": "BRAIN DISEASES"
+            }
+        ],
+        "label": "NERVOUS SYSTEM DISEASES"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1003416",
+        "prefLabel": "IRREGULAR MIGRANTS",
+        "altLabel": "ILLEGAL IMMIGRANTS",
+        "id": "IrregularMigrants",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "POPULATION DYNAMICS"
+            },
+            {
+                "predicate": "broader",
+                "target": "MIGRANTS"
+            },
+            {
+                "predicate": "related",
+                "target": "MIGRANT WORKERS"
+            },
+            {
+                "predicate": "related",
+                "target": "ILLEGAL IMMIGRATION"
+            },
+            {
+                "predicate": "related",
+                "target": "SMUGGLING"
+            },
+            {
+                "predicate": "related",
+                "target": "TRAFFICKING IN PERSONS"
+            },
+            {
+                "predicate": "related",
+                "target": "CLANDESTINE EMPLOYMENT"
+            }
+        ],
+        "label": "IMMIGRANTS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/1dcc6c03-d229-487f-babd-2b5ef46e9b79",
+        "prefLabel": "MASS MEDIA",
+        "definition": "COMMUNICATION SYSTEM FOR REACHING LARGE NUMBERS OF PEOPLE, USUALLY INCLUDING RADIO, TELEVISION, AND PRINT MEDIA",
+        "altLabel": "NEWS MEDIA; ERGONOMIC MEDIA",
+        "id": "MassMedia",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "TECHNOLOGY"
+            },
+            {
+                "predicate": "related",
+                "target": "PUBLIC OPINION"
+            },
+            {
+                "predicate": "related",
+                "target": "INFORMATION SOCIETY"
+            }
+        ],
+        "label": "MASS MEDIA"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/e61d075e-180c-4c28-8665-ee2589db84ca",
+        "prefLabel": "YOUTH CLUBS",
+        "id": "YouthClubs",
+        "label": "YOUTH CLUBS"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1000136",
+        "prefLabel": "AGRICULTURAL EDUCATION",
+        "id": "AgriculturalEducation_fd2bf2b4-1401-44fa-8b90-de38e0b5a9a8",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "AGRICULTURE"
+            },
+            {
+                "predicate": "related",
+                "target": "AGRICULTURAL EXTENSION"
+            },
+            {
+                "predicate": "related",
+                "target": "FARM MANAGEMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "AGRICULTURAL TRAINING"
+            },
+            {
+                "predicate": "related",
+                "target": "RURAL EDUCATION"
+            }
+        ],
+        "label": "AGRICULTURE AND VETERINARY EDUCATION"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1006416",
+        "prefLabel": "LATERALITY",
+        "id": "Laterality",
+        "label": "LATERALITY"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1140",
+        "prefLabel": "Universal education",
+        "altLabel": "Education for all",
+        "id": "UniversalEducation",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Educational opportunities"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Free education"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Compulsory education"
+            },
+            {
+                "predicate": "related",
+                "target": "Inclusive education"
+            },
+            {
+                "predicate": "related",
+                "target": "Access to education"
+            },
+            {
+                "predicate": "related",
+                "target": "Educational discrimination"
+            },
+            {
+                "predicate": "related",
+                "target": "Educationally disadvantaged"
+            },
+            {
+                "predicate": "related",
+                "target": "Democratization of education"
+            }
+        ],
+        "label": "EDUCATIONAL OPPORTUNITIES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/e595e353-cb69-4e49-9970-33114bf4fccd",
+        "prefLabel": "SOCIOLINGUISTICS",
+        "definition": "THE STUDY OF LANGUAGE USE IN SOCIAL CONTEXTS, INCLUDING VARIATION ACCORDING TO SOCIAL CLASS, AGE, GENDER, ETHNICITY, AND INTERACTIONAL STYLE.",
+        "id": "Sociolinguistics",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "LINGUISTICS"
+            },
+            {
+                "predicate": "related",
+                "target": "SOCIAL INTERACTIONS"
+            }
+        ],
+        "label": "SOCIOLINGUISTICS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/53b93995-7e36-414e-b21d-3d95f0c4e653",
+        "prefLabel": "FREEDOM OF SPEECH",
+        "altLabel": "FREEDOM OF EXPRESSION",
+        "id": "FreedomOfSpeech",
+        "label": "FREEDOM OF SPEECH"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept17163",
+        "prefLabel": "Teacher policy",
+        "id": "TeacherPolicy",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Educational policy"
+            },
+            {
+                "predicate": "related",
+                "target": "Teachers"
+            }
+        ],
+        "label": "EDUCATIONAL POLICY"
+    },
+    {
+        "uri": "https://vocabularies.unesco.org/thesaurus/concept8887",
+        "prefLabel": "DEAFNESS",
+        "altLabel": "HEARING LOSS",
+        "id": "Deafness",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "HEARING IMPAIRMENTS"
+            },
+            {
+                "predicate": "related",
+                "target": "HEARING"
+            },
+            {
+                "predicate": "related",
+                "target": "SIGN LANGUAGE"
+            },
+            {
+                "predicate": "related",
+                "target": "COCHLEAR IMPLANTS"
+            }
+        ],
+        "label": "DEAFNESS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/87658745-ae73-4d35-afea-9df701da2bca",
+        "prefLabel": "PARTY IDENTIFICATION",
+        "definition": "THE EXTENT TO WHICH AN INDIVIDUAL FEELS CLOSELY ASSOCIATED WITH A POLITICAL PARTY AND SUPPORTS ITS POLICIES AND CANDIDATES.",
+        "id": "PartyIdentification",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "POLITICAL ATTITUDES"
+            },
+            {
+                "predicate": "related",
+                "target": "POLITICAL BEHAVIOUR"
+            },
+            {
+                "predicate": "related",
+                "target": "POLITICAL AFFILIATION"
+            },
+            {
+                "predicate": "related",
+                "target": "POLITICAL PARTICIPATION"
+            }
+        ],
+        "label": "PARTY IDENTIFICATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/93c538a5-16c0-4440-b54f-67c122f13c74",
+        "prefLabel": "COLLECTIVE ECONOMY",
+        "definition": "AN ECONOMY IN WHICH THE MEANS OF PRODUCTION ARE OWNED COLLECTIVELY BY THOSE WHO OPERATE THEM IN THE PRODUCTION OF GOODS AND SERVICES. THIS FORM OF OWNERSHIP DISTINGUISHES IT FROM PRIVATE ENTERPRISE, IN WHICH THE OWNERSHIP OF THE MEANS OF PRODUCTION IS CONCENTRATED IN RELATIVELY FEW HANDS, OR FROM PLANNED OR COMMAND ECONOMIES, IN WHICH THE STATE OWNS OR DIRECTS PRODUCTION.",
+        "altLabel": "CO-OPERATIVE ECONOMY",
+        "id": "CollectiveEconomy",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ECONOMIC SYSTEMS"
+            },
+            {
+                "predicate": "related",
+                "target": "COOPERATIVES"
+            },
+            {
+                "predicate": "related",
+                "target": "SOCIAL CAPITAL"
+            }
+        ],
+        "label": "COLLECTIVE ECONOMY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/3f1c8c56-135c-49f1-a317-3a366b9f00a5",
+        "prefLabel": "TRUCKS",
+        "id": "Trucks",
+        "label": "TRUCKS"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1005086",
+        "prefLabel": "ANTENATAL CARE",
+        "id": "PrenatalCare",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "WOMEN'S ADVANCEMENT"
+            },
+            {
+                "predicate": "broader",
+                "target": "PREVENTIVE MEDICINE"
+            },
+            {
+                "predicate": "broader",
+                "target": "FAMILY PLANNING"
+            },
+            {
+                "predicate": "broader",
+                "target": "MEDICAL TREATMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "PREMATURE INFANTS"
+            },
+            {
+                "predicate": "related",
+                "target": "MATERNAL HEALTH SERVICES"
+            },
+            {
+                "predicate": "related",
+                "target": "MATERNAL AND CHILD HEALTH"
+            },
+            {
+                "predicate": "related",
+                "target": "BIRTH WEIGHT"
+            }
+        ],
+        "label": "ANTENATAL CARE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/9e6d291f-95f6-4159-be2c-d2147e8f37d6",
+        "prefLabel": "POLITICAL ISSUES",
+        "id": "PoliticalIssues",
+        "label": "POLITICAL ISSUES"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1006799",
+        "prefLabel": "UNPAID WORK",
+        "id": "UnpaidWork",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "WORKING CONDITIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "HOME ECONOMICS"
+            },
+            {
+                "predicate": "related",
+                "target": "VOLUNTARY SERVICE"
+            },
+            {
+                "predicate": "related",
+                "target": "CARE ECONOMY"
+            }
+        ],
+        "label": "UNWAGED WORKERS"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1002221",
+        "prefLabel": "EXTRALEGAL EXECUTIONS",
+        "altLabel": "ARBITRARY EXECUTIONS",
+        "id": "ExtralegalExecutions",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "HUMAN RIGHTS"
+            },
+            {
+                "predicate": "broader",
+                "target": "POLITICAL CONDITIONS, INSTITUTIONS, MOVEMENTS"
+            },
+            {
+                "predicate": "broader",
+                "target": "HUMAN RIGHTS VIOLATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "TORTURE AND OTHER CRUEL TREATMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "MASS GRAVES"
+            },
+            {
+                "predicate": "related",
+                "target": "CAPITAL PUNISHMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "POLITICAL PRISONERS"
+            },
+            {
+                "predicate": "related",
+                "target": "DETAINED PERSONS"
+            },
+            {
+                "predicate": "related",
+                "target": "VIOLENT DEATHS"
+            },
+            {
+                "predicate": "related",
+                "target": "HONOUR KILLINGS"
+            },
+            {
+                "predicate": "related",
+                "target": "DEATH IN CUSTODY"
+            },
+            {
+                "predicate": "related",
+                "target": "RIGHT TO LIFE"
+            },
+            {
+                "predicate": "related",
+                "target": "DISAPPEARANCE OF PERSONS"
+            },
+            {
+                "predicate": "related",
+                "target": "SUMMARY EXECUTIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "MASSACRES"
+            }
+        ],
+        "label": "POLITICAL EXECUTIONS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/22cd85e3-f2c7-4752-b19e-dc08aa312f7d",
+        "prefLabel": "EMOTIONAL STATES",
+        "definition": "STABLE AND TEMPORARY, FREQUENCY INTENSITY OF EMOTIONS AS PART OF HUMAN EXPERIENCE",
+        "id": "EmotionalStates",
+        "label": "EMOTIONAL STATES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/bc803a57-2ba8-4765-9177-f270d17e8e63",
+        "prefLabel": "RACKET GAMES",
+        "id": "RacketGames",
+        "label": "RACKET GAMES"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept982",
+        "prefLabel": "Street children",
+        "altLabel": "Homeless children",
+        "id": "StreetChildren_00b961dd-d4a9-494a-82e7-9d737b1ab33f",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Disadvantaged children"
+            },
+            {
+                "predicate": "related",
+                "target": "Abandoned children"
+            },
+            {
+                "predicate": "related",
+                "target": "Child abuse"
+            },
+            {
+                "predicate": "related",
+                "target": "Homeless"
+            },
+            {
+                "predicate": "related",
+                "target": "Urban population"
+            }
+        ],
+        "label": "SUBURBS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/37f74cc3-daa9-4e05-90b2-22619325d93c",
+        "prefLabel": "COVID-19 VACCINATION",
+        "id": "Covid-19Vaccination",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "COVID-19"
+            }
+        ],
+        "label": "VACCINATION"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1004963",
+        "prefLabel": "POLICE",
+        "id": "Police_2bf3152a-ae20-4b8a-9ce3-35bc9ccc5b8f",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CRIME AND CRIMINAL JUSTICE"
+            },
+            {
+                "predicate": "broader",
+                "target": "MUNICIPAL SERVICES"
+            },
+            {
+                "predicate": "broader",
+                "target": "LAW ENFORCEMENT OFFICIALS"
+            },
+            {
+                "predicate": "related",
+                "target": "PRIVATE POLICE"
+            },
+            {
+                "predicate": "related",
+                "target": "INTERNATIONAL POLICE"
+            },
+            {
+                "predicate": "related",
+                "target": "POLICE POWER"
+            },
+            {
+                "predicate": "related",
+                "target": "POLICE REGULATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "CRIMINAL INVESTIGATION"
+            },
+            {
+                "predicate": "related",
+                "target": "INTERROGATION"
+            },
+            {
+                "predicate": "related",
+                "target": "CRIME PREVENTION"
+            }
+        ],
+        "label": "POLICE SERVICES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/375a0849-2850-4569-aa33-f733cb437314",
+        "prefLabel": "RELIGIOUS SOCIETIES",
+        "id": "ReligiousSocieties",
+        "label": "RELIGIOUS SOCIETIES"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1004890",
+        "prefLabel": "PHOTOGRAPHS",
+        "id": "Photographs_8a530486-2cf5-4f1d-b586-bd9eeba2de8a",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "COMMUNICATION AND MASS MEDIA"
+            },
+            {
+                "predicate": "broader",
+                "target": "AUDIOVISUAL MATERIALS"
+            },
+            {
+                "predicate": "related",
+                "target": "FILMS"
+            },
+            {
+                "predicate": "related",
+                "target": "PHOTOGRAPHY"
+            }
+        ],
+        "label": "PHOTOJOURNALISM"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/01788af2-944b-4f4d-b920-a0df8abfdf40",
+        "prefLabel": "OVERPOPULATION",
+        "definition": "THE CONDITION OF BEING FILLED TO CAPACITY WITH AN EXCESSIVELY LARGE NUMBER OF PEOPLE WHICH REDUCES THE QUALITY OF LIFE OR IMPAIRS THE ECOLOGICAL SYSTEMS",
+        "id": "Overpopulation",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "POPULATION DYNAMICS"
+            }
+        ],
+        "label": "OVERPOPULATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/45d0e962-176a-4c98-91fb-f0cc8d1a8885",
+        "prefLabel": "SITTING",
+        "id": "Sitting",
+        "label": "SITTING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/c8e17698-1958-4298-ba47-d0c3189066f4",
+        "prefLabel": "HYBRID WORKERS",
+        "definition": "PERSONS WHO ALTERNATE BETWEEN WORKING IN THE WORKPLACE AND IN OTHER AGREED LOCATIONS INCLUDING HOME",
+        "id": "HybridWorkers",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "WORKERS"
+            }
+        ],
+        "label": "HYBRID WORK"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/5f26bfb8-429a-4b6e-9abd-0b1a905765d3",
+        "prefLabel": "BUSINESS ECONOMICS",
+        "id": "BusinessEconomics",
+        "label": "BUSINESS ECONOMICS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/5f56fc24-4250-4af8-a9b5-e54935d1d5df",
+        "prefLabel": "HUNTING",
+        "definition": "THE ACTIVITY OF FINDING AND KILLING OR CAPTURING WILD ANIMALS FOR FOOD, PELTS, OR AS A FIELD SPORT",
+        "altLabel": "DEER HUNTING",
+        "id": "Hunting",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "OUTDOOR PURSUITS"
+            },
+            {
+                "predicate": "related",
+                "target": "EQUESTRIAN SPORTS"
+            },
+            {
+                "predicate": "related",
+                "target": "SHOOTING (SPORT)"
+            }
+        ],
+        "label": "FISHING (SPORT)"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept11252",
+        "prefLabel": "Petroleum",
+        "altLabel": "Crude oils",
+        "id": "Petroleum_262c0407-8830-429e-b8fb-7595af09c83b",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Fuels"
+            },
+            {
+                "predicate": "related",
+                "target": "Pollutants"
+            },
+            {
+                "predicate": "related",
+                "target": "Gas resources"
+            },
+            {
+                "predicate": "related",
+                "target": "Nonrenewable resources"
+            },
+            {
+                "predicate": "related",
+                "target": "Oil pollution"
+            }
+        ],
+        "label": "FUEL OILS"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept14",
+        "prefLabel": "Educational planning",
+        "altLabel": "Educational plans",
+        "id": "EducationalPlanning_8bd5ee28-ecff-43d2-8f77-093775216516",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "Educational development"
+            },
+            {
+                "predicate": "related",
+                "target": "Educational administration"
+            },
+            {
+                "predicate": "related",
+                "target": "Educational innovations"
+            },
+            {
+                "predicate": "related",
+                "target": "Educational reform"
+            },
+            {
+                "predicate": "related",
+                "target": "Education and development"
+            },
+            {
+                "predicate": "related",
+                "target": "Diversification of education"
+            },
+            {
+                "predicate": "related",
+                "target": "Educational articulation"
+            },
+            {
+                "predicate": "related",
+                "target": "Educational objectives"
+            },
+            {
+                "predicate": "related",
+                "target": "Educational strategies"
+            },
+            {
+                "predicate": "topConceptOf",
+                "target": "UNESCO Thesaurus"
+            }
+        ],
+        "label": "EDUCATIONAL PLANNING AND ADMINISTRATION"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1002508",
+        "prefLabel": "FOSTER HOME CARE",
+        "id": "FosterHomeCare",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "WELFARE AND SOCIAL SERVICES"
+            },
+            {
+                "predicate": "related",
+                "target": "CHILD WELFARE"
+            },
+            {
+                "predicate": "related",
+                "target": "INSTITUTIONALIZED CHILDREN"
+            }
+        ],
+        "label": "FOSTER CARE"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1000990",
+        "prefLabel": "DISEASES",
+        "id": "Diseases",
+        "relationships": [
+            {
+                "predicate": "narrower",
+                "target": "SKIN DISEASES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "NUTRITIONAL DISEASES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "CHRONIC DISEASES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "JOINT DISEASES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "IMMUNOLOGIC DISEASES"
+            }
+        ],
+        "label": "DISEASES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/9c5a807f-34a3-4a0d-b41b-9d4f7332a84a",
+        "prefLabel": "CULTURAL ASSOCIATIONS",
+        "definition": "ORGANIZED GROUPS OR BODIES CREATED FOR THE PROMOTION AND DEVELOPMENT OF CULTURE",
+        "altLabel": "ARTS ORGANIZATIONS",
+        "id": "CulturalAssociations",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ORGANIZATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "MUSEUMS"
+            },
+            {
+                "predicate": "related",
+                "target": "SUBCULTURAL GROUPS"
+            }
+        ],
+        "label": "CULTURAL ASSOCIATIONS"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept5612",
+        "prefLabel": "Colonization",
+        "id": "Colonization_23261131-d8a1-4fc7-a552-84a8207f1186",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Colonial countries"
+            },
+            {
+                "predicate": "related",
+                "target": "Decolonization"
+            },
+            {
+                "predicate": "related",
+                "target": "Colonialism"
+            }
+        ],
+        "label": "COLONIALISM"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/0949f8e7-9872-4040-aebb-0ce87ad05b8c",
+        "prefLabel": "EXIT POLLS",
+        "definition": "SURVEYS OF VOTERS TAKEN IMMEDIATELY AFTER THEY HAVE VOTED, OFTEN CONDUCTED BY POLLING ORGANISATIONS WORKING FOR THE NEWS MEDIA, ON BEHALF OF THE MEDIA OR BY POLITICAL PARTIES.",
+        "id": "ExitPolls",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "POLLING"
+            },
+            {
+                "predicate": "related",
+                "target": "VOTING"
+            }
+        ],
+        "label": "EXIT POLLS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/7537b140-e7e0-4121-afe2-79aea6a32a56",
+        "prefLabel": "DEFENCE AND STATE SECURITY POLICY",
+        "definition": "A SET OF GUIDELINES AND STRATEGIES RELATED TO DEFENCE AND STATE SECURITY MEASURES ADOPTED BY A COUNTRY OR ORGANIZATION",
+        "altLabel": "SECURITY POLICY",
+        "id": "DefenceAndStateSecurityPolicy",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "DEFENCE"
+            },
+            {
+                "predicate": "related",
+                "target": "STATE SECURITY"
+            },
+            {
+                "predicate": "related",
+                "target": "NATIONAL SECURITY"
+            },
+            {
+                "predicate": "related",
+                "target": "MILITARY POLICY"
+            }
+        ],
+        "label": "DEFENCE AND STATE SECURITY POLICY"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4658",
+        "prefLabel": "Cardiovascular diseases",
+        "altLabel": "Heart diseases",
+        "id": "CardiovascularDiseases_70d5d1e3-c0c9-48fa-85d4-dda8995f27cc",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Diseases"
+            },
+            {
+                "predicate": "related",
+                "target": "Cardiovascular systems"
+            }
+        ],
+        "label": "VASCULAR DISEASES"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept412",
+        "prefLabel": "Health services",
+        "altLabel": "Community health services",
+        "id": "HealthServices_6d6821e2-f2d9-496e-a734-bea559cd6a32",
+        "relationships": [
+            {
+                "predicate": "narrower",
+                "target": "Hospitals"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Medical centres"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Patients"
+            },
+            {
+                "predicate": "related",
+                "target": "Health education"
+            },
+            {
+                "predicate": "related",
+                "target": "Family planning"
+            },
+            {
+                "predicate": "related",
+                "target": "Self help"
+            },
+            {
+                "predicate": "related",
+                "target": "Social security"
+            },
+            {
+                "predicate": "related",
+                "target": "Clinical medicine"
+            },
+            {
+                "predicate": "related",
+                "target": "Health policy"
+            },
+            {
+                "predicate": "related",
+                "target": "Medical personnel"
+            },
+            {
+                "predicate": "related",
+                "target": "Nursing"
+            },
+            {
+                "predicate": "related",
+                "target": "Right to health"
+            },
+            {
+                "predicate": "topConceptOf",
+                "target": "UNESCO Thesaurus"
+            }
+        ],
+        "label": "ACCESS TO HEALTH SERVICES"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2210",
+        "prefLabel": "Qualitative analysis",
+        "id": "QualitativeAnalysis",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Scientific methods"
+            }
+        ],
+        "label": "ANALYSIS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/76fb7990-1e31-4c9f-8de4-291c4f9a12eb",
+        "prefLabel": "LEGAL AGE",
+        "definition": "THE AGE DEEMED BY THE LAW TO BE THE AGE AT WHICH A PERSON CAN BEAR LEGAL RESPONSIBILITIES AND EXERCISE CERTAIN RIGHTS.",
+        "id": "LegalAge",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "LEGAL CAPACITY"
+            }
+        ],
+        "label": "LEGAL AGE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/1f5b0e74-996a-4653-bff0-e9511c2abb94",
+        "prefLabel": "PREGNANCY",
+        "definition": "THE STATE OF BEING PREGNANT. IT COMMENCES WITH CONCEPTION AND END WITH BIRTH. PREGNANCY CAN OCCUR BY SEXUAL INTERCOURSE OR ASSISTED REPRODUCTIVE TECHNOLOGY SUCH AS IN VITRO FERTILISATION.",
+        "id": "Pregnancy",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "REPRODUCTIVE HEALTH"
+            },
+            {
+                "predicate": "related",
+                "target": "BIRTH"
+            }
+        ],
+        "label": "PREGNANCY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/82734c54-2af9-41ae-b411-ff3168961739",
+        "prefLabel": "SUPPLY AND DEMAND",
+        "id": "SupplyAndDemand",
+        "label": "SUPPLY AND DEMAND"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/0c330a42-4cd7-4f9c-bd4d-736d1933a814",
+        "prefLabel": "ARCHITECTURE AND TOWN PLANNING EDUCATION",
+        "definition": "THIS TERM COVERS STRUCTURAL ARCHITECTURE, LANDSCAPE ARCHITECTURE, COMMUNITY PLANNING, CARTOGRAPHY.",
+        "id": "ArchitectureAndTownPlanningEducation",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "ARCHITECTURE"
+            }
+        ],
+        "label": "ARCHITECTURE AND BUILDING EDUCATION"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept977",
+        "prefLabel": "Abandoned children",
+        "altLabel": "Deserted children",
+        "id": "AbandonedChildren_4c8f77eb-11b1-4527-9e87-9ba2e1863478",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Disadvantaged children"
+            },
+            {
+                "predicate": "related",
+                "target": "Child abuse"
+            },
+            {
+                "predicate": "related",
+                "target": "Street children"
+            }
+        ],
+        "label": "ADOPTED CHILDREN"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/e39f3dd5-6557-4986-89e3-46507e7cb509",
+        "prefLabel": "SINGLES",
+        "definition": "PEOPLE WHO ARE NOT IN A ROMANTIC RELATIONSHIP OR ARE NOT PART OF A COUPLE",
+        "altLabel": "SINGLE PEOPLE",
+        "id": "Singles",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "UNMARRIED PEOPLE"
+            },
+            {
+                "predicate": "related",
+                "target": "SINGLEHOOD"
+            },
+            {
+                "predicate": "related",
+                "target": "SOCIAL STATUS"
+            }
+        ],
+        "label": "SINGLES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/46887fa0-ffea-40f4-87c4-f3c9b429270d",
+        "prefLabel": "NATIONAL SOCIALISM",
+        "definition": "THE IDEOLOGY OF ADOLF HITLER'S NAZI PARTY, DERIVING FROM ELEMENTS OF RACIAL NATIONALISM AND SOCIAL DARWINISM. IT INCLUDED ULTRANATIONALISM, ANTI-SEMITISM, V\u00d6LKISCH IDEOLOGY, AND A REJECTION OF BOTH COMMUNISM AND LIBERAL DEMOCRACY.",
+        "altLabel": "NAZISM",
+        "id": "NationalSocialism",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "FASCISM"
+            },
+            {
+                "predicate": "related",
+                "target": "NEO-NAZISM"
+            }
+        ],
+        "label": "NATIONAL SOCIALISM"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/7b116b26-dce9-4c53-8f13-3114379732fc",
+        "prefLabel": "CURRENCY DEVALUATION",
+        "definition": "AN OFFICIAL REDUCTION IN THE VALUE OF A COUNTRY'S CURRENCY RELATIVE TO GOLD OR FOREIGN CURRENCIES",
+        "altLabel": "MONETARY DEVALUATION",
+        "id": "CurrencyDevaluation",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "DEVALUATION"
+            },
+            {
+                "predicate": "related",
+                "target": "EXCHANGE RATES"
+            },
+            {
+                "predicate": "related",
+                "target": "CURRENCY CRISIS"
+            },
+            {
+                "predicate": "related",
+                "target": "DEVALUATION RISK"
+            }
+        ],
+        "label": "CURRENCY DEVALUATION"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept9002",
+        "prefLabel": "Health education",
+        "id": "HealthEducation",
+        "relationships": [
+            {
+                "predicate": "narrower",
+                "target": "Nutrition education"
+            },
+            {
+                "predicate": "narrower",
+                "target": "AIDS education"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Sexuality education"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Population education"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Drug education"
+            }
+        ],
+        "label": "HEALTH EDUCATION"
+    },
+    {
+        "uri": "https://hasset.ukdataservice.ac.uk/9d514c9b-d815-45bc-9970-4633a59786fb",
+        "prefLabel": "RECREATIONAL FACILITIES",
+        "definition": "PHYSICAL STRUCTURES OR SPACES CONSTRUCTED, INSTALLED OR ESTABLISHED FOR THE PURPOSE OF RECREATION, E.G. SPORTS CENTRES, PARKS, LAKES AND PUBLIC HOUSES",
+        "altLabel": "ENTERTAINMENT FACILITIES",
+        "id": "RecreationalFacilities_38499163-640f-4a13-bd49-d69c6d509ead",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "FACILITIES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RECREATIONAL BUILDINGS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "CANTEENS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RESTAURANTS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RECREATION AND LEISURE CENTRES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "PUBLIC HOUSES"
+            }
+        ],
+        "label": "VISITS TO RECREATIONAL FACILITIES"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept8864",
+        "prefLabel": "Educational finance",
+        "altLabel": "Educational financing",
+        "id": "EducationalFinance_d435a3e0-891e-49eb-843e-b88c6a47c3de",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Economics of education"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Educational costs"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Educational budgets"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Educational fees"
+            },
+            {
+                "predicate": "related",
+                "target": "Educational grants"
+            },
+            {
+                "predicate": "related",
+                "target": "Educational management"
+            },
+            {
+                "predicate": "related",
+                "target": "Educational assistance"
+            },
+            {
+                "predicate": "related",
+                "target": "Educational financial resources"
+            }
+        ],
+        "label": "EDUCATIONAL FEES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/21717558-23e6-4e2b-9fd5-bbff85502d08",
+        "prefLabel": "SMOKING",
+        "definition": "INHALING AND EXHALING THE SMOKE OF BURNING TOBACCO",
+        "id": "Smoking",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PUBLIC HEALTH RISKS"
+            },
+            {
+                "predicate": "related",
+                "target": "ADDICTION"
+            },
+            {
+                "predicate": "related",
+                "target": "CANNABIS"
+            },
+            {
+                "predicate": "related",
+                "target": "SMOKING RESTRICTIONS"
+            }
+        ],
+        "label": "SMOKING CESSATION"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept9292",
+        "prefLabel": "Upper secondary education",
+        "id": "UpperSecondaryEducation_0b20adb0-fc08-4f22-a776-399db99ab7b7",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Educational levels"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Secondary education"
+            },
+            {
+                "predicate": "related",
+                "target": "Secondary school curriculum"
+            },
+            {
+                "predicate": "related",
+                "target": "Secondary school leaving"
+            },
+            {
+                "predicate": "related",
+                "target": "Secondary school students"
+            },
+            {
+                "predicate": "related",
+                "target": "Secondary school teachers"
+            },
+            {
+                "predicate": "related",
+                "target": "Secondary teacher education"
+            }
+        ],
+        "label": "UPPER SECONDARY EDUCATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/ff2c7a98-79d5-453f-929b-9cdefe2f020a",
+        "prefLabel": "SOCIAL RESEARCH",
+        "altLabel": "SOCIOLOGICAL RESEARCH",
+        "definition": "SYSTEMATIC INVESTIGATION OF QUESTIONS ABOUT HUMAN BEHAVIOR",
+        "id": "SocialResearch",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "RESEARCH METHODS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "FIELD RESEARCH"
+            },
+            {
+                "predicate": "narrower",
+                "target": "SURVEYS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "PARTICIPANT OBSERVATION"
+            }
+        ],
+        "label": "SOCIAL RESEARCH"
+    },
+    {
+        "uri": "https://hasset.ukdataservice.ac.uk/b38d6930-88b2-4f6e-9ce6-8accbfd2bda4",
+        "prefLabel": "REFUSE SITES",
+        "id": "RefuseSites",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "SITES"
+            },
+            {
+                "predicate": "related",
+                "target": "WASTE DISPOSAL AND HANDLING"
+            }
+        ],
+        "label": "REFUSE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/93124f3c-77a8-47c2-8edc-72b4303e9d36",
+        "prefLabel": "TRADE UNION OFFICIALS",
+        "id": "TradeUnionOfficials",
+        "label": "TRADE UNION OFFICIALS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/80d44066-0873-49d4-b88c-048d46e5c1ec",
+        "prefLabel": "CIVIL PARTNERSHIP DISSOLUTION",
+        "definition": "DISSOLUTION OF A LEGALLY RECOGNIZED RELATIONSHIP BETWEEN ADULTS THAT CARRIES THE SAME LEGAL RIGHTS AND OBLIGATIONS AS MARRIAGE",
+        "altLabel": "DISSOLUTION OF CIVIL PARTNERSHIP",
+        "id": "CivilPartnershipDissolution",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "FAMILY COHESION"
+            },
+            {
+                "predicate": "related",
+                "target": "CIVIL PARTNERSHIPS"
+            },
+            {
+                "predicate": "related",
+                "target": "MARRIAGE"
+            }
+        ],
+        "label": "CIVIL PARTNERSHIP DISSOLUTION"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1002698",
+        "prefLabel": "GOITRE",
+        "id": "Goitre",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "DISEASES AND CARRIERS OF DISEASES"
+            },
+            {
+                "predicate": "broader",
+                "target": "ENDOCRINE DISEASES"
+            }
+        ],
+        "label": "THYROID DISORDERS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/5e9a171b-bd1d-4823-9fc8-a097db6d1616",
+        "prefLabel": "COGNITION DISORDERS",
+        "definition": "DISORDERS AFFECTING THE INTELLECTUAL PROCESSES SUCH AS ATTENTION, MEMORY, JUDGMENT, REASONING, AND PROBLEM-SOLVING",
+        "altLabel": "COGNITIVE IMPAIRMENTS",
+        "id": "CognitionDisorders",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "MENTAL DISORDERS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "MEMORY DISORDERS"
+            },
+            {
+                "predicate": "related",
+                "target": "NEUROPSYCHOLOGY"
+            },
+            {
+                "predicate": "related",
+                "target": "COGNITIVE PSYCHOLOGY"
+            }
+        ],
+        "label": "COGNITION DISORDERS"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1004741",
+        "prefLabel": "PAROLE",
+        "id": "Parole_ef66bc94-17b3-4f03-8a99-a8386c70bfac",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CRIME AND CRIMINAL JUSTICE"
+            },
+            {
+                "predicate": "broader",
+                "target": "NON-CUSTODIAL SANCTIONS"
+            },
+            {
+                "predicate": "broader",
+                "target": "CORRECTIONAL SYSTEMS"
+            },
+            {
+                "predicate": "related",
+                "target": "PARDON"
+            },
+            {
+                "predicate": "related",
+                "target": "BAIL"
+            }
+        ],
+        "label": "PROBATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/aa056e74-09ed-46ae-8c1b-74260edbc208",
+        "prefLabel": "ASSASSINATION",
+        "definition": "THE MURDER OF A PROMINENT INDIVIDUAL, USUALLY FOR POLITICAL OR IDEOLOGICAL REASONS",
+        "altLabel": "TARGETED KILLING",
+        "id": "Assassination",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "TERRORISM"
+            },
+            {
+                "predicate": "related",
+                "target": "HOMICIDE"
+            },
+            {
+                "predicate": "related",
+                "target": "POLITICAL VIOLENCE"
+            },
+            {
+                "predicate": "related",
+                "target": "TARGETED KILLING"
+            }
+        ],
+        "label": "ASSASSINATION"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7587",
+        "prefLabel": "Educational demand",
+        "id": "EducationalDemand",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Economics of education"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Educational choice"
+            },
+            {
+                "predicate": "related",
+                "target": "Educational needs"
+            }
+        ],
+        "label": "ECONOMICS OF EDUCATION"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept3399",
+        "prefLabel": "Automatic control",
+        "id": "AutomaticControl_4c6d0344-a00d-4864-843f-388962c86ac7",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Production engineering"
+            },
+            {
+                "predicate": "related",
+                "target": "Robotics"
+            },
+            {
+                "predicate": "related",
+                "target": "Cybernetics"
+            },
+            {
+                "predicate": "related",
+                "target": "Automation"
+            },
+            {
+                "predicate": "related",
+                "target": "Industrial management"
+            },
+            {
+                "predicate": "related",
+                "target": "Industrial robots"
+            }
+        ],
+        "label": "AUTOMATION"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept9505",
+        "prefLabel": "Electric machines",
+        "id": "ElectricMachines",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Electrical equipment"
+            }
+        ],
+        "label": "ELECTRICAL EQUIPMENT"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1002177",
+        "prefLabel": "EXERCISE",
+        "altLabel": "PHYSICAL ACTIVITY",
+        "id": "Exercise",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "LEISURE, RECREATION AND SPORTS"
+            },
+            {
+                "predicate": "related",
+                "target": "SPORTS"
+            },
+            {
+                "predicate": "related",
+                "target": "PHYSICAL EDUCATION"
+            }
+        ],
+        "label": "PHYSICAL ACTIVITIES"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1002463",
+        "prefLabel": "FOREIGN EXCHANGE RATES",
+        "altLabel": "EXCHANGE RATES",
+        "id": "ForeignExchangeRates",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "MONETARY ISSUES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "FLOATING EXCHANGE RATES"
+            },
+            {
+                "predicate": "related",
+                "target": "FOREIGN EXCHANGE"
+            },
+            {
+                "predicate": "related",
+                "target": "MULTIPLE CURRENCY PRACTICES"
+            },
+            {
+                "predicate": "related",
+                "target": "CURRENCY REALIGNMENTS"
+            },
+            {
+                "predicate": "related",
+                "target": "CURRENCY INSTABILITY"
+            },
+            {
+                "predicate": "related",
+                "target": "PURCHASING POWER"
+            },
+            {
+                "predicate": "related",
+                "target": "BALANCE OF PAYMENTS ADJUSTMENT"
+            }
+        ],
+        "label": "EXCHANGE RATES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/951ec25f-98fa-4a39-8d89-9df9f22159b6",
+        "prefLabel": "NATO",
+        "id": "NATO",
+        "label": "NATO"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/6c558795-6d09-480d-82cf-5f3a2b08d526",
+        "prefLabel": "EXTERNAL BROADCASTING",
+        "id": "ExternalBroadcasting",
+        "label": "EXTERNAL BROADCASTING"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept5289",
+        "prefLabel": "Human rights education",
+        "id": "HumanRightsEducation_99975651-e87c-44ad-81ca-b291dc9ccc93",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Civic education"
+            },
+            {
+                "predicate": "related",
+                "target": "Peace education"
+            },
+            {
+                "predicate": "related",
+                "target": "Moral education"
+            },
+            {
+                "predicate": "related",
+                "target": "Culture of peace"
+            },
+            {
+                "predicate": "related",
+                "target": "International solidarity"
+            },
+            {
+                "predicate": "related",
+                "target": "Global citizenship education"
+            }
+        ],
+        "label": "CIVIC EDUCATION"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept17168",
+        "prefLabel": "Basic sciences",
+        "altLabel": "Fundamental science",
+        "id": "BasicSciences",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Science"
+            },
+            {
+                "predicate": "related",
+                "target": "Fundamental research"
+            }
+        ],
+        "label": "SCIENCE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/e4c12158-88e8-45cc-be64-a49267d56547",
+        "prefLabel": "EVERYDAY LIFE",
+        "definition": "THE ROUTINE AND REGULAR ACTIVITIES THAT MAKE UP THE DAILY EXISTENCE OF PEOPLE",
+        "id": "EverydayLife",
+        "label": "EVERYDAY LIFE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/bcd41d96-7e0d-45dd-b2ae-5354a1672e23",
+        "prefLabel": "MOTOR VEHICLES",
+        "definition": "COVERS BOTH THE USE AND OWNERSHIP OF MOTOR VEHICLES",
+        "altLabel": "MOTOR VEHICLE OWNERSHIP",
+        "id": "MotorVehicles",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "VEHICLES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "FARM VEHICLES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ROAD VEHICLES"
+            },
+            {
+                "predicate": "related",
+                "target": "ROAD TAX"
+            },
+            {
+                "predicate": "related",
+                "target": "MOTORING ASSOCIATIONS"
+            }
+        ],
+        "label": "MOTORCYCLES"
+    },
+    {
+        "uri": "https://hasset.ukdataservice.ac.uk/0dd4fe15-60b2-4d9d-a27f-30f674d562ae",
+        "prefLabel": "PRESCRIPTION DRUGS",
+        "definition": "MEDICINES AND MEDICATIONS PRESCRIBED BY MEDICAL PERSONNEL",
+        "id": "PrescriptionDrugs",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "PHARMACIES"
+            }
+        ],
+        "label": "MEDICAL PRESCRIPTIONS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/f5c6963c-7fe7-44e5-a44f-1d94793942a8",
+        "prefLabel": "ORAL HEALTH",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "HEALTH"
+            },
+            {
+                "predicate": "narrower",
+                "target": "DENTAL CARE"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ORAL HYGIENE"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ORAL MEDICINE"
+            }
+        ],
+        "label": "ORAL HEALTH"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/865cf541-dcbc-4320-aab3-2fae74663e7c",
+        "prefLabel": "RURAL DEVELOPMENT",
+        "definition": "A CATEGORY OF LAND THAT HAS BEEN SUBSTANTIALLY MODIFIED BY DEVELOPMENT OF STRUCTURES, VEGETATIVE MANIPULATION, OR PASTORAL AGRICULTURAL DEVELOPMENT",
+        "id": "RuralDevelopment",
+        "relationships": [
+            {
+                "predicate": "narrower",
+                "target": "RURAL ECONOMY"
+            },
+            {
+                "predicate": "related",
+                "target": "AGRICULTURAL PLANNING"
+            },
+            {
+                "predicate": "related",
+                "target": "RURAL PLANNING"
+            },
+            {
+                "predicate": "related",
+                "target": "RURAL SOCIOLOGY"
+            },
+            {
+                "predicate": "related",
+                "target": "REGIONAL PLANNING"
+            },
+            {
+                "predicate": "related",
+                "target": "RURAL ENVIRONMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "REGIONAL DISPARITIES"
+            },
+            {
+                "predicate": "related",
+                "target": "RURAL TRANSPORT"
+            }
+        ],
+        "label": "RURAL DEVELOPMENT"
+    },
+    {
+        "uri": "https://hasset.ukdataservice.ac.uk/de8038ad-93a3-4240-b409-25f6033c70eb",
+        "prefLabel": "ANXIETY",
+        "definition": "SENSE OF ANXIETY CAUSED BY AN UNKNOWN, IMAGINED OR IMPRECISE THREAT.",
+        "altLabel": "WORRY",
+        "id": "Anxiety",
+        "label": "ANXIETY DISORDERS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/b9b4dc63-d43a-4e43-80b3-0da2941f931a",
+        "prefLabel": "WOMEN'S RIGHTS",
+        "id": "WomensRights",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "HUMAN RIGHTS"
+            }
+        ],
+        "label": "WOMEN'S RIGHTS"
+    },
+    {
+        "uri": "https://hasset.ukdataservice.ac.uk/53a8d6f7-238f-4dd5-9157-95b9a594f721",
+        "prefLabel": "PESTICIDES",
+        "definition": "ANY CHEMICAL COMPOUND USED TO KILL PESTS AND INCLUDES HERBICIDES, INSECTICIDES AND FUNGICIDES",
+        "altLabel": "PEST CONTROL",
+        "id": "Pesticides_4202a64a-ec05-4278-9461-e11f10307d7f",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PERSISTENT ORGANIC POLLUTANTS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "INSECTICIDES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RODENTICIDES"
+            },
+            {
+                "predicate": "related",
+                "target": "CHEMICALS"
+            }
+        ],
+        "label": "HERBICIDES"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1001859",
+        "prefLabel": "ECONOMIC LAW",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ECONOMIC CONDITIONS"
+            },
+            {
+                "predicate": "broader",
+                "target": "PUBLIC LAW"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ANTITRUST LAW"
+            },
+            {
+                "predicate": "related",
+                "target": "ECONOMIC POLICY"
+            },
+            {
+                "predicate": "related",
+                "target": "INTERNATIONAL ECONOMIC LAW"
+            },
+            {
+                "predicate": "related",
+                "target": "ECONOMIC REGULATION"
+            },
+            {
+                "predicate": "related",
+                "target": "ADMINISTRATIVE LAW"
+            }
+        ],
+        "label": "ENVIRONMENTAL LAW"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1718",
+        "prefLabel": "Agricultural genetics",
+        "id": "AgriculturalGenetics",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Agricultural biology"
+            },
+            {
+                "predicate": "related",
+                "target": "Biotechnology"
+            },
+            {
+                "predicate": "related",
+                "target": "Animal genetics"
+            },
+            {
+                "predicate": "related",
+                "target": "Plant genetics"
+            },
+            {
+                "predicate": "related",
+                "target": "Genetically modified organisms"
+            }
+        ],
+        "label": "AGRICULTURAL BIOTECHNOLOGY"
+    },
+    {
+        "uri": "https://hasset.ukdataservice.ac.uk/391b9b05-840b-405e-b77b-51db25440539",
+        "prefLabel": "UNITED NATIONS",
+        "altLabel": "UNITED NATIONS ORGANIZATION",
+        "id": "UnitedNations",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "INTERNATIONAL ORGANIZATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "UNITED NATIONS COMMITTEES"
+            },
+            {
+                "predicate": "related",
+                "target": "INTERNATIONAL RELATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "INTERNATIONAL POLITICS"
+            }
+        ],
+        "label": "UNITED NATIONS GENERAL ASSEMBLY"
+    },
+    {
+        "uri": "https://hasset.ukdataservice.ac.uk/abcd1234-5678-efgh-ijkl-1234567890ab",
+        "prefLabel": "TOURIST FACILITIES",
+        "definition": "FACILITIES AND SERVICES PROVIDED FOR TOURISTS TO ENHANCE THEIR TRAVEL EXPERIENCE",
+        "id": "TouristFacilities",
+        "relationships": [],
+        "label": "TOURIST FACILITIES"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1000499",
+        "prefLabel": "BALANCE OF POWER",
+        "altLabel": "INTERNATIONAL EQUILIBRIUM",
+        "id": "BalanceOfPower_666df2a1-82bc-4561-8197-e00f32274fc9",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "INTERNATIONAL RELATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "ARMS RACE"
+            },
+            {
+                "predicate": "related",
+                "target": "SPHERES OF INFLUENCE"
+            }
+        ],
+        "label": "INTERNATIONAL EQUILIBRIUM"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/d906c82b-7e32-44fa-ab5e-5c2448429263",
+        "prefLabel": "FAMILY LIFE",
+        "definition": "THE DAILY ROUTINES, INTERACTIONS AND ACTIVITIES RELATED TO FAMILY MEMBERS LIVING TOGETHER",
+        "id": "FamilyLife",
+        "label": "FAMILY LIFE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/9b7f06c3-282d-48c6-8e41-8140c31327b5",
+        "prefLabel": "CEREMONIES",
+        "definition": "A FORMAL ACTIVITY INVOLVING A SERIES OF ACTIONS PERFORMED IN A SET AND PRESCRIBED ORDER",
+        "id": "Ceremonies",
+        "label": "CEREMONIES"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1003684",
+        "prefLabel": "UPPER HOUSE",
+        "altLabel": null,
+        "id": "UpperHouse",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "LEGISLATIVE BODIES"
+            }
+        ],
+        "label": "UPPER HOUSE"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1000151",
+        "prefLabel": "AGRICULTURAL PRICE SUPPORTS",
+        "id": "AgriculturalPriceSupports",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "AGRICULTURAL ECONOMICS AND POLICY; RURAL SOCIOLOGY"
+            },
+            {
+                "predicate": "related",
+                "target": "AGRICULTURAL POLICY"
+            },
+            {
+                "predicate": "related",
+                "target": "AGRICULTURAL PRICES"
+            }
+        ],
+        "label": "AGRICULTURAL SUBSIDIES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/b84dd598-1383-43c3-b4f3-c8b1f0933cd3",
+        "prefLabel": "REFERENDUMS",
+        "definition": "A PROCEDURE WHEREBY ALL THE VOTERS IN A JURISDICTION ARE INVITED TO VOTE ON A SPECIFIC ISSUE OR PIECE OF LEGISLATION.",
+        "id": "Referendums",
+        "label": "REFERENDUMS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/1371863c-4742-4f1c-82b3-4082db49c090",
+        "prefLabel": "DRUG DEALING",
+        "definition": "THE ILLEGAL SELLING OR DISTRIBUTION OF DRUGS, OFTEN INVOLVING ORGANIZED CRIME NETWORKS",
+        "id": "DrugDealing",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ILLEGAL ACTIVITY"
+            },
+            {
+                "predicate": "related",
+                "target": "DRUG TRAFFICKING"
+            },
+            {
+                "predicate": "related",
+                "target": "NARCOTICS"
+            }
+        ],
+        "label": "DRUG DEALING"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1001739",
+        "prefLabel": "DOLLAR",
+        "id": "Dollar",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "MONETARY ISSUES"
+            },
+            {
+                "predicate": "broader",
+                "target": "CURRENCY"
+            },
+            {
+                "predicate": "related",
+                "target": "ASIAN DOLLAR MARKET"
+            },
+            {
+                "predicate": "related",
+                "target": "EURODOLLARS"
+            },
+            {
+                "predicate": "related",
+                "target": "PETRODOLLARS"
+            }
+        ],
+        "label": "MONEY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/9809e53d-91d9-4fc4-931a-0c9890ac8256",
+        "prefLabel": "DATA BREACHES",
+        "definition": "UNAUTHORIZED ACCESS, DISCLOSURE, OR USE OF SENSITIVE OR CONFIDENTIAL DATA",
+        "id": "DataBreaches",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "DATA PROTECTION"
+            },
+            {
+                "predicate": "related",
+                "target": "CYBERSECURITY"
+            }
+        ],
+        "label": "DATA BREACHES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/405c8e5e-bf95-4489-bbef-e7fb27fa8cca",
+        "prefLabel": "DISCRIMINATION",
+        "altLabel": "UNJUST OR UNEQUAL TREATMENT OF INDIVIDUALS OR GROUPS BASED ON VARIOUS CHARACTERISTICS SUCH AS RACE, GENDER, AGE, OR DISABILITY",
+        "id": "Discrimination",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "EQUALITY"
+            },
+            {
+                "predicate": "narrower",
+                "target": "SEXUAL DISCRIMINATION"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RACIAL DISCRIMINATION"
+            },
+            {
+                "predicate": "related",
+                "target": "HARASSMENT"
+            }
+        ],
+        "label": "DISCRIMINATION"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1006111",
+        "prefLabel": "SPACECRAFT PROPULSION",
+        "id": "SpacecraftPropulsion",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "SPACE SCIENCES"
+            },
+            {
+                "predicate": "broader",
+                "target": "SPACE TECHNOLOGY"
+            },
+            {
+                "predicate": "related",
+                "target": "SPACE FLIGHT"
+            },
+            {
+                "predicate": "related",
+                "target": "LAUNCH COMPLEXES"
+            },
+            {
+                "predicate": "related",
+                "target": "SPACECRAFT LAUNCHINGS"
+            }
+        ],
+        "label": "SPACECRAFT"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1406",
+        "prefLabel": "Local government",
+        "altLabel": "Regional government",
+        "id": "LocalGovernment_3812c973-c86e-4806-8c77-ec3f509e0e30",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Public administration"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Municipal government"
+            },
+            {
+                "predicate": "related",
+                "target": "Bureaucracy"
+            },
+            {
+                "predicate": "related",
+                "target": "Decentralization"
+            },
+            {
+                "predicate": "related",
+                "target": "Local finance"
+            },
+            {
+                "predicate": "related",
+                "target": "Urban decentralization"
+            }
+        ],
+        "label": "REGIONAL GOVERNMENT"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept1662",
+        "prefLabel": "Age groups",
+        "id": "AgeGroups_10d0134f-341e-4f4c-84c2-73457ca14313",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Age distribution"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Adolescence"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Adults"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Childhood"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Old age"
+            }
+        ],
+        "label": "AGE"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6521",
+        "prefLabel": "Social control",
+        "altLabel": "Social pressure",
+        "id": "SocialControl_cf729f94-842e-4f03-9b75-fc91e8261cc6",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Social behaviour"
+            },
+            {
+                "predicate": "related",
+                "target": "Social adaptation"
+            },
+            {
+                "predicate": "related",
+                "target": "Social norms"
+            },
+            {
+                "predicate": "related",
+                "target": "Social inclusion"
+            },
+            {
+                "predicate": "related",
+                "target": "Social influence"
+            },
+            {
+                "predicate": "related",
+                "target": "Social values"
+            }
+        ],
+        "label": "SOCIAL INFLUENCE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/2d78f607-d1c8-4397-aae5-15c50f0d224d",
+        "prefLabel": "TELEVISION VIEWING",
+        "id": "TelevisionViewing",
+        "label": "TELEVISION VIEWING"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept9615",
+        "prefLabel": "Methodology",
+        "id": "Methodology_d203336c-d9f2-4421-aa19-70e8e72efd7f",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Research work"
+            },
+            {
+                "predicate": "related",
+                "target": "Scientific methods"
+            },
+            {
+                "predicate": "related",
+                "target": "Research"
+            },
+            {
+                "predicate": "related",
+                "target": "Empirical research"
+            }
+        ],
+        "label": "RESEARCH METHODOLOGY"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2572",
+        "prefLabel": "Performance appraisal",
+        "altLabel": "Employee evaluation",
+        "id": "PerformanceAppraisal_f57bc159-17e5-4bac-9d19-5b9354573c2d",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Personnel management"
+            },
+            {
+                "predicate": "related",
+                "target": "Evaluation"
+            },
+            {
+                "predicate": "related",
+                "target": "Wages"
+            }
+        ],
+        "label": "JOB EVALUATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/5450c6fb-dad8-4f75-83f4-07c41b25fa0b",
+        "prefLabel": "SCHOOL BULLYING",
+        "definition": "REPEATED, SYSTEMATIC, AND DELIBERATE HARMFUL BEHAVIOUR THAT OCCURS WITHIN AN EDUCATIONAL SETTING. IT CAN INCLUDE PHYSICAL, VERBAL, OR PSYCHOLOGICAL ABUSE, AND MAY INVOLVE A POWER IMBALANCE BETWEEN THE BULLY AND THE VICTIM.",
+        "altLabel": "BULLYING IN SCHOOLS",
+        "id": "SchoolBullying",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "BULLYING"
+            },
+            {
+                "predicate": "related",
+                "target": "EDUCATION"
+            }
+        ],
+        "label": "SCHOOL BULLYING"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1004052",
+        "prefLabel": "MERGERS AND ACQUISITIONS",
+        "altLabel": "ACQUISITIONS AND MERGERS",
+        "id": "MergersAndAcquisitions",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "MANAGEMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "MONOPOLIES"
+            },
+            {
+                "predicate": "related",
+                "target": "CARTELS"
+            },
+            {
+                "predicate": "related",
+                "target": "CORPORATE DIVESTITURE"
+            },
+            {
+                "predicate": "related",
+                "target": "BANKRUPTCY"
+            },
+            {
+                "predicate": "related",
+                "target": "SIZE OF ENTERPRISE"
+            },
+            {
+                "predicate": "related",
+                "target": "COMPETITION"
+            },
+            {
+                "predicate": "related",
+                "target": "ECONOMIC CONCENTRATION"
+            },
+            {
+                "predicate": "related",
+                "target": "CORPORATION LAW"
+            },
+            {
+                "predicate": "related",
+                "target": "CONGLOMERATE CORPORATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "INDUSTRIAL ORGANIZATION"
+            }
+        ],
+        "label": "MERGERS"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1006664",
+        "prefLabel": "TRANSPORT SECURITY",
+        "altLabel": "SECURITY IN TRANSPORT",
+        "id": "TransportSecurity",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "TRANSPORT OPERATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "DANGEROUS GOODS TRANSPORT"
+            },
+            {
+                "predicate": "related",
+                "target": "AVIATION SECURITY"
+            },
+            {
+                "predicate": "related",
+                "target": "MARITIME SECURITY"
+            }
+        ],
+        "label": "TRANSPORT SAFETY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/deb1aed5-9519-4ba5-bc0c-2e5b819c8f9e",
+        "prefLabel": "IDEOLOGIES",
+        "altLabel": "DOCTRINES",
+        "id": "Ideologies",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PHILOSOPHY"
+            },
+            {
+                "predicate": "narrower",
+                "target": "ECONOMIC DOCTRINES"
+            },
+            {
+                "predicate": "related",
+                "target": "BELIEFS"
+            }
+        ],
+        "label": "POLITICAL IDEOLOGIES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/50f01c77-496c-4ce1-8342-c4a317349a7b",
+        "prefLabel": "BRONCHITIS",
+        "id": "Bronchitis",
+        "label": "BRONCHIAL DISEASES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/b5ebf57d-45ce-4a9b-be7d-38039c314648",
+        "prefLabel": "MILITARY EDUCATION",
+        "id": "MilitaryEducation",
+        "label": "MILITARY EDUCATION"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1004822",
+        "prefLabel": "PERSONAL LOANS",
+        "id": "PersonalLoans",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "BANKING AND INVESTMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "CONSUMER CREDIT"
+            },
+            {
+                "predicate": "related",
+                "target": "PAWNBROKING"
+            },
+            {
+                "predicate": "related",
+                "target": "SAVINGS BANKS"
+            },
+            {
+                "predicate": "related",
+                "target": "PERSONAL FINANCE"
+            }
+        ],
+        "label": "LOANS"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept999",
+        "prefLabel": "Skills",
+        "id": "Skills",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Aptitude"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Social skills"
+            },
+            {
+                "predicate": "related",
+                "target": "Ability"
+            },
+            {
+                "predicate": "related",
+                "target": "Sensorimotor activities"
+            },
+            {
+                "predicate": "related",
+                "target": "Life skills"
+            },
+            {
+                "predicate": "related",
+                "target": "Occupational qualifications"
+            }
+        ],
+        "label": "SOCIAL SKILLS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/583b810d-872b-4171-bad2-a4cc3890364d",
+        "prefLabel": "SPORTS TRAINERS",
+        "altLabel": "SPORTS INSTRUCTORS",
+        "id": "SportsTrainers",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "OCCUPATIONS"
+            }
+        ],
+        "label": "SPORTSPERSONS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/373c7155-fb06-4f46-99c0-606e73899f79",
+        "prefLabel": "ASSAULT",
+        "definition": "THE THREATENING OF OR THE USE OF FORCE AGAINST AN INDIVIDUAL IN A MANNER THAT CAN CAUSE HARM OR OFFEND THEM.",
+        "id": "Assault",
+        "label": "ASSAULT"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/d4e99b51-8c3d-453b-9082-34e8eb0f1e07",
+        "prefLabel": "POLITICAL MANIFESTOS",
+        "definition": "A PUBLIC DECLARATION OF POLITICAL BELIEFS, AIMS AND POLICIES, USUALLY ISSUED BY A POLITICAL PARTY OR CANDIDATE",
+        "id": "PoliticalManifestos",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "POLITICAL DOCUMENTS"
+            }
+        ],
+        "label": "POLITICAL MANIFESTOS"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7996",
+        "prefLabel": "Nutrition",
+        "id": "Nutrition_27b350a3-b865-4947-af51-0a9a7fa02839",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Physiology"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Breast feeding"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Calories"
+            },
+            {
+                "predicate": "narrower",
+                "target": "Nutrients"
+            },
+            {
+                "predicate": "related",
+                "target": "Food"
+            },
+            {
+                "predicate": "related",
+                "target": "Metabolism"
+            },
+            {
+                "predicate": "related",
+                "target": "Dietetics"
+            },
+            {
+                "predicate": "related",
+                "target": "Nutritional diseases"
+            },
+            {
+                "predicate": "related",
+                "target": "Malnutrition"
+            }
+        ],
+        "label": "MALNUTRITION"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept10875",
+        "prefLabel": "Local finance",
+        "altLabel": "Metropolitan finance",
+        "id": "LocalFinance_3f4794dc-2a32-4419-83b5-f0b293d98acf",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Public finance"
+            },
+            {
+                "predicate": "related",
+                "target": "Local government"
+            }
+        ],
+        "label": "PUBLIC FINANCE"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept3971",
+        "prefLabel": "Deontology",
+        "altLabel": "Professional ethics",
+        "id": "Deontology",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Ethics"
+            },
+            {
+                "predicate": "related",
+                "target": "Occupations"
+            },
+            {
+                "predicate": "related",
+                "target": "Medical ethics"
+            },
+            {
+                "predicate": "related",
+                "target": "Bioethics"
+            },
+            {
+                "predicate": "related",
+                "target": "Ethics of science"
+            },
+            {
+                "predicate": "related",
+                "target": "Occupational status"
+            },
+            {
+                "predicate": "related",
+                "target": "Press ethics"
+            },
+            {
+                "predicate": "related",
+                "target": "Communication ethics"
+            }
+        ],
+        "label": "MEDICAL ETHICS"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1004465",
+        "prefLabel": "NORTH-SOUTH TRADE",
+        "id": "North-southTrade",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "GENERAL INTERNATIONAL TRADE AND TRADE POLICY"
+            },
+            {
+                "predicate": "broader",
+                "target": "INTERNATIONAL TRADE"
+            },
+            {
+                "predicate": "related",
+                "target": "DEVELOPING COUNTRIES"
+            },
+            {
+                "predicate": "related",
+                "target": "EAST-WEST TRADE"
+            },
+            {
+                "predicate": "related",
+                "target": "DEVELOPED MARKET ECONOMIES"
+            },
+            {
+                "predicate": "related",
+                "target": "TRADE STRUCTURE"
+            },
+            {
+                "predicate": "related",
+                "target": "EAST-SOUTH TRADE"
+            },
+            {
+                "predicate": "related",
+                "target": "SOUTH-SOUTH TRADE"
+            },
+            {
+                "predicate": "related",
+                "target": "FAIR TRADE"
+            }
+        ],
+        "label": "ARMS TRADE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/17d9b672-be4f-4c1b-936e-88dcbb7c18f4",
+        "prefLabel": "EXTORTION",
+        "definition": "THE ACT OR AN INSTANCE OF OBTAINING SOMETHING, ESPECIALLY MONEY, THROUGH FORCE OR THREAT",
+        "id": "Extortion",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CRIMES AGAINST PROPERTY"
+            },
+            {
+                "predicate": "narrower",
+                "target": "BLACKMAIL"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RANSOM"
+            }
+        ],
+        "label": "EXTORTION"
+    },
+    {
+        "uri": "",
+        "prefLabel": "MILITARY POWER",
+        "id": "MilitaryPower",
+        "label": "MILITARY POWER"
+    },
+    {
+        "uri": "https://metadata.un.org/thesaurus/1001778",
+        "prefLabel": "DRUG LEGISLATION",
+        "altLabel": "DRUG CONTROL LAWS",
+        "id": "DrugLegislation",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "NARCOTIC DRUGS"
+            },
+            {
+                "predicate": "broader",
+                "target": "LAWS AND REGULATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "DRUGS OF ABUSE"
+            }
+        ],
+        "label": "DRUG POLICY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/d571ecad-9f1a-4624-81bb-23dc924d2589",
+        "prefLabel": "NEWSPAPERS",
+        "altLabel": "NEWSPAPER PRESS",
+        "id": "Newspapers",
+        "label": "NEWS"
+    },
+    {
+        "uri": "https://vocabularies.unesco.org/thesaurus/concept9867",
+        "prefLabel": "Philosophy education",
+        "id": "PhilosophyEducation_8a28d021-471e-4471-965c-b3d336bbb5d1",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Humanities education"
+            }
+        ],
+        "label": "PHILOSOPHICAL SCHOOLS"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1001919",
+        "prefLabel": "EDUCATIONAL QUALITY",
+        "altLabel": "QUALITY OF EDUCATION",
+        "id": "EducationalQuality_d9baa822-d911-4d58-8d89-615e2b4f6c2f",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "EDUCATIONAL POLICY AND PLANNING"
+            },
+            {
+                "predicate": "related",
+                "target": "RIGHT TO EDUCATION"
+            }
+        ],
+        "label": "QUALITY OF EDUCATION"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1004527",
+        "prefLabel": "NUPTIALITY RATE",
+        "id": "NuptialityRate",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "POPULATION DYNAMICS"
+            },
+            {
+                "predicate": "related",
+                "target": "MARRIAGE"
+            },
+            {
+                "predicate": "related",
+                "target": "MARRIAGE STATISTICS"
+            }
+        ],
+        "label": "NUPTIALITY"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1003504",
+        "prefLabel": "JUVENILE COURTS",
+        "id": "JuvenileCourts",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CRIME AND CRIMINAL JUSTICE"
+            },
+            {
+                "predicate": "broader",
+                "target": "GENERAL AND NATIONAL LAW"
+            },
+            {
+                "predicate": "broader",
+                "target": "JUVENILE JUSTICE"
+            },
+            {
+                "predicate": "related",
+                "target": "JUVENILE CORRECTIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "JUVENILE DETENTION HOMES"
+            },
+            {
+                "predicate": "related",
+                "target": "JUVENILE OFFENDERS"
+            }
+        ],
+        "label": "COURTS"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1005193",
+        "prefLabel": "PROMOTION",
+        "id": "Promotion",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CAREER DEVELOPMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "EMPLOYMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "PERSONNEL MANAGEMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "SUCCESSION PLANNING"
+            },
+            {
+                "predicate": "related",
+                "target": "VACANCY MANAGEMENT"
+            }
+        ],
+        "label": "HEALTH PROMOTION"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1007010",
+        "prefLabel": "WILDLIFE",
+        "id": "Wildlife_f0d7d954-2455-4e87-a044-fe6eb496d3a3",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "WILDLIFE"
+            },
+            {
+                "predicate": "broader",
+                "target": "ANIMAL RESOURCES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "MIGRATORY SPECIES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "GAME ANIMALS"
+            },
+            {
+                "predicate": "related",
+                "target": "WILDLIFE CONSERVATION"
+            },
+            {
+                "predicate": "related",
+                "target": "ENDANGERED SPECIES"
+            },
+            {
+                "predicate": "related",
+                "target": "WILDLIFE RESEARCH"
+            },
+            {
+                "predicate": "related",
+                "target": "NATURAL HISTORY"
+            },
+            {
+                "predicate": "related",
+                "target": "ANIMAL ECOLOGY"
+            }
+        ],
+        "label": "WILD ANIMALS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/583b810d-872b-4171-bad2-a4cc3890364d",
+        "prefLabel": "SPORTS TRAINERS",
+        "altLabel": "SPORTS INSTRUCTORS",
+        "id": "SportsTrainers",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "OCCUPATIONS"
+            }
+        ],
+        "label": "SPORTS TRAINING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4815c7f3-2cde-422c-929c-cecb61696e16",
+        "prefLabel": "BOREDOM",
+        "definition": "FEELING OF BEING VACANT OR DISINTERESTED",
+        "id": "Boredom",
+        "label": "BOREDOM"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/5c76e585-d053-48fb-b7b5-1bc8f4980161",
+        "prefLabel": "HUNGER",
+        "id": "Hunger",
+        "label": "HUNGER"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept9652",
+        "prefLabel": "Full employment",
+        "id": "FullEmployment_6bd07b1e-7d6c-4d74-bed5-89208678ee87",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Employment"
+            }
+        ],
+        "label": "STATUS IN EMPLOYMENT"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/9e3999ef-b725-42d5-bb62-c5c38935918b",
+        "prefLabel": "HOBBIES",
+        "definition": "A RECORD OF A PERSON\u2019S FUNCTIONAL CAPABILITY BASED ON ANSWERS TO QUESTIONS ABOUT MOBILITY, SELF-CARE, GROOMING, AND ABILITY TO DRESS, WASH, KEEP HOUSE, SHOP FOR FOOD, ETC.",
+        "id": "Hobbies",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "HEALTH"
+            },
+            {
+                "predicate": "narrower",
+                "target": "PERSONAL HYGIENE"
+            },
+            {
+                "predicate": "narrower",
+                "target": "PHYSICAL MOBILITY"
+            }
+        ],
+        "label": "HOBBIES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4e03c0e9-966f-4df9-8d8a-a2b77504199d",
+        "prefLabel": "FREEDOM OF EXPRESSION",
+        "id": "FreedomOfExpression",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "CIVIL AND POLITICAL RIGHTS"
+            },
+            {
+                "predicate": "narrower",
+                "target": "MEDIA FREEDOM"
+            }
+        ],
+        "label": "FREEDOM OF EXPRESSION"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1003737",
+        "prefLabel": "LICENCE AGREEMENTS",
+        "altLabel": "FOREIGN LICENSING AGREEMENTS",
+        "id": "LicenceAgreements",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "INDUSTRIAL PROPERTY"
+            },
+            {
+                "predicate": "related",
+                "target": "ECONOMIC AGREEMENTS"
+            }
+        ],
+        "label": "LICENCES"
+    },
+    {
+        "uri": "http://example.org/id/12345",
+        "prefLabel": "TIME METHODS (RESEARCH)",
+        "id": "TimeMethodsResearch",
+        "label": "TIME METHODS (RESEARCH)"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/1afca5a2-2202-4a82-95c0-6e3e2908bc11",
+        "prefLabel": "WORLD TRADE ORGANIZATION",
+        "id": "WorldTradeOrganization",
+        "label": "WORLD TRADE ORGANIZATION"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/9a54a958-87a1-4092-b509-74e96f142671",
+        "prefLabel": "LARGE SHOPS",
+        "id": "LargeShops",
+        "label": "LARGE SHOPS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/62893e4f-342i-495a-76e0-8b74c2d2c4e2",
+        "prefLabel": "SIKHISM",
+        "altLabel": "SIKHS",
+        "id": "Sikhism",
+        "label": "SIKHISM"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept295",
+        "prefLabel": "Languages",
+        "id": "Languages",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "Foreign languages"
+            },
+            {
+                "predicate": "related",
+                "target": "Modern languages"
+            },
+            {
+                "predicate": "related",
+                "target": "National languages"
+            },
+            {
+                "predicate": "related",
+                "target": "Uncommonly taught languages"
+            },
+            {
+                "predicate": "related",
+                "target": "Indigenous languages"
+            }
+        ],
+        "label": "LANGUAGES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/57f626d4-b2be-4ec6-af42-be7990fa3f62",
+        "prefLabel": "CRIMINAL NEGLIGENCE",
+        "definition": "A FAULT CHARACTERIZED BY RECKLESS DISREGARD FOR THE SAFETY AND LIVES OF OTHERS, USUALLY INVOLVING NEGLIGENCE OR UNCONSCIONABLE INDIFFERENCE",
+        "id": "CriminalNegligence",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "NEGLIGENCE"
+            }
+        ],
+        "label": "CRIMINAL NEGLIGENCE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/99999999-9999-9999-9999-999999999999",
+        "prefLabel": "EDUCATIONAL ADMISSION AGE",
+        "definition": "THE AGE AT WHICH A STUDENT IS ELIGIBLE TO ENTER A PARTICULAR LEVEL OF EDUCATION OR SCHOOL",
+        "altLabel": "ENTERING AGE",
+        "id": "EducationalAdmissionAge",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "EDUCATIONAL ADMISSION CRITERIA"
+            },
+            {
+                "predicate": "related",
+                "target": "SCHOOL ENROLLMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "GRADE LEVELS"
+            }
+        ],
+        "label": "EDUCATIONAL ADMISSION AGE"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/9371e415-d7e4-4a3c-9d55-4e8f42785589",
+        "prefLabel": "HOURS OF WORK",
+        "definition": "THE NUMBER OF HOURS EMPLOYEES ARE CONTRACTED TO WORK EACH WEEK FOR THEIR EMPLOYER",
+        "id": "HoursOfWork",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ARRANGEMENT OF WORKING TIME"
+            },
+            {
+                "predicate": "broader",
+                "target": "TIME"
+            },
+            {
+                "predicate": "narrower",
+                "target": "INVOLUNTARY SHORT TIME WORKING"
+            },
+            {
+                "predicate": "narrower",
+                "target": "OVERTIME"
+            },
+            {
+                "predicate": "related",
+                "target": "WORK-LIFE BALANCE"
+            }
+        ],
+        "label": "HOURS OF SUNLIGHT"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1003937",
+        "prefLabel": "MARITIME SAFETY",
+        "altLabel": "SAFETY OF LIFE AT SEA",
+        "id": "MaritimeSafety",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "WATER TRANSPORT AND SHIPPING"
+            },
+            {
+                "predicate": "narrower",
+                "target": "TANKER SAFETY"
+            },
+            {
+                "predicate": "related",
+                "target": "OCEANS"
+            },
+            {
+                "predicate": "related",
+                "target": "MARITIME TRANSPORT"
+            },
+            {
+                "predicate": "related",
+                "target": "DISTRESS SIGNALS"
+            },
+            {
+                "predicate": "related",
+                "target": "MARITIME TRAFFIC"
+            },
+            {
+                "predicate": "related",
+                "target": "SAFETY REGULATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "PIRACY"
+            },
+            {
+                "predicate": "related",
+                "target": "HIJACKING OF SHIPS"
+            },
+            {
+                "predicate": "related",
+                "target": "TRAVEL SAFETY"
+            }
+        ],
+        "label": "MARINE ACCIDENTS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/42392fe5-7346-40b1-a575-0279756a12cf",
+        "prefLabel": "TUNNELS",
+        "id": "Tunnels",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "TRANSPORT INFRASTRUCTURE"
+            },
+            {
+                "predicate": "related",
+                "target": "CIVIL ENGINEERING"
+            }
+        ],
+        "label": "TUNNELS"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1005732",
+        "prefLabel": "SCIENCE AND TECHNOLOGY CAPABILITY",
+        "altLabel": "SCIENCE AND TECHNOLOGY POTENTIAL",
+        "id": "ScienceAndTechnologyCapability",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "DEVELOPMENT AND TRANSFER OF TECHNOLOGY AND PROMOTION OF SCIENCE"
+            },
+            {
+                "predicate": "related",
+                "target": "SCIENTIFIC AND TECHNICAL INFORMATION"
+            },
+            {
+                "predicate": "related",
+                "target": "SCIENTIFIC FACILITIES"
+            },
+            {
+                "predicate": "related",
+                "target": "SCIENTIFIC INSTITUTIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "SCIENTIFIC PERSONNEL"
+            }
+        ],
+        "label": "SCIENCE AND TECHNOLOGY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/d7025950-c5a2-4ebd-a53c-9aba57b56388",
+        "prefLabel": "SUMMONS",
+        "definition": "NOTIFICATION TO APPEAR IN COURT OR BEFORE A JUDGE OR MAGISTRATE; ALSO THE WRITTEN ORDER OR NOTICE TO COME INTO COURT",
+        "id": "Summons",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "LEGAL PROCEDURE"
+            },
+            {
+                "predicate": "related",
+                "target": "COURT DOCUMENTS"
+            }
+        ],
+        "label": "SUMMONS"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept4127",
+        "prefLabel": "People of African descent",
+        "altLabel": "Blacks",
+        "id": "PeopleOfAfricanDescent_0200ef5c-330c-408f-914e-2e35f2644729",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Ethnic groups"
+            },
+            {
+                "predicate": "related",
+                "target": "Coloureds"
+            }
+        ],
+        "label": "ENSLAVED PERSONS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/adfacf83-e283-4796-ab60-89883599c430",
+        "prefLabel": "INTERPERSONAL TRUST",
+        "id": "InterpersonalTrust",
+        "label": "INTERPERSONAL TRUST"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/a181e8e9-791c-4592-b6e9-a8f829dfd36d",
+        "prefLabel": "DRUNKENNESS",
+        "definition": "STATE OF BEING DRUNK; INTOXICATION CAUSED BY ALCOHOL",
+        "altLabel": "INTOXICATION",
+        "id": "Drunkenness",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ALCOHOL USE"
+            },
+            {
+                "predicate": "related",
+                "target": "DRINKING BEHAVIOUR"
+            }
+        ],
+        "label": "DRUNKENNESS"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept7592",
+        "prefLabel": "Democratization",
+        "id": "Democratization_3cca3d7c-d459-41e9-8cea-24d30b3dab3e",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Social change"
+            },
+            {
+                "predicate": "related",
+                "target": "Participatory development"
+            },
+            {
+                "predicate": "related",
+                "target": "Government policy"
+            },
+            {
+                "predicate": "related",
+                "target": "Democracy"
+            },
+            {
+                "predicate": "related",
+                "target": "Democratization of culture"
+            },
+            {
+                "predicate": "related",
+                "target": "Democratization of education"
+            }
+        ],
+        "label": "DEMOCRACY"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/ec3ee1aa-f40f-430c-a5ad-4de1894f0c7e",
+        "prefLabel": "SECURITY PERSONNEL",
+        "id": "SecurityPersonnel",
+        "label": "SECURITY PERSONNEL"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/f45c6056-3f76-4fb0-b3d2-aa1b47c0fb4a",
+        "prefLabel": "SPIRITUALISM",
+        "definition": "BELIEF IN SPIRITS, INCLUDING THE BELIEF IN COMMUNICATION WITH THE SPIRITS OF THE DEAD OR OTHER NON-CORPOREAL ENTITIES",
+        "id": "Spiritualism",
+        "label": "SPIRITUALISM"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/6ba88846-1026-411d-a460-cdbb6070824b",
+        "prefLabel": "HORMONE REPLACEMENT THERAPY",
+        "id": "HormoneReplacementTherapy",
+        "label": "HORMONE REPLACEMENT THERAPY"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1004891",
+        "prefLabel": "PHOTOGRAPHY",
+        "id": "Photography_14eb5bec-0b10-480f-925d-f299639ed285",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ART, LITERATURE AND MUSIC"
+            },
+            {
+                "predicate": "broader",
+                "target": "COMMUNICATION AND MASS MEDIA"
+            },
+            {
+                "predicate": "narrower",
+                "target": "MICROPHOTOGRAPHY"
+            },
+            {
+                "predicate": "narrower",
+                "target": "AERIAL PHOTOGRAPHY"
+            },
+            {
+                "predicate": "narrower",
+                "target": "RADIOGRAPHY"
+            },
+            {
+                "predicate": "related",
+                "target": "PHOTOGRAMMETRY"
+            },
+            {
+                "predicate": "related",
+                "target": "PHOTOGRAPHIC EQUIPMENT"
+            },
+            {
+                "predicate": "related",
+                "target": "PHOTOGRAPHS"
+            },
+            {
+                "predicate": "related",
+                "target": "REPRODUCTIVE ARTS"
+            },
+            {
+                "predicate": "related",
+                "target": "PHOTOCHEMISTRY"
+            },
+            {
+                "predicate": "related",
+                "target": "VISUAL COMMUNICATION"
+            }
+        ],
+        "label": "PHOTOGRAPHIC ART"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/4155d8ff-c40c-4dfc-89ad-29a5a7f2d700",
+        "prefLabel": "HAIRDRESSING AND BEAUTY SERVICES EDUCATION",
+        "definition": "EDUCATION IN THE FIELD OF HAIR AND BEAUTY SERVICES, INCLUDING HAIRSTYLING, COSMETOLOGY, SKIN CARE, AND RELATED AREAS",
+        "id": "HairdressingAndBeautyServicesEducation",
+        "label": "HAIRDRESSING AND BEAUTY SERVICES EDUCATION"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept3837",
+        "prefLabel": "Mobile libraries",
+        "altLabel": "Bibliobus",
+        "id": "MobileLibraries_eb7c1323-cf0b-48fa-abc5-a20aca9f31c5",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Public libraries"
+            }
+        ],
+        "label": "LIBRARIES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/d2471d6b-e773-4fd6-a9fc-ff27072b95e9",
+        "prefLabel": "EQUAL EDUCATION",
+        "altLabel": "EQUAL OPPORTUNITY (EDUCATION)",
+        "id": "EqualEducation",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "RIGHT TO NON-DISCRIMINATION"
+            },
+            {
+                "predicate": "related",
+                "target": "ACCESS TO EDUCATION"
+            },
+            {
+                "predicate": "related",
+                "target": "EDUCATIONAL DISCRIMINATION"
+            },
+            {
+                "predicate": "related",
+                "target": "SPECIAL EDUCATION"
+            },
+            {
+                "predicate": "related",
+                "target": "WOMEN'S EDUCATION"
+            }
+        ],
+        "label": "EQUAL OPPORTUNITY"
+    },
+    {
+        "uri": "https://hasset.ukdataservice.ac.uk/ddafb4fb-068f-4a2e-b602-b1281c208dea",
+        "prefLabel": "SHOPPING",
+        "id": "Shopping",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PURCHASING"
+            },
+            {
+                "predicate": "narrower",
+                "target": "SUNDAY SHOPPING"
+            },
+            {
+                "predicate": "narrower",
+                "target": "COUNTER SERVICES"
+            },
+            {
+                "predicate": "narrower",
+                "target": "SELF-SERVICE"
+            },
+            {
+                "predicate": "narrower",
+                "target": "MAIL ORDER SERVICES"
+            },
+            {
+                "predicate": "related",
+                "target": "RETAIL OUTLETS"
+            },
+            {
+                "predicate": "related",
+                "target": "SHOPPING AREAS"
+            },
+            {
+                "predicate": "related",
+                "target": "RETAIL TRADE"
+            },
+            {
+                "predicate": "related",
+                "target": "DELIVERY SERVICES"
+            },
+            {
+                "predicate": "related",
+                "target": "SHOPS"
+            }
+        ],
+        "label": "ONLINE SHOPPING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/cc9fd177-8e43-4e13-99dd-7e531e460aae",
+        "prefLabel": "ISOLATIONISM",
+        "id": "Isolationism",
+        "label": "ISOLATIONISM"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/cf24d3e7-9d98-4914-b86b-0ba591bf1a7e",
+        "prefLabel": "HERNIAS",
+        "id": "Hernias",
+        "label": "HERNIAS"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1000202",
+        "prefLabel": "AIR TRANSPORT",
+        "altLabel": "AERONAUTICS",
+        "id": "AirTransport_11506026-2655-48e8-b659-b232a1429510",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "AIR TRANSPORT"
+            },
+            {
+                "predicate": "broader",
+                "target": "TRANSPORT"
+            },
+            {
+                "predicate": "related",
+                "target": "AERONAUTICAL METEOROLOGY"
+            },
+            {
+                "predicate": "related",
+                "target": "MILITARY AVIATION"
+            },
+            {
+                "predicate": "related",
+                "target": "AVIATION PERSONNEL"
+            },
+            {
+                "predicate": "related",
+                "target": "AIRPORTS"
+            },
+            {
+                "predicate": "related",
+                "target": "AIR NAVIGATION"
+            },
+            {
+                "predicate": "related",
+                "target": "AIRLINES"
+            },
+            {
+                "predicate": "related",
+                "target": "AVIATION INSURANCE"
+            },
+            {
+                "predicate": "related",
+                "target": "AIRCRAFT INDUSTRY"
+            }
+        ],
+        "label": "AIR TRAVEL"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/cd59dafc-45f0-4e41-bd78-75a2cf1e9bbf",
+        "prefLabel": "GREEN SPACES",
+        "definition": "GRASS, TREE AND OTHER VEGETATION AREAS RESERVED FOR RECREATIONAL OR AESTHETIC PURPOSES IN AN OTHERWISE URBAN ENVIRONMENT",
+        "id": "GreenSpaces",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "URBAN SPACES"
+            }
+        ],
+        "label": "GREEN BELT AREAS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/f0c23a85-46b7-4fbe-afdf-345818362649",
+        "prefLabel": "FERTILITY RATE",
+        "definition": "A RATE BASED ON BEHAVIOR OCCURRING AT A PARTICULAR POINT OR PERIOD IN TIME.",
+        "id": "FertilityRate",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "FERTILITY (HUMAN)"
+            },
+            {
+                "predicate": "related",
+                "target": "BIRTH RATE"
+            }
+        ],
+        "label": "FERTILITY RATE"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1000031",
+        "prefLabel": "ACCOUNTING AND REPORTING",
+        "altLabel": "DISCLOSURE IN ACCOUNTING",
+        "id": "AccountingAndReporting",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "TRANSNATIONAL CORPORATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "FINANCIAL STATEMENTS"
+            },
+            {
+                "predicate": "related",
+                "target": "AUDITING"
+            },
+            {
+                "predicate": "related",
+                "target": "INTANGIBLE ASSETS"
+            },
+            {
+                "predicate": "related",
+                "target": "CORPORATE GOVERNANCE"
+            }
+        ],
+        "label": "ACCOUNTING"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1004826",
+        "prefLabel": "PERSONALITY",
+        "id": "Personality_b7bc1add-3b52-48a8-984a-fe197b7649e3",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "PSYCHOLOGY"
+            },
+            {
+                "predicate": "related",
+                "target": "HUMAN BEHAVIOUR"
+            }
+        ],
+        "label": "PERSONALITY TRAITS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/87207845-a3b4-4fc7-bed4-1f3650c05421",
+        "prefLabel": "CARGO",
+        "id": "Cargo",
+        "label": "CARGO"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/a4327fd2-871d-463d-b8c2-df4d90021c6f",
+        "prefLabel": "GROSS NATIONAL PRODUCT",
+        "altLabel": "GNP",
+        "id": "GrossNationalProduct",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ECONOMIC INDICATORS"
+            }
+        ],
+        "label": "GROSS NATIONAL PRODUCT"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1006593",
+        "prefLabel": "TRADE MARK LICENCES",
+        "altLabel": "TRADEMARK LICENCES",
+        "id": "TradeMarkLicences",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "TRADE (GENERAL MATERIALS)"
+            }
+        ],
+        "label": "TRADEMARKS"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept60",
+        "prefLabel": "Mathematics education",
+        "id": "MathematicsEducation_c0d9950f-29a3-4f73-a8e1-69846f03ef9b",
+        "relationships": [
+            {
+                "predicate": "narrower",
+                "target": "Statistics education"
+            },
+            {
+                "predicate": "related",
+                "target": "Numeracy"
+            },
+            {
+                "predicate": "topConceptOf",
+                "target": "UNESCO Thesaurus"
+            }
+        ],
+        "label": "MATHEMATICS AND STATISTICS EDUCATION"
+    },
+    {
+        "uri": "http://metadata.un.org/thesaurus/1006444",
+        "prefLabel": "TELEPHONE",
+        "altLabel": "TELEPHONY",
+        "id": "Telephone_ff27cff5-a0a4-4056-9d1a-9160bfb982c6",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "TELECOMMUNICATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "INTERPERSONAL COMMUNICATION"
+            },
+            {
+                "predicate": "related",
+                "target": "TELECOMMUNICATION REGULATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "CELLULAR TELEPHONES"
+            },
+            {
+                "predicate": "related",
+                "target": "TELEPHONE SERVICES"
+            }
+        ],
+        "label": "TELEPHONE BANKING"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/0f611b7c-ed53-4ece-89ea-01bfc52686d8",
+        "prefLabel": "RIGHT TO WORK",
+        "id": "RightToWork",
+        "label": "RIGHT TO WORK"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/0fb0e673-9b59-47b4-b9a7-ae8cbc7c89b9",
+        "prefLabel": "ELECTRIC CARS",
+        "id": "ElectricCars",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ELECTRIC VEHICLES"
+            }
+        ],
+        "label": "CARS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/26107b80-c5a6-4971-a76d-606170c31988",
+        "prefLabel": "FINANCIAL COMMITMENTS",
+        "id": "FinancialCommitments",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "COSTS"
+            },
+            {
+                "predicate": "related",
+                "target": "FINANCIAL RESOURCES"
+            }
+        ],
+        "label": "FINANCIAL COMMITMENTS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/acac3844-eebd-48cf-b9ca-4a938d8a322a",
+        "prefLabel": "CHARITABLE ORGANIZATIONS",
+        "definition": "NON-PROFIT ORGANIZATIONS WHICH ENGAGE IN ACTIVITIES THAT BENEFIT THE COMMUNITY, PROVIDING SERVICES OR SUPPORT TO THOSE IN NEED.",
+        "altLabel": "CHARITIES",
+        "id": "CharitableOrganizations",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "ORGANIZATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "PHILANTHROPY"
+            }
+        ],
+        "label": "CHARITABLE ORGANIZATIONS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/5ba2cd5c-e21a-4c30-9d60-03e45824924a",
+        "prefLabel": "DENTURES",
+        "id": "Dentures",
+        "label": "DENTURES"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept2912",
+        "prefLabel": "Rice",
+        "id": "Rice_c0425f76-dc16-4a60-8801-0bfca2e12612",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Cereals"
+            }
+        ],
+        "label": "CEREALS"
+    },
+    {
+        "uri": "http://vocabularies.unesco.org/thesaurus/concept6086",
+        "prefLabel": "Teleconferencing",
+        "altLabel": "Computer conferencing",
+        "id": "Teleconferencing_cb9d9cec-4e81-43d8-8f9d-2e55836aa6d9",
+        "relationships": [
+            {
+                "predicate": "broader",
+                "target": "Telecommunications applications"
+            },
+            {
+                "predicate": "related",
+                "target": "Computer programming"
+            },
+            {
+                "predicate": "related",
+                "target": "Telecommunications"
+            },
+            {
+                "predicate": "related",
+                "target": "Interactive communication"
+            },
+            {
+                "predicate": "related",
+                "target": "Conferences"
+            }
+        ],
+        "label": "CONFERENCES"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/02ea7f6d-b405-40a4-8cdd-00674389ef9b",
+        "prefLabel": "ASSOCIATIONS",
+        "id": "Associations",
+        "relationships": [
+            {
+                "predicate": "related",
+                "target": "ORGANIZATIONS"
+            },
+            {
+                "predicate": "related",
+                "target": "MEMBERSHIP"
+            },
+            {
+                "predicate": "related",
+                "target": "COMMUNITIES"
+            }
+        ],
+        "label": "ASSOCIATIONS"
+    },
+    {
+        "uri": "https://elsst.cessda.eu/id/4/47c8d116-8df9-4b41-a6c3-89507e4ea44d",
+        "prefLabel": "EMIGRANTS",
+        "altLabel": "EMIGRATION",
+        "id": "Emigrants",
+        "label": "EMIGRANTS"
+    }
+]
