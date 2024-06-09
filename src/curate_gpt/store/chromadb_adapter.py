@@ -47,6 +47,11 @@ class ChromaDBAdapter(DBAdapter):
 
     default_max_document_length: ClassVar[int] = 6000  # TODO: use tiktoken
 
+    related_terms = None
+    original_query_term = None
+    querying_primary_collection: bool = False
+    custom_approach: bool = False
+
     def __post_init__(self):
         if not self.path:
             self.path = "./db"
@@ -128,7 +133,7 @@ class ChromaDBAdapter(DBAdapter):
         """
         if model is None:
             raise ValueError("Model must be specified")
-        if model.startswith("openai:"):
+        if model.startswith("openai:") or 'gpt' in model:
             return embedding_functions.OpenAIEmbeddingFunction(
                 api_key=os.environ.get("OPENAI_API_KEY"),
                 model_name="text-embedding-ada-002",
@@ -332,6 +337,37 @@ class ChromaDBAdapter(DBAdapter):
     def search(self, text: str, **kwargs) -> Iterator[SEARCH_RESULT]:
         yield from self._search(text=text, **kwargs)
 
+    def fill_kwargs(self, kwargs):
+        kwargs['related_terms'] = self.related_terms
+        kwargs['original_query_term'] = self.original_query_term
+        kwargs['querying_primary_collection'] = self.querying_primary_collection
+        kwargs['custom_approach'] = self.custom_approach
+        return kwargs
+
+    def remove_kwargs(self, kwargs):
+
+        if 'custom_approach' in kwargs:
+            self.custom_approach = kwargs.pop('custom_approach')
+        else:
+            self.custom_approach = False
+
+        if 'querying_primary_collection' in kwargs:
+            self.querying_primary_collection = kwargs.pop('querying_primary_collection')
+        else:
+            self.querying_primary_collection = True
+
+        if 'original_query_term' in kwargs:
+            self.original_query_term = kwargs.pop('original_query_term')
+        else:
+            self.original_query_term = ""
+        
+        if 'related_terms' in kwargs:
+            self.related_terms = kwargs.pop('related_terms')
+        else:
+            self.related_terms = None
+
+        return kwargs
+    
     def _search(
         self,
         text: str = None,
@@ -342,16 +378,32 @@ class ChromaDBAdapter(DBAdapter):
         relevance_factor: float = None,
         **kwargs,
     ) -> Iterator[SEARCH_RESULT]:
+        
         logger.info(f"Searching for {text} in {collection}")
+
+        if 'querying_primary_collection' in kwargs and kwargs['querying_primary_collection'] == False and 'custom_approach' in kwargs and kwargs['custom_approach'] == True:
+            self.original_query_term = kwargs['original_query_term']
+            self.related_terms = kwargs['related_terms']
+            self.custom_approach = True
+        else:
+            self.related_terms = None
+            self.custom_approach = False
+
+        kwargs = self.remove_kwargs(kwargs)
+        
         if relevance_factor is not None and relevance_factor < 1.0:
             yield from self.diversified_search(
                 text=text,
                 where=where,
                 collection=collection,
+                # limit=20,
                 limit=limit,
                 relevance_factor=relevance_factor,
                 **kwargs,
             )
+
+            kwargs = self.fill_kwargs(kwargs)
+
             return
         if not include:
             include = ["metadatas", "documents", "distances"]
@@ -367,11 +419,25 @@ class ChromaDBAdapter(DBAdapter):
             name=collection.name, embedding_function=self._embedding_function(metadata["model"])
         )
         logger.debug(f"Collection metadata: {metadata}")
-        if text:
-            query_texts = [text]
+        
+        query_texts = []
+        if self.custom_approach == True:
+            # limit = 10
+            if self.original_query_term is not None:
+                if self.related_terms is not None:
+                    for rel_term in self.related_terms:
+                        query_texts.append(f"{self.original_query_term} {rel_term}")
+                else:
+                    query_texts.append(self.original_query_term)
+            else:
+                query_texts.append(text)
         else:
-            # TODO: use get()
-            query_texts = ["any"]
+            if text:
+                query_texts = [text]
+            else:
+                # TODO: use get()
+                query_texts = ["any"]
+        
         if limit is not None:
             kwargs["n_results"] = limit
         logger.debug(
@@ -390,6 +456,9 @@ class ChromaDBAdapter(DBAdapter):
             embeddings = results["embeddings"][0]
         else:
             embeddings = None
+
+        kwargs = self.fill_kwargs(kwargs)
+
         for i in range(0, len(documents)):
             if embeddings:
                 embeddings_i = embeddings[i]
@@ -444,6 +513,58 @@ class ChromaDBAdapter(DBAdapter):
                 obj[2]["_embeddings"] = embeddings[i]
             yield obj
 
+    # def custom_retrieving(
+    #     self,
+    #     query_term: str = None,
+    #     related_terms: list = None,
+    #     collection: str = None,
+    #     where: QUERY = None,
+    #     **kwargs
+    # ):
+        
+    #     include = ["metadatas", "documents", "distances", "embeddings"]
+    #     client = self.client
+    #     collection = client.get_collection(name=self._get_collection(collection))
+    #     metadata = collection.metadata
+    #     collection = client.get_collection(
+    #         name=collection.name, embedding_function=self._embedding_function(metadata["model"])
+    #     )
+        
+    #     query_texts = []
+    #     if related_terms is not None:
+    #         for rel_term in related_terms:
+    #             query_texts.append(f"{query_term} {rel_term}") 
+    #     else:
+    #         query_texts.append(query_term)
+
+    #     kwargs['n_results'] = 10 #limit
+    #     results = collection.query(
+    #         query_texts=query_texts, where=where, include=include, **kwargs
+    #     )
+
+    #     metadatas = results["metadatas"][0]
+    #     distances = results["distances"][0]
+    #     documents = results["documents"][0]
+    #     if "embeddings" in include:
+    #         embeddings = results["embeddings"][0]
+    #     else:
+    #         embeddings = None
+
+    #     for i in range(0, len(documents)):
+    #         if embeddings:
+    #             embeddings_i = embeddings[i]
+    #         else:
+    #             embeddings_i = None
+    #         if not metadatas[i]:
+    #             logger.error(
+    #                 f"Empty metadata for item {i} [num: {len(metadatas)}] doc: {documents[i]}"
+    #             )
+    #             continue
+    #         yield self._unjson(metadatas[i]), distances[i], {
+    #             "embeddings": embeddings_i,
+    #             "document": documents[i],
+    #         }
+
     def diversified_search(
         self,
         text: str = None,
@@ -452,6 +573,7 @@ class ChromaDBAdapter(DBAdapter):
         collection: str = None,
         **kwargs,
     ) -> Iterator[SEARCH_RESULT]:
+        limit=15
         if limit is None:
             limit = 10
         logger.debug(
