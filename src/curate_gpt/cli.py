@@ -37,6 +37,12 @@ from curate_gpt.wrappers import BaseWrapper, get_wrapper
 from curate_gpt.wrappers.literature.pubmed_wrapper import PubmedWrapper
 from curate_gpt.wrappers.ontology import OntologyWrapper
 
+import PyPDF2
+from tqdm import tqdm
+import openai, time, random
+
+
+
 __all__ = [
     "main",
 ]
@@ -294,7 +300,7 @@ def index(
             wrapper.source_locator = file
             objs = wrapper.objects()  # iterator
         elif file.endswith(".json"):
-            objs = json.load(open(file))
+            objs = json.load(open(file, encoding='utf-8'))
         elif file.endswith(".csv"):
             with open(file, encoding=encoding) as f:
                 objs = list(csv.DictReader(f))
@@ -303,6 +309,21 @@ def index(
                 objs = list(csv.DictReader(f, delimiter="\t"))
         elif file.endswith(".tsv"):
             objs = list(csv.DictReader(open(file, encoding=encoding), delimiter="\t"))
+        elif file.endswith(".pdf"):
+            print(f'pdf file: {file}')
+            with open(file, 'rb') as pdf_file:
+                pdf_reader = PyPDF2.PdfReader(pdf_file)
+                num_pages = len(pdf_reader.pages)
+                print(f"Number of pages: {num_pages}")
+                pages_text = []
+                for page_num in range(num_pages):
+                    page = pdf_reader.pages[page_num]
+                    text = page.extract_text()
+                    dictionary_entry = {}
+                    dictionary_entry[f"{file}_{str(page_num)}"] = text
+                    pages_text.append(dictionary_entry)
+
+            objs = pages_text
         else:
             objs = yaml.safe_load(open(file, encoding=encoding))
         if isinstance(objs, (dict, BaseModel)):
@@ -324,6 +345,129 @@ def index(
         collection, model=model, object_type=object_type, description=description
     )
 
+
+@main.command()
+@path_option
+@append_option
+@collection_option
+@model_option
+@click.option("--text-field")
+@object_type_option
+@description_option
+@click.option(
+    "--view",
+    "-V",
+    help="View/Proxy to use for the database, e.g. bioc.",
+)
+@click.option(
+    "--glob/--no-glob", default=False, show_default=True, help="Whether to glob the files."
+)
+@click.option(
+    "--collect/--no-collect", default=False, show_default=True, help="Whether to collect files."
+)
+@click.option(
+    "--select",
+    help="jsonpath to use to subselect from each JSON document.",
+)
+@batch_size_option
+@encoding_option
+@click.argument("files", nargs=-1)
+def indexpdfjson(    files,
+    path,
+    append: bool,
+    text_field,
+    collection,
+    model,
+    object_type,
+    description,
+    batch_size,
+    glob,
+    view,
+    select,
+    collect,
+    encoding,
+    **kwargs,
+):
+    db = ChromaDBAdapter(path, **kwargs)
+    db.text_lookup = text_field
+    if glob:
+        files = [str(gf.absolute()) for f in files for gf in Path().glob(f) if gf.is_file()]
+    wrapper = None
+
+    if collect:
+        raise NotImplementedError
+    if not append:
+        if collection in db.list_collection_names():
+            db.remove_collection(collection)
+    if model is None:
+        model = "openai:"
+    for file in files:
+        if encoding == "detect":
+            import chardet
+            # Read the first num_lines of the file
+            lines = []
+            with open(file, 'rb') as f:
+                try:
+                    # Attempt to read up to num_lines lines from the file
+                    for _ in range(100):
+                        lines.append(next(f))
+                except StopIteration:
+                    # Reached the end of the file before reading num_lines lines
+                    pass  # This is okay; just continue with the lines read so far
+            # Concatenate lines into a single bytes object
+            data = b''.join(lines)
+            # Detect encoding
+            result = chardet.detect(data)
+            encoding = result['encoding']
+        logging.debug(f"Indexing {file}")
+        if wrapper:
+            wrapper.source_locator = file
+            objs = wrapper.objects()  # iterator
+        elif file.endswith(".json"):
+            objs = json.load(open(file, encoding='utf-8'))
+        elif file.endswith(".csv"):
+            with open(file, encoding=encoding) as f:
+                objs = list(csv.DictReader(f))
+        elif file.endswith(".tsv.gz"):
+            with gzip.open(file, "rt", encoding=encoding) as f:
+                objs = list(csv.DictReader(f, delimiter="\t"))
+        elif file.endswith(".tsv"):
+            objs = list(csv.DictReader(open(file, encoding=encoding), delimiter="\t"))
+        elif file.endswith(".pdf"):
+            print(f'pdf file: {file}')
+            with open(file, 'rb') as pdf_file:
+                pdf_reader = PyPDF2.PdfReader(pdf_file)
+                num_pages = len(pdf_reader.pages)
+                print(f"Number of pages: {num_pages}")
+                pages_text = []
+                for page_num in range(num_pages):
+                    page = pdf_reader.pages[page_num]
+                    text = page.extract_text()
+                    dictionary_entry = {}
+                    dictionary_entry[f"{file}_{str(page_num)}"] = text
+                    pages_text.append(dictionary_entry)
+
+            objs = pages_text
+        else:
+            objs = yaml.safe_load(open(file, encoding=encoding))
+        if isinstance(objs, (dict, BaseModel)):
+            objs = [objs]
+        if select:
+            import jsonpath_ng as jp
+            path_expr = jp.parse(select)
+            new_objs = []
+            for obj in objs:
+                for match in path_expr.find(obj):
+                    logging.debug(f"Match: {match.value}")
+                    if isinstance(match.value, list):
+                        new_objs.extend(match.value)
+                    else:
+                        new_objs.append(match.value)
+            objs = new_objs
+        db.insert(objs, model=model, collection=collection, batch_size=batch_size)
+    db.update_collection_metadata(
+        collection, model=model, object_type=object_type, description=description
+    )
 
 @main.command(name="search")
 @path_option
@@ -729,6 +873,135 @@ def extract_from_pubmed(
             f.write(text)
 
 
+import csv
+
+# @main.command()
+# @path_option
+# @collection_option
+# @click.option(
+#     "-C/--no-C",
+#     "--conversation/--no-conversation",
+#     default=False,
+#     show_default=True,
+#     help="Whether to run in conversation mode.",
+# )
+# @model_option
+# @limit_option
+# @click.option(
+#     "-P", "--query-property", default="label", show_default=True, help="Property to use for query."
+# )
+# @click.option(
+#     "--fields-to-predict",
+#     multiple=True,
+# )
+# @click.option(
+#     "--docstore-path",
+#     default=None,
+#     help="Path to a docstore to for additional unstructured knowledge.",
+# )
+# @click.option("--docstore-collection", default=None, help="Collection to use in the docstore.")
+# @generate_background_option
+# @click.option(
+#     "--rule",
+#     multiple=True,
+#     help="Rule to use for generating background knowledge.",
+# )
+# @schema_option
+# @output_format_option
+# @click.argument("query")
+# def complete(
+#     query,
+#     path,
+#     docstore_path,
+#     docstore_collection,
+#     conversation,
+#     rule: List[str],
+#     model,
+#     query_property,
+#     schema,
+#     output_format,
+#     **kwargs,
+# ):
+#     """
+#     Generate an entry from a query using object completion.
+
+#     Example:
+#     -------
+
+#         curategpt complete  -c obo_go "umbelliferose biosynthetic process"
+
+#     If the string looks like yaml (if it has a ':') then it will be parsed as yaml.
+
+#     E.g
+
+#         curategpt complete  -c obo_go "label: umbelliferose biosynthetic process"
+#     """
+#     db = ChromaDBAdapter(path)
+#     if schema:
+#         schema_manager = SchemaProxy(schema)
+#     else:
+#         schema_manager = None
+
+#     docstore_collection = "elsst_pdfs"
+
+#     # TODO: generalize
+#     filtered_kwargs = {k: v for k, v in kwargs.items() if v is not None}
+#     extractor = BasicExtractor()
+#     if model:
+#         extractor.model_name = model
+#     if schema_manager:
+#         db.schema_proxy = schema
+#         extractor.schema_proxy = schema_manager
+#     dac = DragonAgent(knowledge_source=db, extractor=extractor)
+#     if docstore_path or docstore_collection:
+#         dac.document_adapter = ChromaDBAdapter(docstore_path)
+#         dac.document_adapter_collection = docstore_collection
+
+#     with open('data\structured\ELSST_eval_set_noleak.json', 'r') as f:
+#         jsondata = json.load(f)
+
+#         with open("elsst_output_withbackground6.csv", "a", newline="") as csvfile:
+#             writer = csv.writer(csvfile)
+
+#             # Write the header row if the file is empty
+#             if csvfile.tell() == 0:
+#                 writer.writerow(["label", "generated relationships", "golden relationships"])
+
+
+#             for index,jsonentity in enumerate(jsondata):
+
+#                 # if index == 2:
+#                 #     break
+
+#                 label = jsonentity['prefLabel']
+#                 golden_relationships = jsonentity['relationships']
+
+#                 ao = dac.complete(label, context_property=query_property, rules=rule, **filtered_kwargs)
+#                 generated_object = ao.object
+#                 # print("GENERATED OBJECT: "+ str(generated_object))
+#                 if generated_object is not None and 'relationships' in generated_object:
+#                     generated_relationships = generated_object['relationships']
+#                 else:
+#                     generated_relationships = None
+                
+#                 writer.writerow([label, generated_relationships, golden_relationships])
+
+
+
+
+
+
+
+
+
+
+
+
+# ======================================================================================================
+
+
+import traceback
+
 @main.command()
 @path_option
 @collection_option
@@ -760,11 +1033,23 @@ def extract_from_pubmed(
     multiple=True,
     help="Rule to use for generating background knowledge.",
 )
+@click.option(
+    "--custom_approach",
+    default=False,
+    show_default=True,
+    help="Indication of whether the custom approach is running.",
+)
+@click.option(
+    "--secondary",
+    default=None,
+    show_default=True,
+    help="Indicating the seconday data source.",
+)
 @schema_option
 @output_format_option
-@click.argument("query")
+# @click.argument("query")
 def complete(
-    query,
+    # query,
     path,
     docstore_path,
     docstore_collection,
@@ -774,6 +1059,8 @@ def complete(
     query_property,
     schema,
     output_format,
+    custom_approach,
+    secondary,
     **kwargs,
 ):
     """
@@ -796,8 +1083,25 @@ def complete(
     else:
         schema_manager = None
 
-    # TODO: generalize
+    print(model)
+
+    # Additional Background Knowledge
+    if secondary is not None:
+        # docstore_collection = "elsst_background"
+        docstore_collection = secondary
+        if custom_approach:
+            output_suffix = "custom_approach"
+        else:
+            output_suffix = "with_background"
+    else:
+        output_suffix = "baseline" 
+
+    print(f"Output suffix is: {output_suffix}")
     filtered_kwargs = {k: v for k, v in kwargs.items() if v is not None}
+    primary_collection = filtered_kwargs['collection']
+
+    filtered_kwargs['custom_approach'] = custom_approach
+
     extractor = BasicExtractor()
     if model:
         extractor.model_name = model
@@ -808,11 +1112,56 @@ def complete(
     if docstore_path or docstore_collection:
         dac.document_adapter = ChromaDBAdapter(docstore_path)
         dac.document_adapter_collection = docstore_collection
-    if ":" in query:
-        query = yaml.safe_load(query)
-    ao = dac.complete(query, context_property=query_property, rules=rule, **filtered_kwargs)
-    dump(ao.object, format=output_format)
 
+    with open(f'data\structured\{primary_collection.upper()}_eval_set.json', 'r') as f:
+        test_set = json.load(f)
+
+        with open(f"outputs\{primary_collection}_{model}_{output_suffix}.json", "w") as outputfile:
+            output_list = []
+
+            try:
+                for index, jsonentity in enumerate(tqdm(test_set, desc="Processing", unit="entity")):
+                    
+                    if index ==2:
+                        break
+
+                    label = jsonentity['prefLabel']
+                    success = False
+
+                    while not success:
+                        try:
+                             
+                            ao = dac.complete(label, context_property=query_property, rules=rule, **filtered_kwargs)
+                            generated_object = ao.object
+                            output_list.append(generated_object)
+                            success = True
+
+                        except Exception as ex:
+                            print(ex)
+                            print("Service unavailable, retrying in 5-10 seconds...")
+                            time.sleep(5 + 5 * random.random())  # Sleep for 5-10 seconds
+                        # except openai.error.ServiceUnavailableError:
+                        #     print("Service unavailable, retrying in 5-10 seconds...")
+                        #     time.sleep(5 + 5 * random.random())  # Sleep for 5-10 seconds
+                        # # except openai.error.APIError:
+                        #     print("Service unavailable, retrying in 5-10 seconds...")
+                        #     time.sleep(5 + 5 * random.random())  # Sleep for 5-10 seconds
+
+            except Exception as e:
+                print(f"Unexpected error occurred: {e}. Saving progress and stopping.")
+                traceback.print_exc()
+
+
+            json.dump(output_list, outputfile, indent=4)
+            print(f"Output saved. You can resume from index {index}.")
+
+                
+
+
+
+
+
+# ======================================================================================================
 
 @main.command()
 @path_option
@@ -989,6 +1338,34 @@ def complete_all(
     )
     for pred in it:
         print(yaml.dump(pred.dict(), sort_keys=False))
+
+
+@main.command()
+@path_option
+@collection_option
+def removecollection(
+    path,
+    collection
+):
+    print('removes the collection')
+    db = ChromaDBAdapter(path)
+    db.remove_collection(collection)
+
+    
+
+
+
+@main.command()
+@path_option
+def getcollections(
+    path
+):
+    # print('merging the collections.')
+    db = ChromaDBAdapter(path)
+
+    collections = db.list_collection_names()
+    for collection in collections:
+        print(collection)
 
 
 @main.command()
@@ -1467,11 +1844,13 @@ def list_collections(path, peek: bool, minimal: bool, derived: bool):
                 print(f" - {id}")
 
 
-@collections.command(name="delete")
+@main.command()
+# @collections.command(name="delete")
 @collection_option
 @path_option
 def delete_collection(path, collection):
     """Delete a collections."""
+    print('removes the collection')
     db = ChromaDBAdapter(path)
     db.remove_collection(collection)
 
@@ -1662,6 +2041,28 @@ def index_ontology_command(ont, path, collection, append, model, index_fields, b
         curategpt index-ontology  -c obo_hp $db/hp.db
 
     """
+    # oak_adapter = get_adapter(ont)
+    # view = OntologyWrapper(oak_adapter=oak_adapter)
+    # if branches:
+    #     view.branches = branches.split(",")
+    # db = ChromaDBAdapter(path, **kwargs)
+    # db.text_lookup = view.text_field
+    # if index_fields:
+    #     fields = index_fields.split(",")
+
+    #     # print(f"Indexing fields: {fields}")
+    #     def _text_lookup(obj: Dict):
+    #         vals = [str(obj.get(f)) for f in fields if f in obj]
+    #         print(obj)
+    #         return " ".join(vals)
+
+    #     db.text_lookup = _text_lookup
+
+    # if not append:
+    #     db.remove_collection(collection, exists_ok=True)
+    # db.insert(view.objects(), collection=collection, model=model)
+    # db.update_collection_metadata(collection, object_type="OntologyClass")
+    print('Runs this custom thing')
     oak_adapter = get_adapter(ont)
     view = OntologyWrapper(oak_adapter=oak_adapter)
     if branches:
@@ -1674,13 +2075,89 @@ def index_ontology_command(ont, path, collection, append, model, index_fields, b
         # print(f"Indexing fields: {fields}")
         def _text_lookup(obj: Dict):
             vals = [str(obj.get(f)) for f in fields if f in obj]
+            print(obj)
             return " ".join(vals)
 
         db.text_lookup = _text_lookup
+
+    concepts = []
+    for index, item in enumerate(view.objects()):
+        concepts.append(item)
+
+        # print(item)
+        # vals = [str(item.get(f)) for f in fields if f in item]
+        # print(vals)
+        # print('\n')
+    with open(f"data\enm.json", "w") as json_file:
+        json.dump(concepts, json_file, indent=4)
+    return
+
     if not append:
         db.remove_collection(collection, exists_ok=True)
     db.insert(view.objects(), collection=collection, model=model)
     db.update_collection_metadata(collection, object_type="OntologyClass")
+
+
+@main.group()
+def embeddings():
+    """Command group for handling embeddings."""
+    pass
+
+def download_file(url):
+    """
+    Helper function to download a file from a URL to a temporary file.
+    """
+    local_filename = tempfile.mktemp()
+    with requests.get(url, stream=True) as r:
+        r.raise_for_status()
+        with open(local_filename, 'wb') as f:
+            for chunk in r.iter_content(chunk_size=8192):
+                f.write(chunk)
+    return local_filename
+
+def load_embeddings(file_path, embedding_format=None):
+    """
+    Helper function to load embeddings from a file. Supports Parquet and CSV formats.
+    """
+    if file_path.endswith('.parquet') or file_path.endswith('.parquet.gz') or embedding_format == 'parquet':
+        df = pd.read_parquet(file_path)
+    elif file_path.endswith('.csv') or file_path.endswith('.csv.gz') or embedding_format == 'csv':
+        df = pd.read_csv(file_path)
+    else:
+        raise ValueError(
+            "Unsupported file type. Only Parquet and CSV files are supported.")
+    return df.to_dict(orient='records')
+@embeddings.command(name="load")
+@path_option
+@collection_option
+@model_option
+@append_option
+@click.option("--embedding-format", "-f",
+              type=click.Choice(['parquet', 'csv']), help="Format of the input file")
+@click.argument("file_or_url")
+def load_embeddings(path, collection, append, embedding_format, model, file_or_url):
+    """
+    Index embeddings from a local file or URL into a ChromaDB collection.
+    """
+    # Check if file_or_url is a URL
+    if file_or_url.startswith('http://') or file_or_url.startswith('https://'):
+        print(f"Downloading file from URL: {file_or_url}")
+        file_path = download_file(file_or_url)
+    else:
+        file_path = file_or_url
+    print(f"Loading embeddings from file: {file_path}")
+    embeddings = load_embeddings(file_path, embedding_format)
+    # Initialize the database adapter
+    db = ChromaDBAdapter(path)
+    if append:
+        if collection in db.list_collection_names():
+            print(
+                f"Collection '{collection}' already exists. Adding to the existing collection.")
+    else:
+        db.remove_collection(collection, exists_ok=True)
+    # Insert embeddings into the collection
+    db.insert(embeddings, model=model, collection=collection)
+    print(f"Successfully indexed embeddings into collection '{collection}'.")
 
 
 @main.group()
