@@ -10,7 +10,10 @@ from curate_gpt.agents.base_agent import BaseAgent
 from curate_gpt.extract import AnnotatedObject
 from curate_gpt.store import DBAdapter
 
+logging.basicConfig(filename='custom_allmodels.log', filemode='a')
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
 
 OBJECT = Dict[str, Any]
 
@@ -56,7 +59,8 @@ class DragonAgent(BaseAgent):
 
     conversation: List[Dict[str, Any]] = None  # TODO
     conversation_mode: bool = False  # TODO
-    relevance_factor: float = 0.5
+    primary_relevance_factor: float = 0.5
+    # secondary_relevance_factor: float = 0.9
     """Relevance factor for diversifying search results using MMR."""
 
     max_background_document_size: int = 2000
@@ -94,6 +98,9 @@ class DragonAgent(BaseAgent):
         :param kwargs:
         :return:
         """
+
+        custom_approach = kwargs['custom_approach']
+
         extractor = self.extractor
         if not target_class:
             cm = self.knowledge_source.collection_metadata(collection)
@@ -140,11 +147,19 @@ class DragonAgent(BaseAgent):
                 raise ValueError(f"Invalid type for obj: {type(obj)} //  {obj}")
 
         annotated_examples = []
+
+        # initialize another list to use for creating couples quries for our customer retrieval method
+        related_terms = []
+
         seed_search_term = seed if isinstance(seed, str) else yaml.safe_dump(seed, sort_keys=True)
         logger.debug(f"Searching for seed: {seed_search_term}")
+        
+        kwargs['querying_primary_collection'] = True
+
+        kwargs['limit'] = 10
         for obj, _, _obj_meta in self.knowledge_source.search(
             seed_search_term,
-            relevance_factor=self.relevance_factor,
+            relevance_factor=self.primary_relevance_factor,
             collection=collection,
             **kwargs,
         ):
@@ -167,15 +182,26 @@ class DragonAgent(BaseAgent):
                 continue
             ae = AnnotatedObject(object=obj_predicted_part, annotations={"text": input_text})
             annotated_examples.append(ae)
+
+            # we append the related term to the list in case we want to use it later
+            related_terms.append(obj_predicted_part['prefLabel'])
         if not annotated_examples:
             logger.error(f"No suitable examples found for seed: {seed}")
         docs = []
         if self.document_adapter:
-            logger.debug("Adding background knowledge.")
+            logging.info('Adding background knowledge.')
+
+            original_query_term = seed_search_term.split(':')[1].strip()
+            kwargs['original_query_term'] = original_query_term
+            kwargs['related_terms'] = related_terms
+            kwargs['querying_primary_collection'] = False
+            kwargs['limit'] = 5
+
+
             for _obj, _, obj_meta in self.document_adapter.search(
                 seed_search_term,
-                limit=self.background_document_limit,
                 collection=self.document_adapter_collection,
+                **kwargs
             ):
                 obj_text = obj_meta["document"]
                 # TODO: use tiktoken to estimate
@@ -197,8 +223,11 @@ class DragonAgent(BaseAgent):
             background += "\n\n" + "\n\n".join(docs)
             background += "\n---\n"
             logger.info(f"Background: {background}")
+            logging.info(f"Background: {background}")
         else:
             background = None
+        logger.debug(f"Gen_text is: {gen_text}")
+        logger.debug(f"Extractor model: {extractor.model}")
         ao = extractor.extract(
             gen_text,
             target_class=target_class,
@@ -210,7 +239,9 @@ class DragonAgent(BaseAgent):
             for k, v in seed.items():
                 if v and not ao.object.get(k, None):
                     ao.object[k] = v
+        logger.debug(ao)
         return ao
+
 
     def generate_all(
         self,
