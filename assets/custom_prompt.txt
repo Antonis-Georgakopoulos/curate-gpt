@@ -1,0 +1,11 @@
+**STEPS:**
+You must strictly follow the steps below for a correct answer. Otherwise your answer will be considered invalid.
+1) Extract a Thing object from text in json format using the 'BACKGROUND' section above only as a reference of how the 'NUTRIENTS' term is connected with other terms only in the 'EXAMPLES' section.
+2) Analyze the 'EXAMPLES' section below and try to connect the query term 'NUTRIENTS' only with the terms in the 'EXAMPLES' section if they logically should and can be connected.
+3) Ensure that no relationships or concepts are hallucinated. When generating properties and relationships for the term 'NUTRIENTS', every relationship and concept used must be only strictly derived from the given 'EXAMPLES' section below.
+4) Do not use any property/term from the 'BACKGROUND' section.
+5) Always have the 'NUTRIENTS' as the 'prefLabel' generated property.
+**BACKGROUND:**
+(... content retrieved from the secondary data sources...)
+**EXAMPLES:**
+(... content retrieved from the primary data sources...)
